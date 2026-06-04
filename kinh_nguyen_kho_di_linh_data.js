@@ -1,19 +1,32 @@
+/* Kinh nguyện K'Ho Di Linh - Unicode NFC. Generated from DOCX. */
 window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
   "meta": {
     "id": "kinh-nguyen-kho-di-linh",
     "title": "Kinh nguyện K'Ho Di Linh",
     "sourceTitle": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM",
     "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-    "createdFrom": "DOCX paragraphs and Word heading styles",
-    "exportedAt": "2026-05-18",
+    "sourceSha256": "ed79cd7fe94c165924bcb49faaf999a0ff518bf221b124e1429f88b06550b688",
+    "createdFrom": "DOCX paragraphs, Word rendered page breaks, and repaired numbered prayer boundaries",
+    "exportedAt": "2026-06-04T03:16:39Z",
     "encoding": "UTF-8 / Unicode NFC",
     "paragraphCount": 563,
+    "pageCount": 89,
     "categoryCount": 13,
-    "postCount": 101,
+    "postCount": 83,
+    "variableName": "window.KINH_NGUYEN_KHO_DI_LINH_DATA",
+    "quality": {
+      "unicodeNormalized": "NFC",
+      "removedControls": true,
+      "removedZeroWidthAndNoncharacters": true,
+      "preservedKhoDiacritics": true,
+      "htmlEscaped": true,
+      "format": "pretty JSON plus JS wrapper and minified JS"
+    },
     "notes": [
-      "Dữ liệu được trích từ nội dung DOCX và chuẩn hóa Unicode NFC.",
-      "Các Heading 1 được dùng làm nhóm/mục; các Heading cấp thấp hơn được tách thành bài để tiện tìm kiếm trên Blogspot.",
-      "Không chuyển đổi legacy font cho file này vì văn bản trong DOCX đã là Unicode."
+      "Dữ liệu được tạo lại trực tiếp từ file DOCX người dùng cung cấp.",
+      "Không chuyển mã legacy font; chỉ chuẩn hóa Unicode NFC và xóa ký tự điều khiển/ẩn gây lỗi hiển thị.",
+      "Các tiêu đề số bị tách dòng trong DOCX đã được nối lại, ví dụ các mục cầu nguyện có phần tên tiếng Việt trong dòng kế tiếp.",
+      "Trường html đã được escape để dùng an toàn trong Blogspot/JavaScript."
     ]
   },
   "categories": [
@@ -23,10 +36,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 1,
+      "pageStart": 1,
       "postIds": [
         "kinh-nguyen-kho-gung-loh-yang-nghi-thuc-thanh-le-gung-mut-sontom"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 2
     },
     {
       "id": "cat-broa-eng-mal",
@@ -34,10 +49,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "BROĂ ỀNG MÀL",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 2,
+      "pageStart": 2,
       "postIds": [
         "kinh-nguyen-kho-broa-eng-mal"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 2
     },
     {
       "id": "cat-nghi-thuc-dau-le",
@@ -45,10 +62,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "NGHI THỨC ĐẦU LỄ",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 3,
+      "pageStart": 2,
       "postIds": [
         "kinh-nguyen-kho-nghi-thuc-dau-le"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 3
     },
     {
       "id": "cat-hanh-dong-thong-hoi",
@@ -56,10 +75,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "HÀNH ĐỘNG THỐNG HỐI",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 4,
+      "pageStart": 3,
       "postIds": [
         "kinh-nguyen-kho-hanh-dong-thong-hoi"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 6
     },
     {
       "id": "cat-broa-duh-jonau-dos",
@@ -67,10 +88,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "BROĂ DUH JƠNAU ĐƠS",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 5,
+      "pageStart": 6,
       "postIds": [
         "kinh-nguyen-kho-broa-duh-jonau-dos"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 7
     },
     {
       "id": "cat-phung-vu-loi-chua",
@@ -78,12 +101,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "PHỤNG VỤ LỜI CHÚA",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 6,
+      "pageStart": 8,
       "postIds": [
-        "kinh-nguyen-kho-phung-vu-loi-chua",
-        "kinh-nguyen-kho-an-pindon",
-        "kinh-nguyen-kho-kinh-tin-kinh"
+        "kinh-nguyen-kho-phung-vu-loi-chua"
       ],
-      "postCount": 3
+      "postCount": 1,
+      "pageEnd": 12
     },
     {
       "id": "cat-broa-duh-sa-niam-goh",
@@ -91,10 +114,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "BROĂ DUH SĂ NIĂM GOH",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 7,
+      "pageStart": 12,
       "postIds": [
         "kinh-nguyen-kho-broa-duh-sa-niam-goh"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 13
     },
     {
       "id": "cat-phung-vu-thanh-the",
@@ -102,12 +127,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "PHỤNG VỤ THÁNH THỂ",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 8,
+      "pageStart": 13,
       "postIds": [
-        "kinh-nguyen-kho-phung-vu-thanh-the",
-        "kinh-nguyen-kho-jonau-hoi-rac-sa-niam-goh",
-        "kinh-nguyen-kho-cly-jonau-hoi-rac-sa-niam-goh"
+        "kinh-nguyen-kho-phung-vu-thanh-the"
       ],
-      "postCount": 3
+      "postCount": 1,
+      "pageEnd": 17
     },
     {
       "id": "cat-gung-tam-klac-bal",
@@ -115,10 +140,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "GÙNG TAM KLĂC BAL",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 9,
+      "pageStart": 17,
       "postIds": [
         "kinh-nguyen-kho-gung-tam-klac-bal"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 18
     },
     {
       "id": "cat-nghi-thuc-hiep-le",
@@ -126,10 +153,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "NGHI THỨC HIỆP LỄ",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 10,
+      "pageStart": 18,
       "postIds": [
         "kinh-nguyen-kho-nghi-thuc-hiep-le"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 21
     },
     {
       "id": "cat-gung-pondut",
@@ -137,10 +166,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "GÙNG PƠNDUT",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 11,
+      "pageStart": 22,
       "postIds": [
         "kinh-nguyen-kho-gung-pondut"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 23
     },
     {
       "id": "cat-nghi-thuc-ket-le",
@@ -148,10 +179,12 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "NGHI THỨC KẾT LỄ",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 12,
+      "pageStart": 23,
       "postIds": [
         "kinh-nguyen-kho-nghi-thuc-ket-le"
       ],
-      "postCount": 1
+      "postCount": 1,
+      "pageEnd": 23
     },
     {
       "id": "cat-kinh-nguyen",
@@ -159,18 +192,13 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "name": "KINH NGUYỆN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 13,
+      "pageStart": 25,
       "postIds": [
-        "kinh-nguyen-kho-kinh-nguyen",
         "kinh-nguyen-kho-1-tel-chikal",
         "kinh-nguyen-kho-2-hueng-duh-yal",
-        "kinh-nguyen-kho-cho-gom-ai-maria-maria-niam-goh",
-        "kinh-nguyen-kho-cho-gom-ai-maria-maria-niam-goh-2",
-        "kinh-nguyen-kho-he-rac-ih",
         "kinh-nguyen-kho-1-dau-thanh-gia",
         "kinh-nguyen-kho-2-kinh-truyen-tin",
-        "kinh-nguyen-kho-thanh-maria",
-        "kinh-nguyen-kho-thanh-maria-2",
-        "kinh-nguyen-kho-thanh-maria-3",
+        "kinh-nguyen-kho-3-o-ur-botau-tro-de-tam-kal-kis-wol",
         "kinh-nguyen-kho-3-lay-nu-vuong-thien-dang",
         "kinh-nguyen-kho-4-o-yang-nhom",
         "kinh-nguyen-kho-4-kinh-duc-chua-thanh-than",
@@ -192,8 +220,10 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
         "kinh-nguyen-kho-12-kinh-sang-danh",
         "kinh-nguyen-kho-13-dan-konran-ai-pran",
         "kinh-nguyen-kho-14-jot-jonau-yang-sor",
+        "kinh-nguyen-kho-13-kinh-dang-minh-buoi-sang",
         "kinh-nguyen-kho-14-kinh-muoi-dieu-ran",
         "kinh-nguyen-kho-15-prau-jonau-porjum-niam-sor",
+        "kinh-nguyen-kho-15-kinh-sau-dieu-ran-hoi-thanh",
         "kinh-nguyen-kho-16-poh-tel-gonroh",
         "kinh-nguyen-kho-17-goboh-mo-cau-geh-jot-poan-bota",
         "kinh-nguyen-kho-16-bay-phep-bi-tich",
@@ -202,37 +232,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
         "kinh-nguyen-kho-18-cai-toi-bay-moi-co-bay-duc",
         "kinh-nguyen-kho-19-pham-bota-botoah",
         "kinh-nguyen-kho-19-phuc-that-tam-moi",
-        "kinh-nguyen-kho-tam-ngai-do-bar-mo-tam-ala-ngai-yang-kal-mu-tus-mo-kal-lik-ling",
-        "kinh-nguyen-kho-suy-niem-vao-thu-hai-va-thu-bay",
-        "kinh-nguyen-kho-tam-ngai-do-pram",
-        "kinh-nguyen-kho-nam-su-sang",
-        "kinh-nguyen-kho-suy-niem-vao-thu-nam",
-        "kinh-nguyen-kho-pram-bota-je-yan",
-        "kinh-nguyen-kho-tam-ngai-do-pe-ngai-do-prau-mo-tam-ala-ngai-yang-kal-poan-jot",
-        "kinh-nguyen-kho-nam-su-thuong",
-        "kinh-nguyen-kho-suy-niem-vao-thu-ba-va-thu-sau",
-        "kinh-nguyen-kho-pram-bota-goklo",
-        "kinh-nguyen-kho-tam-ngai-do-poan-ngai-do-poh-mo-tam-ala-ngai-yang-kal-kis-wol-mo-kal-dar-nam",
-        "kinh-nguyen-kho-nam-su-mung",
-        "kinh-nguyen-kho-suy-niem-vao-ngay-thu-tu-va-chua-nhat",
+        "kinh-nguyen-kho-20-rac-nong",
+        "kinh-nguyen-kho-20-phep-lan-hat",
         "kinh-nguyen-kho-21-kon-mhoat-koloi-kinh-an-nan-toi",
         "kinh-nguyen-kho-22-dan-yang-drong-kinh-pho-dang",
+        "kinh-nguyen-kho-23-dan-ai-kah-wol-kinh-hay-nho",
         "kinh-nguyen-kho-24-bol-kon-ran-pru-kinh-trong-cay",
+        "kinh-nguyen-kho-25-o-hueng-duh-gar-kinh-thien-than-ban-menh",
         "kinh-nguyen-kho-26-un-ngai-yang-kinh-cam-on",
         "kinh-nguyen-kho-1-rac-dan-mo-sa-mham-niam-goh-konran-jesu-kinh-cau-truoc-thanh-the-chua-giesu",
-        "kinh-nguyen-kho-jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
-        "kinh-nguyen-kho-3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh-sach-duc-trinh-nu-maria",
+        "kinh-nguyen-kho-2-rac-dan-mo-plai-nus-niam-goh-konran-jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
+        "kinh-nguyen-kho-3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh",
         "kinh-nguyen-kho-4-rac-dan-mo-joseph-niam-goh-cau-loh-broa-kinh-thanh-giuse-tho",
         "kinh-nguyen-kho-5-o-joseph-niam-goh-kinh-thanh-giuse-bon-mang-hoi-thanh",
-        "kinh-nguyen-kho-viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
+        "kinh-nguyen-kho-6-rac-dan-mo-bol-cong-mham-niam-goh-viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
         "kinh-nguyen-kho-7-rac-dan-porjum-niam-khop-dunia-in-kinh-cau-cho-hoi-thanh-hoan-cau",
-        "kinh-nguyen-kho-8-rac-dan-porjum-niam-ba-tiah-in",
-        "kinh-nguyen-kho-kinh-cau-cho-hoi-thanh",
+        "kinh-nguyen-kho-8-rac-dan-porjum-niam-ba-tiah-in-kinh-cau-cho-hoi-thanh",
         "kinh-nguyen-kho-9-rac-dan-cau-tom-e-in-kinh-cau-cho-duc-giao-hoang",
         "kinh-nguyen-kho-10-rac-dan-cau-sen-e-in-kinh-cau-cho-duc-giam-muc",
         "kinh-nguyen-kho-11-rac-dan-cau-loh-yang-in-kinh-cau-cho-linh-muc",
         "kinh-nguyen-kho-12-rac-dan-ala-cau-dong-duh-in-kinh-cau-cho-cac-tu-si",
-        "kinh-nguyen-kho-13-rac-dan-ala-cau-lang-pindon-in",
+        "kinh-nguyen-kho-13-rac-dan-ala-cau-lang-pindon-in-kinh-cau-cho-cac-tin-huu",
         "kinh-nguyen-kho-14-rac-dan-ala-cau-kristo-in-geh-tam-klac-gos-dul-kinh-cau-cho-cac-kito-huu-hiep-nhat",
         "kinh-nguyen-kho-15-rac-dan-broa-yal-ponro-jonau-yal-niam-ala-lang-bol-in-kinh-cau-cho-viec-truyen-giao",
         "kinh-nguyen-kho-16-rac-dan-bon-logar-in-kinh-cau-cho-to-quoc",
@@ -246,7 +266,8 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
         "kinh-nguyen-kho-24-rac-dan-dul-na-cau-chot-in-kinh-cau-cho-nguoi-da-qua-doi",
         "kinh-nguyen-kho-25-rac-dan-ala-cau-chot-in-kinh-cau-cho-nhung-nguoi-da-qua-doi"
       ],
-      "postCount": 85
+      "postCount": 71,
+      "pageEnd": 89
     }
   ],
   "posts": [
@@ -257,15 +278,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-gung-loh-yang-nghi-thuc-thanh-le-gung-mut-sontom",
       "categorySlug": "gung-loh-yang-nghi-thuc-thanh-le-gung-mut-sontom",
       "categoryName": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 1,
       "headingLevel": null,
+      "pageRange": [
+        1,
+        2
+      ],
       "paragraphRange": [
         5,
         9
       ],
+      "lines": [
+        "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM",
+        "CLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm.",
+        "LB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi.",
+        "LB: Bal mơ nùs nhơm đi sơl."
+      ],
       "text": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM\nCLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm.\nLB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi.\nLB: Bal mơ nùs nhơm đi sơl.",
-      "html": "<div class=\"kho-prayer-text\">GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM<br>CLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm.<br>LB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi.<br>LB: Bal mơ nùs nhơm đi sơl.</div>",
+      "html": "<p>GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM</p>\n<p>CLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm.</p>\n<p>LB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi.</p>\n<p>LB: Bal mơ nùs nhơm đi sơl.</p>",
       "excerpt": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM CLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm. LB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.",
       "wordCount": 38,
       "lineCount": 4
@@ -277,16 +309,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-broa-eng-mal",
       "categorySlug": "broa-eng-mal",
       "categoryName": "BROĂ ỀNG MÀL",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 2,
       "headingLevel": 1,
+      "pageRange": [
+        2,
+        2
+      ],
       "paragraphRange": [
         11,
         14
       ],
+      "lines": [
+        "BROĂ ỀNG MÀL",
+        "CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh.",
+        "LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh bơta săng lời:",
+        "Añ tìs, añ tìs, añ tìs dờng ngăn. Gen tàng añ dăn mơ Maria bơtoah Ùr Tơmo sùm, mơ jơh ală Huềng duh, mơ bol Niăm goh, mơ bol đi sơl, ơ oh mi, răc añ in dơđăp Kơnràñ Yàng he."
+      ],
       "text": "BROĂ ỀNG MÀL\nCLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh.\nLB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh bơta săng lời:\nAñ tìs, añ tìs, añ tìs dờng ngăn. Gen tàng añ dăn mơ Maria bơtoah Ùr Tơmo sùm, mơ jơh ală Huềng duh, mơ bol Niăm goh, mơ bol đi sơl, ơ oh mi, răc añ in dơđăp Kơnràñ Yàng he.",
-      "html": "<div class=\"kho-prayer-text\">BROĂ ỀNG MÀL<br>CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh.<br>LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh bơta săng lời:<br>Añ tìs, añ tìs, añ tìs dờng ngăn. Gen tàng añ dăn mơ Maria bơtoah Ùr Tơmo sùm, mơ jơh ală Huềng duh, mơ bol Niăm goh, mơ bol đi sơl, ơ oh mi, răc añ in dơđăp Kơnràñ Yàng he.</div>",
-      "excerpt": "BROĂ ỀNG MÀL CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh. LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh…",
+      "html": "<p>BROĂ ỀNG MÀL</p>\n<p>CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh.</p>\n<p>LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh bơta săng lời:</p>\n<p>Añ tìs, añ tìs, añ tìs dờng ngăn. Gen tàng añ dăn mơ Maria bơtoah Ùr Tơmo sùm, mơ jơh ală Huềng duh, mơ bol Niăm goh, mơ bol đi sơl, ơ oh mi, răc añ in dơđăp Kơnràñ Yàng he.</p>",
+      "excerpt": "BROĂ ỀNG MÀL CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh. LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh b…",
       "wordCount": 102,
       "lineCount": 4
     },
@@ -297,15 +340,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-nghi-thuc-dau-le",
       "categorySlug": "nghi-thuc-dau-le",
       "categoryName": "NGHI THỨC ĐẦU LỄ",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 3,
       "headingLevel": 1,
+      "pageRange": [
+        2,
+        3
+      ],
       "paragraphRange": [
         16,
         22
       ],
+      "lines": [
+        "NGHI THỨC ĐẦU LỄ",
+        "CT: Nhân danh Cha, và Con và Thánh Thần.",
+        "CĐ: Amen",
+        "CT: Chúa ở cùng anh (chị) em.",
+        "CĐ: Và ở cùng cha."
+      ],
       "text": "NGHI THỨC ĐẦU LỄ\nCT: Nhân danh Cha, và Con và Thánh Thần.\nCĐ: Amen\nCT: Chúa ở cùng anh (chị) em.\nCĐ: Và ở cùng cha.",
-      "html": "<div class=\"kho-prayer-text\">NGHI THỨC ĐẦU LỄ<br>CT: Nhân danh Cha, và Con và Thánh Thần.<br>CĐ: Amen<br>CT: Chúa ở cùng anh (chị) em.<br>CĐ: Và ở cùng cha.</div>",
+      "html": "<p>NGHI THỨC ĐẦU LỄ</p>\n<p>CT: Nhân danh Cha, và Con và Thánh Thần.</p>\n<p>CĐ: Amen</p>\n<p>CT: Chúa ở cùng anh (chị) em.</p>\n<p>CĐ: Và ở cùng cha.</p>",
       "excerpt": "NGHI THỨC ĐẦU LỄ CT: Nhân danh Cha, và Con và Thánh Thần. CĐ: Amen CT: Chúa ở cùng anh (chị) em. CĐ: Và ở cùng cha.",
       "wordCount": 27,
       "lineCount": 5
@@ -317,16 +372,47 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-hanh-dong-thong-hoi",
       "categorySlug": "hanh-dong-thong-hoi",
       "categoryName": "HÀNH ĐỘNG THỐNG HỐI",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 4,
       "headingLevel": 1,
+      "pageRange": [
+        3,
+        6
+      ],
       "paragraphRange": [
         24,
         53
       ],
+      "lines": [
+        "HÀNH ĐỘNG THỐNG HỐI",
+        "CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm, và những điều thiếu sót.",
+        "Lỗi tại tôi, lỗi tại tôi, lỗi tại tôi mọi đàng. Vì vậy tôi xin Ðức Bà Maria trọn đời đồng trinh, các Thiên Thần, các Thánh và anh (chị) em, khẩn cầu cho tôi trước tòa Thiên Chúa, Chúa chúng ta.",
+        "CLY: Dăn Yàng tờm gơnrơh sơnđàc he, hồ ală tìs he mơ lăm he tus tam bơta kis sùm. LB: Amen.",
+        "Y. Ơ Kơnràñ, dăn sơnđàc.",
+        "H. Ơ Kơnràñ, dăn sơnđàc. Y. Ơ Kristo, dăn sơnđàc.",
+        "H. Ơ Kristo, đăn sơnđàc.",
+        "Y. Ơ Kơnràñ, dăn sơnđàc. H. Ơ Kơnràñ, dăn sơnđàc.",
+        "*** Gơklŏ Yàng tam kơloàng trồ, mơ tam tiah ring lơngai bol cau di nùs Yàng. Bol kòn jờngrơ Đi, bol kòn yal niăm Đi, bol kòn duh khoai Đi, bol kòn tơngklŏ Đi, bol kòn ưn ngài Đi bơh bơta gơklŏ dờng màng Đi dê,",
+        "ơ Kơnràñ Yàng, Bơtau trồ, Yàng Bàp tờm gơnrơh.",
+        "Ơ Kơnràñ Kòn Dùl, Jesu Kristo,",
+        "Ơ Kơnràñ Yàng, Belàt kòn Yàng dê, Kòn Bàp dê.",
+        "CT: Xin Thiên Chúa toàn năng thương xót, tha tội, và dẫn đưa chúng ta đến sự sống muôn đời. CĐ: Amen.",
+        "X: Xin Chúa thương xót chúng con.",
+        "Ð: Xin Chúa thương xót chúng con.",
+        "X: Xin Chúa Kitô thương xót chúng con.",
+        "Đ: Xin Chúa Kitô thương xót chúng con.",
+        "X: Xin Chúa thương xót chúng con. Ð: Xin Chúa thương xót chúng con.",
+        "***",
+        "Vinh danh Thiên Chúa trên các tầng trời, và bình an dưới thế cho người thiện tâm. Chúng con ca ngợi Chúa, chúng con chúc tụng Chúa, chúng con thờ lạy Chúa, chúng con tôn vinh Chúa, chúng con cảm tạ Chúa vì vinh quang cao cả Chúa. Lạy Chúa là Thiên Chúa, là Vua trên trời, Là Chúa Cha toàn năng. Lạy Con Một Thiên Chúa, Chúa Giêsu Kitô, Lạy Chúa là Thiên Chúa, là Chiên Thiên Chúa là Con Ðức Chúa Cha.",
+        "Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.",
+        "Đi tơnroh ală tìs dunia, dăn dờp jơnau bol kòn răc. Đi nggui đah ma Bàp, dăn sơnđàc bol kòn.",
+        "Kơyoa mìng Đi lah Niăm goh, mìng Đi lah Kơnrañ, mìng Đi lah Jơnhoa ngăn, ơ Jesu Kristo. Bal mơ Yàng Nhơm: tam bơta gơklŏ Yàng Bàp dê. Amen.",
+        "***"
+      ],
       "text": "HÀNH ĐỘNG THỐNG HỐI\nCT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm, và những điều thiếu sót.\nLỗi tại tôi, lỗi tại tôi, lỗi tại tôi mọi đàng. Vì vậy tôi xin Ðức Bà Maria trọn đời đồng trinh, các Thiên Thần, các Thánh và anh (chị) em, khẩn cầu cho tôi trước tòa Thiên Chúa, Chúa chúng ta.\nCLY: Dăn Yàng tờm gơnrơh sơnđàc he, hồ ală tìs he mơ lăm he tus tam bơta kis sùm. LB: Amen.\nY. Ơ Kơnràñ, dăn sơnđàc.\nH. Ơ Kơnràñ, dăn sơnđàc. Y. Ơ Kristo, dăn sơnđàc.\nH. Ơ Kristo, đăn sơnđàc.\nY. Ơ Kơnràñ, dăn sơnđàc. H. Ơ Kơnràñ, dăn sơnđàc.\n*** Gơklŏ Yàng tam kơloàng trồ, mơ tam tiah ring lơngai bol cau di nùs Yàng. Bol kòn jờngrơ Đi, bol kòn yal niăm Đi, bol kòn duh khoai Đi, bol kòn tơngklŏ Đi, bol kòn ưn ngài Đi bơh bơta gơklŏ dờng màng Đi dê,\nơ Kơnràñ Yàng, Bơtau trồ, Yàng Bàp tờm gơnrơh.\nƠ Kơnràñ Kòn Dùl, Jesu Kristo,\nƠ Kơnràñ Yàng, Belàt kòn Yàng dê, Kòn Bàp dê.\nCT: Xin Thiên Chúa toàn năng thương xót, tha tội, và dẫn đưa chúng ta đến sự sống muôn đời. CĐ: Amen.\nX: Xin Chúa thương xót chúng con.\nÐ: Xin Chúa thương xót chúng con.\nX: Xin Chúa Kitô thương xót chúng con.\nĐ: Xin Chúa Kitô thương xót chúng con.\nX: Xin Chúa thương xót chúng con. Ð: Xin Chúa thương xót chúng con.\n***\nVinh danh Thiên Chúa trên các tầng trời, và bình an dưới thế cho người thiện tâm. Chúng con ca ngợi Chúa, chúng con chúc tụng Chúa, chúng con thờ lạy Chúa, chúng con tôn vinh Chúa, chúng con cảm tạ Chúa vì vinh quang cao cả Chúa. Lạy Chúa là Thiên Chúa, là Vua trên trời, Là Chúa Cha toàn năng. Lạy Con Một Thiên Chúa, Chúa Giêsu Kitô, Lạy Chúa là Thiên Chúa, là Chiên Thiên Chúa là Con Ðức Chúa Cha.\nĐi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.\nĐi tơnroh ală tìs dunia, dăn dờp jơnau bol kòn răc. Đi nggui đah ma Bàp, dăn sơnđàc bol kòn.\nKơyoa mìng Đi lah Niăm goh, mìng Đi lah Kơnrañ, mìng Đi lah Jơnhoa ngăn, ơ Jesu Kristo. Bal mơ Yàng Nhơm: tam bơta gơklŏ Yàng Bàp dê. Amen.\n***",
-      "html": "<div class=\"kho-prayer-text\">HÀNH ĐỘNG THỐNG HỐI<br>CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm, và những điều thiếu sót.<br>Lỗi tại tôi, lỗi tại tôi, lỗi tại tôi mọi đàng. Vì vậy tôi xin Ðức Bà Maria trọn đời đồng trinh, các Thiên Thần, các Thánh và anh (chị) em, khẩn cầu cho tôi trước tòa Thiên Chúa, Chúa chúng ta.<br>CLY: Dăn Yàng tờm gơnrơh sơnđàc he, hồ ală tìs he mơ lăm he tus tam bơta kis sùm. LB: Amen.<br>Y. Ơ Kơnràñ, dăn sơnđàc.<br>H. Ơ Kơnràñ, dăn sơnđàc. Y. Ơ Kristo, dăn sơnđàc.<br>H. Ơ Kristo, đăn sơnđàc.<br>Y. Ơ Kơnràñ, dăn sơnđàc. H. Ơ Kơnràñ, dăn sơnđàc.<br>*** Gơklŏ Yàng tam kơloàng trồ, mơ tam tiah ring lơngai bol cau di nùs Yàng. Bol kòn jờngrơ Đi, bol kòn yal niăm Đi, bol kòn duh khoai Đi, bol kòn tơngklŏ Đi, bol kòn ưn ngài Đi bơh bơta gơklŏ dờng màng Đi dê,<br>ơ Kơnràñ Yàng, Bơtau trồ, Yàng Bàp tờm gơnrơh.<br>Ơ Kơnràñ Kòn Dùl, Jesu Kristo,<br>Ơ Kơnràñ Yàng, Belàt kòn Yàng dê, Kòn Bàp dê.<br>CT: Xin Thiên Chúa toàn năng thương xót, tha tội, và dẫn đưa chúng ta đến sự sống muôn đời. CĐ: Amen.<br>X: Xin Chúa thương xót chúng con.<br>Ð: Xin Chúa thương xót chúng con.<br>X: Xin Chúa Kitô thương xót chúng con.<br>Đ: Xin Chúa Kitô thương xót chúng con.<br>X: Xin Chúa thương xót chúng con. Ð: Xin Chúa thương xót chúng con.<br>***<br>Vinh danh Thiên Chúa trên các tầng trời, và bình an dưới thế cho người thiện tâm. Chúng con ca ngợi Chúa, chúng con chúc tụng Chúa, chúng con thờ lạy Chúa, chúng con tôn vinh Chúa, chúng con cảm tạ Chúa vì vinh quang cao cả Chúa. Lạy Chúa là Thiên Chúa, là Vua trên trời, Là Chúa Cha toàn năng. Lạy Con Một Thiên Chúa, Chúa Giêsu Kitô, Lạy Chúa là Thiên Chúa, là Chiên Thiên Chúa là Con Ðức Chúa Cha.<br>Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.<br>Đi tơnroh ală tìs dunia, dăn dờp jơnau bol kòn răc. Đi nggui đah ma Bàp, dăn sơnđàc bol kòn.<br>Kơyoa mìng Đi lah Niăm goh, mìng Đi lah Kơnrañ, mìng Đi lah Jơnhoa ngăn, ơ Jesu Kristo. Bal mơ Yàng Nhơm: tam bơta gơklŏ Yàng Bàp dê. Amen.<br>***</div>",
-      "excerpt": "HÀNH ĐỘNG THỐNG HỐI CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã…",
+      "html": "<p>HÀNH ĐỘNG THỐNG HỐI</p>\n<p>CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm, và những điều thiếu sót.</p>\n<p>Lỗi tại tôi, lỗi tại tôi, lỗi tại tôi mọi đàng. Vì vậy tôi xin Ðức Bà Maria trọn đời đồng trinh, các Thiên Thần, các Thánh và anh (chị) em, khẩn cầu cho tôi trước tòa Thiên Chúa, Chúa chúng ta.</p>\n<p>CLY: Dăn Yàng tờm gơnrơh sơnđàc he, hồ ală tìs he mơ lăm he tus tam bơta kis sùm. LB: Amen.</p>\n<p>Y. Ơ Kơnràñ, dăn sơnđàc.</p>\n<p>H. Ơ Kơnràñ, dăn sơnđàc. Y. Ơ Kristo, dăn sơnđàc.</p>\n<p>H. Ơ Kristo, đăn sơnđàc.</p>\n<p>Y. Ơ Kơnràñ, dăn sơnđàc. H. Ơ Kơnràñ, dăn sơnđàc.</p>\n<p>*** Gơklŏ Yàng tam kơloàng trồ, mơ tam tiah ring lơngai bol cau di nùs Yàng. Bol kòn jờngrơ Đi, bol kòn yal niăm Đi, bol kòn duh khoai Đi, bol kòn tơngklŏ Đi, bol kòn ưn ngài Đi bơh bơta gơklŏ dờng màng Đi dê,</p>\n<p>ơ Kơnràñ Yàng, Bơtau trồ, Yàng Bàp tờm gơnrơh.</p>\n<p>Ơ Kơnràñ Kòn Dùl, Jesu Kristo,</p>\n<p>Ơ Kơnràñ Yàng, Belàt kòn Yàng dê, Kòn Bàp dê.</p>\n<p>CT: Xin Thiên Chúa toàn năng thương xót, tha tội, và dẫn đưa chúng ta đến sự sống muôn đời. CĐ: Amen.</p>\n<p>X: Xin Chúa thương xót chúng con.</p>\n<p>Ð: Xin Chúa thương xót chúng con.</p>\n<p>X: Xin Chúa Kitô thương xót chúng con.</p>\n<p>Đ: Xin Chúa Kitô thương xót chúng con.</p>\n<p>X: Xin Chúa thương xót chúng con. Ð: Xin Chúa thương xót chúng con.</p>\n<p>***</p>\n<p>Vinh danh Thiên Chúa trên các tầng trời, và bình an dưới thế cho người thiện tâm. Chúng con ca ngợi Chúa, chúng con chúc tụng Chúa, chúng con thờ lạy Chúa, chúng con tôn vinh Chúa, chúng con cảm tạ Chúa vì vinh quang cao cả Chúa. Lạy Chúa là Thiên Chúa, là Vua trên trời, Là Chúa Cha toàn năng. Lạy Con Một Thiên Chúa, Chúa Giêsu Kitô, Lạy Chúa là Thiên Chúa, là Chiên Thiên Chúa là Con Ðức Chúa Cha.</p>\n<p>Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.</p>\n<p>Đi tơnroh ală tìs dunia, dăn dờp jơnau bol kòn răc. Đi nggui đah ma Bàp, dăn sơnđàc bol kòn.</p>\n<p>Kơyoa mìng Đi lah Niăm goh, mìng Đi lah Kơnrañ, mìng Đi lah Jơnhoa ngăn, ơ Jesu Kristo. Bal mơ Yàng Nhơm: tam bơta gơklŏ Yàng Bàp dê. Amen.</p>\n<p>***</p>",
+      "excerpt": "HÀNH ĐỘNG THỐNG HỐI CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm,…",
       "wordCount": 427,
       "lineCount": 24
     },
@@ -337,16 +423,33 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-broa-duh-jonau-dos",
       "categorySlug": "broa-duh-jonau-dos",
       "categoryName": "BROĂ DUH JƠNAU ĐƠS",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 5,
       "headingLevel": 1,
+      "pageRange": [
+        6,
+        7
+      ],
       "paragraphRange": [
         54,
         64
       ],
+      "lines": [
+        "BROĂ DUH JƠNAU ĐƠS",
+        "Y. Hơ jơnau đơs Kơnràñ dê",
+        "H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.",
+        "CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S",
+        "LB: Gơklŏ Đi, ơ Kơnràñ,",
+        "Y. Hơ̆ Jơnau đơs Kơnràñ dê.",
+        "H. Jờngrơ Đi, ơ Kristo.",
+        "Chúa xóa tội trần gian, xin thương xót chúng con; Chúa xóa tội trần gian, xin nhậm lời chúng con cầu khẩn. Chúa ngự bên hữu Ðức Chúa Cha, xin thương xót chúng con.",
+        "Vì, lạy Chúa Giêsu Kitô, chỉ có Chúa là Ðấng Thánh, chỉ có Chúa là Chúa, chỉ có Chúa là Ðấng Tối Cao, cùng Ðức Chúa Thánh Thần trong vinh quang Ðức Chúa Cha. Amen.",
+        "***"
+      ],
       "text": "BROĂ DUH JƠNAU ĐƠS\nY. Hơ jơnau đơs Kơnràñ dê\nH. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.\nCLY: Đal tam Jơnau Yal Niăm niăm goh jăt S\nLB: Gơklŏ Đi, ơ Kơnràñ,\nY. Hơ̆ Jơnau đơs Kơnràñ dê.\nH. Jờngrơ Đi, ơ Kristo.\nChúa xóa tội trần gian, xin thương xót chúng con; Chúa xóa tội trần gian, xin nhậm lời chúng con cầu khẩn. Chúa ngự bên hữu Ðức Chúa Cha, xin thương xót chúng con.\nVì, lạy Chúa Giêsu Kitô, chỉ có Chúa là Ðấng Thánh, chỉ có Chúa là Chúa, chỉ có Chúa là Ðấng Tối Cao, cùng Ðức Chúa Thánh Thần trong vinh quang Ðức Chúa Cha. Amen.\n***",
-      "html": "<div class=\"kho-prayer-text\">BROĂ DUH JƠNAU ĐƠS<br>Y. Hơ jơnau đơs Kơnràñ dê<br>H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.<br>CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S<br>LB: Gơklŏ Đi, ơ Kơnràñ,<br>Y. Hơ̆ Jơnau đơs Kơnràñ dê.<br>H. Jờngrơ Đi, ơ Kristo.<br>Chúa xóa tội trần gian, xin thương xót chúng con; Chúa xóa tội trần gian, xin nhậm lời chúng con cầu khẩn. Chúa ngự bên hữu Ðức Chúa Cha, xin thương xót chúng con.<br>Vì, lạy Chúa Giêsu Kitô, chỉ có Chúa là Ðấng Thánh, chỉ có Chúa là Chúa, chỉ có Chúa là Ðấng Tối Cao, cùng Ðức Chúa Thánh Thần trong vinh quang Ðức Chúa Cha. Amen.<br>***</div>",
-      "excerpt": "BROĂ DUH JƠNAU ĐƠS Y. Hơ jơnau đơs Kơnràñ dê H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl. CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S LB: Gơklŏ Đi, ơ Kơnràñ…",
+      "html": "<p>BROĂ DUH JƠNAU ĐƠS</p>\n<p>Y. Hơ jơnau đơs Kơnràñ dê</p>\n<p>H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.</p>\n<p>CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S</p>\n<p>LB: Gơklŏ Đi, ơ Kơnràñ,</p>\n<p>Y. Hơ̆ Jơnau đơs Kơnràñ dê.</p>\n<p>H. Jờngrơ Đi, ơ Kristo.</p>\n<p>Chúa xóa tội trần gian, xin thương xót chúng con; Chúa xóa tội trần gian, xin nhậm lời chúng con cầu khẩn. Chúa ngự bên hữu Ðức Chúa Cha, xin thương xót chúng con.</p>\n<p>Vì, lạy Chúa Giêsu Kitô, chỉ có Chúa là Ðấng Thánh, chỉ có Chúa là Chúa, chỉ có Chúa là Ðấng Tối Cao, cùng Ðức Chúa Thánh Thần trong vinh quang Ðức Chúa Cha. Amen.</p>\n<p>***</p>",
+      "excerpt": "BROĂ DUH JƠNAU ĐƠS Y. Hơ jơnau đơs Kơnràñ dê H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl. CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S LB: Gơklŏ Đi, ơ Kơnràñ, Y. Hơ̆ Jơnau đơs Kơnràñ dê. H. Jờngrơ Đi, ơ Kristo…",
       "wordCount": 124,
       "lineCount": 10
     },
@@ -357,58 +460,52 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-phung-vu-loi-chua",
       "categorySlug": "phung-vu-loi-chua",
       "categoryName": "PHỤNG VỤ LỜI CHÚA",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
       "order": 6,
       "headingLevel": 1,
+      "pageRange": [
+        8,
+        12
+      ],
       "paragraphRange": [
         65,
-        74
-      ],
-      "text": "PHỤNG VỤ LỜI CHÚA\nX. Ðó là Lời Chúa.\nCĐ: Tạ ơn Chúa.\nCT: Chúa ở cùng anh chị em.\nCĐ: Và ở cùng cha (thầy).\nCT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa\nCT: Ðó là lời Chúa.\nCĐ: Lạy Chúa Kitô, ngợi khen Chúa.",
-      "html": "<div class=\"kho-prayer-text\">PHỤNG VỤ LỜI CHÚA<br>X. Ðó là Lời Chúa.<br>CĐ: Tạ ơn Chúa.<br>CT: Chúa ở cùng anh chị em.<br>CĐ: Và ở cùng cha (thầy).<br>CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa<br>CT: Ðó là lời Chúa.<br>CĐ: Lạy Chúa Kitô, ngợi khen Chúa.</div>",
-      "excerpt": "PHỤNG VỤ LỜI CHÚA X. Ðó là Lời Chúa. CĐ: Tạ ơn Chúa. CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha (thầy). CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa CT: Ðó là…",
-      "wordCount": 52,
-      "lineCount": 8
-    },
-    {
-      "id": "kinh-nguyen-kho-an-pindon",
-      "slug": "phung-vu-loi-chua/an-pindon",
-      "title": "AÑ PINDỜN",
-      "categoryId": "cat-phung-vu-loi-chua",
-      "categorySlug": "phung-vu-loi-chua",
-      "categoryName": "PHỤNG VỤ LỜI CHÚA",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 7,
-      "headingLevel": 2,
-      "paragraphRange": [
-        75,
-        83
-      ],
-      "text": "AÑ PINDỜN\nLB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;\nAñ pindờn mìng dùl Kơnràñ Jesu Kristo,\nKòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:\nbơh Khai tàng jơh ală bơta geh crơng gơs.\nTài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm.\nKhai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus.\nKhai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,\nKhai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,",
-      "html": "<div class=\"kho-prayer-text\">AÑ PINDỜN<br>LB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;<br>Añ pindờn mìng dùl Kơnràñ Jesu Kristo,<br>Kòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:<br>bơh Khai tàng jơh ală bơta geh crơng gơs.<br>Tài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm.<br>Khai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus.<br>Khai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,<br>Khai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,</div>",
-      "excerpt": "AÑ PINDỜN LB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ; Añ pindờn mìng dùl Kơnràñ Jesu Kristo, Kòn Dùl Yàng dê, deh bơh…",
-      "wordCount": 147,
-      "lineCount": 9
-    },
-    {
-      "id": "kinh-nguyen-kho-kinh-tin-kinh",
-      "slug": "phung-vu-loi-chua/kinh-tin-kinh",
-      "title": "KINH TIN KÍNH",
-      "categoryId": "cat-phung-vu-loi-chua",
-      "categorySlug": "phung-vu-loi-chua",
-      "categoryName": "PHỤNG VỤ LỜI CHÚA",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 8,
-      "headingLevel": 2,
-      "paragraphRange": [
-        84,
         102
       ],
-      "text": "KINH TIN KÍNH\nTôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,\nmơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,\nKơnràñ mơ tờm tơngkis:\nlik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:\nKhai neh ngui bol ala bơr làng yal bơto.\nAñ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen.\n***\nvà Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen.\n***",
-      "html": "<div class=\"kho-prayer-text\">KINH TIN KÍNH<br>Tôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,<br>mơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,<br>Kơnràñ mơ tờm tơngkis:<br>lik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:<br>Khai neh ngui bol ala bơr làng yal bơto.<br>Añ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen.<br>***<br>và Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen.<br>***</div>",
-      "excerpt": "KINH TIN KÍNH Tôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha…",
-      "wordCount": 377,
-      "lineCount": 10
+      "lines": [
+        "PHỤNG VỤ LỜI CHÚA",
+        "X. Ðó là Lời Chúa.",
+        "CĐ: Tạ ơn Chúa.",
+        "CT: Chúa ở cùng anh chị em.",
+        "CĐ: Và ở cùng cha (thầy).",
+        "CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa",
+        "CT: Ðó là lời Chúa.",
+        "CĐ: Lạy Chúa Kitô, ngợi khen Chúa.",
+        "AÑ PINDỜN",
+        "LB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;",
+        "Añ pindờn mìng dùl Kơnràñ Jesu Kristo,",
+        "Kòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:",
+        "bơh Khai tàng jơh ală bơta geh crơng gơs.",
+        "Tài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm.",
+        "Khai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus.",
+        "Khai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,",
+        "Khai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,",
+        "KINH TIN KÍNH",
+        "Tôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,",
+        "mơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,",
+        "Kơnràñ mơ tờm tơngkis:",
+        "lik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:",
+        "Khai neh ngui bol ala bơr làng yal bơto.",
+        "Añ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen.",
+        "***",
+        "và Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen.",
+        "***"
+      ],
+      "text": "PHỤNG VỤ LỜI CHÚA\nX. Ðó là Lời Chúa.\nCĐ: Tạ ơn Chúa.\nCT: Chúa ở cùng anh chị em.\nCĐ: Và ở cùng cha (thầy).\nCT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa\nCT: Ðó là lời Chúa.\nCĐ: Lạy Chúa Kitô, ngợi khen Chúa.\nAÑ PINDỜN\nLB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;\nAñ pindờn mìng dùl Kơnràñ Jesu Kristo,\nKòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:\nbơh Khai tàng jơh ală bơta geh crơng gơs.\nTài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm.\nKhai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus.\nKhai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,\nKhai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,\nKINH TIN KÍNH\nTôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,\nmơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,\nKơnràñ mơ tờm tơngkis:\nlik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:\nKhai neh ngui bol ala bơr làng yal bơto.\nAñ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen.\n***\nvà Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen.\n***",
+      "html": "<p>PHỤNG VỤ LỜI CHÚA</p>\n<p>X. Ðó là Lời Chúa.</p>\n<p>CĐ: Tạ ơn Chúa.</p>\n<p>CT: Chúa ở cùng anh chị em.</p>\n<p>CĐ: Và ở cùng cha (thầy).</p>\n<p>CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa</p>\n<p>CT: Ðó là lời Chúa.</p>\n<p>CĐ: Lạy Chúa Kitô, ngợi khen Chúa.</p>\n<p>AÑ PINDỜN</p>\n<p>LB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;</p>\n<p>Añ pindờn mìng dùl Kơnràñ Jesu Kristo,</p>\n<p>Kòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:</p>\n<p>bơh Khai tàng jơh ală bơta geh crơng gơs.</p>\n<p>Tài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm.</p>\n<p>Khai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus.</p>\n<p>Khai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,</p>\n<p>Khai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,</p>\n<p>KINH TIN KÍNH</p>\n<p>Tôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,</p>\n<p>mơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,</p>\n<p>Kơnràñ mơ tờm tơngkis:</p>\n<p>lik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:</p>\n<p>Khai neh ngui bol ala bơr làng yal bơto.</p>\n<p>Añ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen.</p>\n<p>***</p>\n<p>và Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen.</p>\n<p>***</p>",
+      "excerpt": "PHỤNG VỤ LỜI CHÚA X. Ðó là Lời Chúa. CĐ: Tạ ơn Chúa. CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha (thầy). CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa CT: Ðó là lời Chúa. CĐ: Lạy Chúa Kitô, ngợi khen Chúa. AÑ PINDỜ…",
+      "wordCount": 576,
+      "lineCount": 27
     },
     {
       "id": "kinh-nguyen-kho-broa-duh-sa-niam-goh",
@@ -417,16 +514,30 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-broa-duh-sa-niam-goh",
       "categorySlug": "broa-duh-sa-niam-goh",
       "categoryName": "BROĂ DUH SĂ NIĂM GOH",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 9,
+      "order": 7,
       "headingLevel": 1,
+      "pageRange": [
+        12,
+        13
+      ],
       "paragraphRange": [
         110,
         119
       ],
+      "lines": [
+        "BROĂ DUH SĂ NIĂM GOH",
+        "CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng jơl ală rài.",
+        "CLY: Yalniăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp dà ño, mơ pơdơng gơ Đi in,",
+        "gen gơlik bơh chi ño mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in phan hùc đah huềng soàn.",
+        "LB: Yal niăm Yàng jơl ală rài.",
+        "CLY: Răc tĕ, ơ oh mi, làng Yàng Bàp tờm gơnrơh dờp jơnau lơh yàng añ dê mơ krung lah oh mi dê sơl.",
+        "LB: Dăn Kơnràñ dờp jơnau lơh Yàng bơh tê đi làng jờngrơ mơ tơngklŏ sơnđăn Khai, làng gơlik kuơ he in mơ làm jơh Pơrjum niăm goh Khai dê in sơl."
+      ],
       "text": "BROĂ DUH SĂ NIĂM GOH\nCLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng jơl ală rài.\nCLY: Yalniăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp dà ño, mơ pơdơng gơ Đi in,\ngen gơlik bơh chi ño mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in phan hùc đah huềng soàn.\nLB: Yal niăm Yàng jơl ală rài.\nCLY: Răc tĕ, ơ oh mi, làng Yàng Bàp tờm gơnrơh dờp jơnau lơh yàng añ dê mơ krung lah oh mi dê sơl.\nLB: Dăn Kơnràñ dờp jơnau lơh Yàng bơh tê đi làng jờngrơ mơ tơngklŏ sơnđăn Khai, làng gơlik kuơ he in mơ làm jơh Pơrjum niăm goh Khai dê in sơl.",
-      "html": "<div class=\"kho-prayer-text\">BROĂ DUH SĂ NIĂM GOH<br>CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng jơl ală rài.<br>CLY: Yalniăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp dà ño, mơ pơdơng gơ Đi in,<br>gen gơlik bơh chi ño mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in phan hùc đah huềng soàn.<br>LB: Yal niăm Yàng jơl ală rài.<br>CLY: Răc tĕ, ơ oh mi, làng Yàng Bàp tờm gơnrơh dờp jơnau lơh yàng añ dê mơ krung lah oh mi dê sơl.<br>LB: Dăn Kơnràñ dờp jơnau lơh Yàng bơh tê đi làng jờngrơ mơ tơngklŏ sơnđăn Khai, làng gơlik kuơ he in mơ làm jơh Pơrjum niăm goh Khai dê in sơl.</div>",
-      "excerpt": "BROĂ DUH SĂ NIĂM GOH CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus…",
+      "html": "<p>BROĂ DUH SĂ NIĂM GOH</p>\n<p>CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng jơl ală rài.</p>\n<p>CLY: Yalniăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp dà ño, mơ pơdơng gơ Đi in,</p>\n<p>gen gơlik bơh chi ño mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in phan hùc đah huềng soàn.</p>\n<p>LB: Yal niăm Yàng jơl ală rài.</p>\n<p>CLY: Răc tĕ, ơ oh mi, làng Yàng Bàp tờm gơnrơh dờp jơnau lơh yàng añ dê mơ krung lah oh mi dê sơl.</p>\n<p>LB: Dăn Kơnràñ dờp jơnau lơh Yàng bơh tê đi làng jờngrơ mơ tơngklŏ sơnđăn Khai, làng gơlik kuơ he in mơ làm jơh Pơrjum niăm goh Khai dê in sơl.</p>",
+      "excerpt": "BROĂ DUH SĂ NIĂM GOH CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng…",
       "wordCount": 168,
       "lineCount": 7
     },
@@ -437,58 +548,59 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-phung-vu-thanh-the",
       "categorySlug": "phung-vu-thanh-the",
       "categoryName": "PHỤNG VỤ THÁNH THỂ",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 10,
+      "order": 8,
       "headingLevel": 1,
+      "pageRange": [
+        13,
+        17
+      ],
       "paragraphRange": [
         121,
-        131
-      ],
-      "text": "PHỤNG VỤ THÁNH THỂ\nCT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con.\nCĐ: Chúc tụng Thiên Chúa đến muôn đời.\nCT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con.\nCĐ: Chúc tụng Thiên Chúa đến muôn đời.\nCT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận.\nCĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người.",
-      "html": "<div class=\"kho-prayer-text\">PHỤNG VỤ THÁNH THỂ<br>CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con.<br>CĐ: Chúc tụng Thiên Chúa đến muôn đời.<br>CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con.<br>CĐ: Chúc tụng Thiên Chúa đến muôn đời.<br>CT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận.<br>CĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người.</div>",
-      "excerpt": "PHỤNG VỤ THÁNH THỂ CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh…",
-      "wordCount": 165,
-      "lineCount": 7
-    },
-    {
-      "id": "kinh-nguyen-kho-jonau-hoi-rac-sa-niam-goh",
-      "slug": "phung-vu-thanh-the/jonau-hoi-rac-sa-niam-goh",
-      "title": "JƠNAU HÒI RĂC SĂ NIĂM GOH",
-      "categoryId": "cat-phung-vu-thanh-the",
-      "categorySlug": "phung-vu-thanh-the",
-      "categoryName": "PHỤNG VỤ THÁNH THỂ",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 11,
-      "headingLevel": 2,
-      "paragraphRange": [
-        134,
-        147
-      ],
-      "text": "JƠNAU HÒI RĂC SĂ NIĂM GOH\nCLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.\nCLY: Tơngguh lă nùs\nLB: Bol kòn găm wèt hơ Kơnràñ.\nCLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă.\nCLY:\nLB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah.\nBơta gơklŏ Đi dê bềng làm trồ làm tiah.\nHosanna tam kơloàng trồ\nYalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ.",
-      "html": "<div class=\"kho-prayer-text\">JƠNAU HÒI RĂC SĂ NIĂM GOH<br>CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.<br>CLY: Tơngguh lă nùs<br>LB: Bol kòn găm wèt hơ Kơnràñ.<br>CLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă.<br>CLY:<br>LB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah.<br>Bơta gơklŏ Đi dê bềng làm trồ làm tiah.<br>Hosanna tam kơloàng trồ<br>Yalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ.</div>",
-      "excerpt": "JƠNAU HÒI RĂC SĂ NIĂM GOH CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl. CLY: Tơngguh lă nùs LB: Bol kòn găm wèt hơ Kơnràñ. CLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ…",
-      "wordCount": 84,
-      "lineCount": 10
-    },
-    {
-      "id": "kinh-nguyen-kho-cly-jonau-hoi-rac-sa-niam-goh",
-      "slug": "phung-vu-thanh-the/cly-jonau-hoi-rac-sa-niam-goh",
-      "title": "CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH",
-      "categoryId": "cat-phung-vu-thanh-the",
-      "categorySlug": "phung-vu-thanh-the",
-      "categoryName": "PHỤNG VỤ THÁNH THỂ",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 12,
-      "headingLevel": 3,
-      "paragraphRange": [
-        149,
         168
       ],
-      "text": "CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH\n- Do bơta ndơp ndơr pindờn.\nLB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus.\nKINH NGUYỆN THÁNH THỂ\nX. Chúa ở cùng anh chị em.\nÐ. Và ở cùng cha. X. Hãy nâng tâm hồn lên.\nÐ. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta.\nÐ. Thật là chính đáng.\nCT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”\nCĐ: Thánh! Thánh! Thánh! Chúa là Thiên\nChúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa.\nHoan hô Chúa trên các tầng trời.\nCT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin.\nCĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến.\nCT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài.\nLB: Amen.\n***",
-      "html": "<div class=\"kho-prayer-text\">CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH<br>- Do bơta ndơp ndơr pindờn.<br>LB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus.<br>KINH NGUYỆN THÁNH THỂ<br>X. Chúa ở cùng anh chị em.<br>Ð. Và ở cùng cha. X. Hãy nâng tâm hồn lên.<br>Ð. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta.<br>Ð. Thật là chính đáng.<br>CT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”<br>CĐ: Thánh! Thánh! Thánh! Chúa là Thiên<br>Chúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa.<br>Hoan hô Chúa trên các tầng trời.<br>CT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin.<br>CĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến.<br>CT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài.<br>LB: Amen.<br>***</div>",
-      "excerpt": "CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH - Do bơta ndơp ndơr pindờn. LB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus. KINH NGUYỆN THÁNH THỂ X. Chúa ở cùng…",
-      "wordCount": 215,
-      "lineCount": 17
+      "lines": [
+        "PHỤNG VỤ THÁNH THỂ",
+        "CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con.",
+        "CĐ: Chúc tụng Thiên Chúa đến muôn đời.",
+        "CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con.",
+        "CĐ: Chúc tụng Thiên Chúa đến muôn đời.",
+        "CT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận.",
+        "CĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người.",
+        "JƠNAU HÒI RĂC SĂ NIĂM GOH",
+        "CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.",
+        "CLY: Tơngguh lă nùs",
+        "LB: Bol kòn găm wèt hơ Kơnràñ.",
+        "CLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă.",
+        "CLY:",
+        "LB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah.",
+        "Bơta gơklŏ Đi dê bềng làm trồ làm tiah.",
+        "Hosanna tam kơloàng trồ",
+        "Yalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ.",
+        "CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH",
+        "- Do bơta ndơp ndơr pindờn.",
+        "LB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus.",
+        "KINH NGUYỆN THÁNH THỂ",
+        "X. Chúa ở cùng anh chị em.",
+        "Ð. Và ở cùng cha. X. Hãy nâng tâm hồn lên.",
+        "Ð. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta.",
+        "Ð. Thật là chính đáng.",
+        "CT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”",
+        "CĐ: Thánh! Thánh! Thánh! Chúa là Thiên",
+        "Chúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa.",
+        "Hoan hô Chúa trên các tầng trời.",
+        "CT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin.",
+        "CĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến.",
+        "CT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài.",
+        "LB: Amen.",
+        "***"
+      ],
+      "text": "PHỤNG VỤ THÁNH THỂ\nCT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con.\nCĐ: Chúc tụng Thiên Chúa đến muôn đời.\nCT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con.\nCĐ: Chúc tụng Thiên Chúa đến muôn đời.\nCT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận.\nCĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người.\nJƠNAU HÒI RĂC SĂ NIĂM GOH\nCLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.\nCLY: Tơngguh lă nùs\nLB: Bol kòn găm wèt hơ Kơnràñ.\nCLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă.\nCLY:\nLB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah.\nBơta gơklŏ Đi dê bềng làm trồ làm tiah.\nHosanna tam kơloàng trồ\nYalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ.\nCLY: JƠNAU HÒI RĂC SĂ NIĂM GOH\n- Do bơta ndơp ndơr pindờn.\nLB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus.\nKINH NGUYỆN THÁNH THỂ\nX. Chúa ở cùng anh chị em.\nÐ. Và ở cùng cha. X. Hãy nâng tâm hồn lên.\nÐ. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta.\nÐ. Thật là chính đáng.\nCT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”\nCĐ: Thánh! Thánh! Thánh! Chúa là Thiên\nChúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa.\nHoan hô Chúa trên các tầng trời.\nCT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin.\nCĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến.\nCT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài.\nLB: Amen.\n***",
+      "html": "<p>PHỤNG VỤ THÁNH THỂ</p>\n<p>CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con.</p>\n<p>CĐ: Chúc tụng Thiên Chúa đến muôn đời.</p>\n<p>CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con.</p>\n<p>CĐ: Chúc tụng Thiên Chúa đến muôn đời.</p>\n<p>CT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận.</p>\n<p>CĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người.</p>\n<p>JƠNAU HÒI RĂC SĂ NIĂM GOH</p>\n<p>CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.</p>\n<p>CLY: Tơngguh lă nùs</p>\n<p>LB: Bol kòn găm wèt hơ Kơnràñ.</p>\n<p>CLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă.</p>\n<p>CLY:</p>\n<p>LB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah.</p>\n<p>Bơta gơklŏ Đi dê bềng làm trồ làm tiah.</p>\n<p>Hosanna tam kơloàng trồ</p>\n<p>Yalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ.</p>\n<p>CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH</p>\n<p>- Do bơta ndơp ndơr pindờn.</p>\n<p>LB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus.</p>\n<p>KINH NGUYỆN THÁNH THỂ</p>\n<p>X. Chúa ở cùng anh chị em.</p>\n<p>Ð. Và ở cùng cha. X. Hãy nâng tâm hồn lên.</p>\n<p>Ð. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta.</p>\n<p>Ð. Thật là chính đáng.</p>\n<p>CT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”</p>\n<p>CĐ: Thánh! Thánh! Thánh! Chúa là Thiên</p>\n<p>Chúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa.</p>\n<p>Hoan hô Chúa trên các tầng trời.</p>\n<p>CT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin.</p>\n<p>CĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến.</p>\n<p>CT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài.</p>\n<p>LB: Amen.</p>\n<p>***</p>",
+      "excerpt": "PHỤNG VỤ THÁNH THỂ CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con. CĐ: Chúc tụng Thiê…",
+      "wordCount": 464,
+      "lineCount": 34
     },
     {
       "id": "kinh-nguyen-kho-gung-tam-klac-bal",
@@ -497,16 +609,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-gung-tam-klac-bal",
       "categorySlug": "gung-tam-klac-bal",
       "categoryName": "GÙNG TAM KLĂC BAL",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 13,
+      "order": 9,
       "headingLevel": 1,
+      "pageRange": [
+        17,
+        18
+      ],
       "paragraphRange": [
         170,
         175
       ],
+      "lines": [
+        "GÙNG TAM KLĂC BAL",
+        "CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs:",
+        "LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in, be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh.",
+        "CLY: Dăn tơngklàs bol kòn, ơ Kơràñ, bơh jơh ală bơta iơh, mơ pơha nùs ai bơta ring lơngai tam rài kis bol kòn, làng bơh Đi sơnđàc dong kờl, bol kòn geh tơngklàs sùm bơh jơnau tìs mơ geh gràng gàr CT: … Chính nhờ Người, với Người và trong Người, Mà mọi danh dự và vinh quang đều qui về Chúa Là Cha toàn năng, trong sự hợp nhất của Chúa Thánh Thần đến muôn đời.",
+        "CĐ: Amen",
+        "***"
+      ],
       "text": "GÙNG TAM KLĂC BAL\nCLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs:\nLB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in, be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh.\nCLY: Dăn tơngklàs bol kòn, ơ Kơràñ, bơh jơh ală bơta iơh, mơ pơha nùs ai bơta ring lơngai tam rài kis bol kòn, làng bơh Đi sơnđàc dong kờl, bol kòn geh tơngklàs sùm bơh jơnau tìs mơ geh gràng gàr CT: … Chính nhờ Người, với Người và trong Người, Mà mọi danh dự và vinh quang đều qui về Chúa Là Cha toàn năng, trong sự hợp nhất của Chúa Thánh Thần đến muôn đời.\nCĐ: Amen\n***",
-      "html": "<div class=\"kho-prayer-text\">GÙNG TAM KLĂC BAL<br>CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs:<br>LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in, be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh.<br>CLY: Dăn tơngklàs bol kòn, ơ Kơràñ, bơh jơh ală bơta iơh, mơ pơha nùs ai bơta ring lơngai tam rài kis bol kòn, làng bơh Đi sơnđàc dong kờl, bol kòn geh tơngklàs sùm bơh jơnau tìs mơ geh gràng gàr CT: … Chính nhờ Người, với Người và trong Người, Mà mọi danh dự và vinh quang đều qui về Chúa Là Cha toàn năng, trong sự hợp nhất của Chúa Thánh Thần đến muôn đời.<br>CĐ: Amen<br>***</div>",
-      "excerpt": "GÙNG TAM KLĂC BAL CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs: LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê…",
+      "html": "<p>GÙNG TAM KLĂC BAL</p>\n<p>CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs:</p>\n<p>LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in, be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh.</p>\n<p>CLY: Dăn tơngklàs bol kòn, ơ Kơràñ, bơh jơh ală bơta iơh, mơ pơha nùs ai bơta ring lơngai tam rài kis bol kòn, làng bơh Đi sơnđàc dong kờl, bol kòn geh tơngklàs sùm bơh jơnau tìs mơ geh gràng gàr CT: … Chính nhờ Người, với Người và trong Người, Mà mọi danh dự và vinh quang đều qui về Chúa Là Cha toàn năng, trong sự hợp nhất của Chúa Thánh Thần đến muôn đời.</p>\n<p>CĐ: Amen</p>\n<p>***</p>",
+      "excerpt": "GÙNG TAM KLĂC BAL CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs: LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do…",
       "wordCount": 167,
       "lineCount": 6
     },
@@ -517,16 +642,45 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-nghi-thuc-hiep-le",
       "categorySlug": "nghi-thuc-hiep-le",
       "categoryName": "NGHI THỨC HIỆP LỄ",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 14,
+      "order": 10,
       "headingLevel": 1,
+      "pageRange": [
+        18,
+        21
+      ],
       "paragraphRange": [
         177,
         206
       ],
+      "lines": [
+        "NGHI THỨC HIỆP LỄ",
+        "CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng:",
+        "CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha cho chúng con hôm nay lương thực hằng ngày, và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con; xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ.",
+        "CT: Lạy Chúa , xin cứu chúng con khỏi mọi sự dữ, xin đoái thương cho những ngày chúng con đang sống được bình an. Nhờ Chúa rộng lòng thương cứu giúp, chúng con sẽ luôn luôn thoát khỏi tội lỗi bơh jơh bơta cuê coa, tŭ găm kơp bơta kơnờm bơtoah mơ gơn tus Kơnràñ Jesu Kristo, Bơtau Tơngklàs bol kòn.",
+        "LB: Kơyoa gơrê mơ Đi, jơh gơnoar, pràn gơnrơh mơ àng gơklŏ jơl ală rài.",
+        "CLY: Ơ Kơnràñ Jesu Kristo, Đi neh đơs mơ bol Dờp pơyoa Đi dê:",
+        "Añ lời bơta ring lơngai bol kòn in, Añ pà bơta ring lơngai Añ dê bol kòn in, dăn Đi bañ sền sơwì ală tìs bol kòn, mơya dăn sền dơ bơta pindờn Pơrjum niăm Đi dê, dăn Đi pơha nùs lơh gơ in ring lơngai mơ tam klăc bal jăt be nùs kờñ Đi dê. Đi ơm kis mơ ăt bồ jơl jơh ală rài.",
+        "LB: Amen.",
+        "CLY: Dăn bơta ring lơngai Kơnràñ dê ơm sùm bal mơ oh mi.",
+        "LB: Bal mơ nùs nhơm đi sơl.",
+        "CLY: Oh mi tam nting săp pơndăp bơr tĕ bơta ring lơngai.",
+        "và được an toàn khỏi mọi biến loạn, đang khi chúng con mong đợi niềm hy vọng hồng phúc, và ngày trở lại của Chúa Giêsu Kitô, Ðấng Cứu Ðộ chúng con.",
+        "CĐ: Vì vương quyền, uy lực và vinh quang là của Chúa đến muôn đời.",
+        "CT: Lạy Chúa Giêsu Kitô, Chúa đã nói với các Tông đồ rằng: \"Thầy để lại bình an cho các con, Thầy ban bình an của Thầy cho các con\". Xin đừng chấp tội chúng con, nhưng xin nhìn đến đức tin của",
+        "Hội Thánh Chúa; xin đoái thương ban cho Hội Thánh được bình an và hợp nhất theo thánh ý Chúa. Chúa hằng sống và hiển trị muôn đời.",
+        "CĐ: Amen.",
+        "CT: Bình an của Chúa hằng ở cùng anh chị em.",
+        "CĐ: Và ở cùng cha.",
+        "CT: Anh chị em hãy chúc bình an cho nhau LB: Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.",
+        "Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.",
+        "Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn ai bol kòn in bơta ring lơngai.",
+        "CLY: Do Belàt kòn Yàng dê, do Bơtau tơnroh ală tìs dunia. Bơtoah bol cau geh hòi jà sa Belàt kòn. LB: Ơ Kơnràñ, kòn ờ pal làng Đi mut tam hìu, mơya dăn Đi mìng đơs dùl bơr, gen sồp soàn kòn rơp geh tơmbời. Y. Să Kơnràñ Kristo - Amen."
+      ],
       "text": "NGHI THỨC HIỆP LỄ\nCT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng:\nCĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha cho chúng con hôm nay lương thực hằng ngày, và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con; xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ.\nCT: Lạy Chúa , xin cứu chúng con khỏi mọi sự dữ, xin đoái thương cho những ngày chúng con đang sống được bình an. Nhờ Chúa rộng lòng thương cứu giúp, chúng con sẽ luôn luôn thoát khỏi tội lỗi bơh jơh bơta cuê coa, tŭ găm kơp bơta kơnờm bơtoah mơ gơn tus Kơnràñ Jesu Kristo, Bơtau Tơngklàs bol kòn.\nLB: Kơyoa gơrê mơ Đi, jơh gơnoar, pràn gơnrơh mơ àng gơklŏ jơl ală rài.\nCLY: Ơ Kơnràñ Jesu Kristo, Đi neh đơs mơ bol Dờp pơyoa Đi dê:\nAñ lời bơta ring lơngai bol kòn in, Añ pà bơta ring lơngai Añ dê bol kòn in, dăn Đi bañ sền sơwì ală tìs bol kòn, mơya dăn sền dơ bơta pindờn Pơrjum niăm Đi dê, dăn Đi pơha nùs lơh gơ in ring lơngai mơ tam klăc bal jăt be nùs kờñ Đi dê. Đi ơm kis mơ ăt bồ jơl jơh ală rài.\nLB: Amen.\nCLY: Dăn bơta ring lơngai Kơnràñ dê ơm sùm bal mơ oh mi.\nLB: Bal mơ nùs nhơm đi sơl.\nCLY: Oh mi tam nting săp pơndăp bơr tĕ bơta ring lơngai.\nvà được an toàn khỏi mọi biến loạn, đang khi chúng con mong đợi niềm hy vọng hồng phúc, và ngày trở lại của Chúa Giêsu Kitô, Ðấng Cứu Ðộ chúng con.\nCĐ: Vì vương quyền, uy lực và vinh quang là của Chúa đến muôn đời.\nCT: Lạy Chúa Giêsu Kitô, Chúa đã nói với các Tông đồ rằng: \"Thầy để lại bình an cho các con, Thầy ban bình an của Thầy cho các con\". Xin đừng chấp tội chúng con, nhưng xin nhìn đến đức tin của\nHội Thánh Chúa; xin đoái thương ban cho Hội Thánh được bình an và hợp nhất theo thánh ý Chúa. Chúa hằng sống và hiển trị muôn đời.\nCĐ: Amen.\nCT: Bình an của Chúa hằng ở cùng anh chị em.\nCĐ: Và ở cùng cha.\nCT: Anh chị em hãy chúc bình an cho nhau LB: Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.\nƠ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.\nƠ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn ai bol kòn in bơta ring lơngai.\nCLY: Do Belàt kòn Yàng dê, do Bơtau tơnroh ală tìs dunia. Bơtoah bol cau geh hòi jà sa Belàt kòn. LB: Ơ Kơnràñ, kòn ờ pal làng Đi mut tam hìu, mơya dăn Đi mìng đơs dùl bơr, gen sồp soàn kòn rơp geh tơmbời. Y. Să Kơnràñ Kristo - Amen.",
-      "html": "<div class=\"kho-prayer-text\">NGHI THỨC HIỆP LỄ<br>CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng:<br>CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha cho chúng con hôm nay lương thực hằng ngày, và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con; xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ.<br>CT: Lạy Chúa , xin cứu chúng con khỏi mọi sự dữ, xin đoái thương cho những ngày chúng con đang sống được bình an. Nhờ Chúa rộng lòng thương cứu giúp, chúng con sẽ luôn luôn thoát khỏi tội lỗi bơh jơh bơta cuê coa, tŭ găm kơp bơta kơnờm bơtoah mơ gơn tus Kơnràñ Jesu Kristo, Bơtau Tơngklàs bol kòn.<br>LB: Kơyoa gơrê mơ Đi, jơh gơnoar, pràn gơnrơh mơ àng gơklŏ jơl ală rài.<br>CLY: Ơ Kơnràñ Jesu Kristo, Đi neh đơs mơ bol Dờp pơyoa Đi dê:<br>Añ lời bơta ring lơngai bol kòn in, Añ pà bơta ring lơngai Añ dê bol kòn in, dăn Đi bañ sền sơwì ală tìs bol kòn, mơya dăn sền dơ bơta pindờn Pơrjum niăm Đi dê, dăn Đi pơha nùs lơh gơ in ring lơngai mơ tam klăc bal jăt be nùs kờñ Đi dê. Đi ơm kis mơ ăt bồ jơl jơh ală rài.<br>LB: Amen.<br>CLY: Dăn bơta ring lơngai Kơnràñ dê ơm sùm bal mơ oh mi.<br>LB: Bal mơ nùs nhơm đi sơl.<br>CLY: Oh mi tam nting săp pơndăp bơr tĕ bơta ring lơngai.<br>và được an toàn khỏi mọi biến loạn, đang khi chúng con mong đợi niềm hy vọng hồng phúc, và ngày trở lại của Chúa Giêsu Kitô, Ðấng Cứu Ðộ chúng con.<br>CĐ: Vì vương quyền, uy lực và vinh quang là của Chúa đến muôn đời.<br>CT: Lạy Chúa Giêsu Kitô, Chúa đã nói với các Tông đồ rằng: \"Thầy để lại bình an cho các con, Thầy ban bình an của Thầy cho các con\". Xin đừng chấp tội chúng con, nhưng xin nhìn đến đức tin của<br>Hội Thánh Chúa; xin đoái thương ban cho Hội Thánh được bình an và hợp nhất theo thánh ý Chúa. Chúa hằng sống và hiển trị muôn đời.<br>CĐ: Amen.<br>CT: Bình an của Chúa hằng ở cùng anh chị em.<br>CĐ: Và ở cùng cha.<br>CT: Anh chị em hãy chúc bình an cho nhau LB: Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.<br>Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.<br>Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn ai bol kòn in bơta ring lơngai.<br>CLY: Do Belàt kòn Yàng dê, do Bơtau tơnroh ală tìs dunia. Bơtoah bol cau geh hòi jà sa Belàt kòn. LB: Ơ Kơnràñ, kòn ờ pal làng Đi mut tam hìu, mơya dăn Đi mìng đơs dùl bơr, gen sồp soàn kòn rơp geh tơmbời. Y. Să Kơnràñ Kristo - Amen.</div>",
-      "excerpt": "NGHI THỨC HIỆP LỄ CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng: CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý…",
+      "html": "<p>NGHI THỨC HIỆP LỄ</p>\n<p>CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng:</p>\n<p>CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha cho chúng con hôm nay lương thực hằng ngày, và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con; xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ.</p>\n<p>CT: Lạy Chúa , xin cứu chúng con khỏi mọi sự dữ, xin đoái thương cho những ngày chúng con đang sống được bình an. Nhờ Chúa rộng lòng thương cứu giúp, chúng con sẽ luôn luôn thoát khỏi tội lỗi bơh jơh bơta cuê coa, tŭ găm kơp bơta kơnờm bơtoah mơ gơn tus Kơnràñ Jesu Kristo, Bơtau Tơngklàs bol kòn.</p>\n<p>LB: Kơyoa gơrê mơ Đi, jơh gơnoar, pràn gơnrơh mơ àng gơklŏ jơl ală rài.</p>\n<p>CLY: Ơ Kơnràñ Jesu Kristo, Đi neh đơs mơ bol Dờp pơyoa Đi dê:</p>\n<p>Añ lời bơta ring lơngai bol kòn in, Añ pà bơta ring lơngai Añ dê bol kòn in, dăn Đi bañ sền sơwì ală tìs bol kòn, mơya dăn sền dơ bơta pindờn Pơrjum niăm Đi dê, dăn Đi pơha nùs lơh gơ in ring lơngai mơ tam klăc bal jăt be nùs kờñ Đi dê. Đi ơm kis mơ ăt bồ jơl jơh ală rài.</p>\n<p>LB: Amen.</p>\n<p>CLY: Dăn bơta ring lơngai Kơnràñ dê ơm sùm bal mơ oh mi.</p>\n<p>LB: Bal mơ nùs nhơm đi sơl.</p>\n<p>CLY: Oh mi tam nting săp pơndăp bơr tĕ bơta ring lơngai.</p>\n<p>và được an toàn khỏi mọi biến loạn, đang khi chúng con mong đợi niềm hy vọng hồng phúc, và ngày trở lại của Chúa Giêsu Kitô, Ðấng Cứu Ðộ chúng con.</p>\n<p>CĐ: Vì vương quyền, uy lực và vinh quang là của Chúa đến muôn đời.</p>\n<p>CT: Lạy Chúa Giêsu Kitô, Chúa đã nói với các Tông đồ rằng: \"Thầy để lại bình an cho các con, Thầy ban bình an của Thầy cho các con\". Xin đừng chấp tội chúng con, nhưng xin nhìn đến đức tin của</p>\n<p>Hội Thánh Chúa; xin đoái thương ban cho Hội Thánh được bình an và hợp nhất theo thánh ý Chúa. Chúa hằng sống và hiển trị muôn đời.</p>\n<p>CĐ: Amen.</p>\n<p>CT: Bình an của Chúa hằng ở cùng anh chị em.</p>\n<p>CĐ: Và ở cùng cha.</p>\n<p>CT: Anh chị em hãy chúc bình an cho nhau LB: Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.</p>\n<p>Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn.</p>\n<p>Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn ai bol kòn in bơta ring lơngai.</p>\n<p>CLY: Do Belàt kòn Yàng dê, do Bơtau tơnroh ală tìs dunia. Bơtoah bol cau geh hòi jà sa Belàt kòn. LB: Ơ Kơnràñ, kòn ờ pal làng Đi mut tam hìu, mơya dăn Đi mìng đơs dùl bơr, gen sồp soàn kòn rơp geh tơmbời. Y. Să Kơnràñ Kristo - Amen.</p>",
+      "excerpt": "NGHI THỨC HIỆP LỄ CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng: CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha…",
       "wordCount": 527,
       "lineCount": 22
     },
@@ -537,16 +691,34 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-gung-pondut",
       "categorySlug": "gung-pondut",
       "categoryName": "GÙNG PƠNDUT",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 15,
+      "order": 11,
       "headingLevel": 1,
+      "pageRange": [
+        22,
+        23
+      ],
       "paragraphRange": [
         209,
         219
       ],
+      "lines": [
+        "GÙNG PƠNDUT",
+        "CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.",
+        "CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in.",
+        "LB: Amen",
+        "CLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai.",
+        "LB: Ưn ngài Yàng.",
+        "CĐ: Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con. Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con.",
+        "Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin ban bình an cho chúng con.",
+        "CT: Ðây Chiên Thiên Chúa, đây Ðấng xóa tội trần gian, phúc cho ai được mời đến dự tiệc Chiên Thiên Chúa.",
+        "CĐ: Lạy Chúa, con chẳng đáng Chúa ngự vào nhà con, nhưng xin Chúa phán một lời, thì linh hồn con sẽ lành mạnh.",
+        "X. Mình Thánh Chúa Kitô - Amen"
+      ],
       "text": "GÙNG PƠNDUT\nCLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.\nCLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in.\nLB: Amen\nCLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai.\nLB: Ưn ngài Yàng.\nCĐ: Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con. Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con.\nLạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin ban bình an cho chúng con.\nCT: Ðây Chiên Thiên Chúa, đây Ðấng xóa tội trần gian, phúc cho ai được mời đến dự tiệc Chiên Thiên Chúa.\nCĐ: Lạy Chúa, con chẳng đáng Chúa ngự vào nhà con, nhưng xin Chúa phán một lời, thì linh hồn con sẽ lành mạnh.\nX. Mình Thánh Chúa Kitô - Amen",
-      "html": "<div class=\"kho-prayer-text\">GÙNG PƠNDUT<br>CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.<br>CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in.<br>LB: Amen<br>CLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai.<br>LB: Ưn ngài Yàng.<br>CĐ: Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con. Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con.<br>Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin ban bình an cho chúng con.<br>CT: Ðây Chiên Thiên Chúa, đây Ðấng xóa tội trần gian, phúc cho ai được mời đến dự tiệc Chiên Thiên Chúa.<br>CĐ: Lạy Chúa, con chẳng đáng Chúa ngự vào nhà con, nhưng xin Chúa phán một lời, thì linh hồn con sẽ lành mạnh.<br>X. Mình Thánh Chúa Kitô - Amen</div>",
-      "excerpt": "GÙNG PƠNDUT CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl. CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in. LB: Amen CLY: Lơh Yàng lồc rau, oh…",
+      "html": "<p>GÙNG PƠNDUT</p>\n<p>CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl.</p>\n<p>CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in.</p>\n<p>LB: Amen</p>\n<p>CLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai.</p>\n<p>LB: Ưn ngài Yàng.</p>\n<p>CĐ: Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con. Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con.</p>\n<p>Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin ban bình an cho chúng con.</p>\n<p>CT: Ðây Chiên Thiên Chúa, đây Ðấng xóa tội trần gian, phúc cho ai được mời đến dự tiệc Chiên Thiên Chúa.</p>\n<p>CĐ: Lạy Chúa, con chẳng đáng Chúa ngự vào nhà con, nhưng xin Chúa phán một lời, thì linh hồn con sẽ lành mạnh.</p>\n<p>X. Mình Thánh Chúa Kitô - Amen</p>",
+      "excerpt": "GÙNG PƠNDUT CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl. CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in. LB: Amen CLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai. LB: Ưn ngài Yàng. CĐ: Lạy Chi…",
       "wordCount": 148,
       "lineCount": 11
     },
@@ -557,38 +729,31 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-nghi-thuc-ket-le",
       "categorySlug": "nghi-thuc-ket-le",
       "categoryName": "NGHI THỨC KẾT LỄ",
+      "part": null,
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 16,
+      "order": 12,
       "headingLevel": 1,
+      "pageRange": [
+        23,
+        23
+      ],
       "paragraphRange": [
         221,
         226
       ],
+      "lines": [
+        "NGHI THỨC KẾT LỄ",
+        "CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha.",
+        "CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em.",
+        "CĐ: Amen.",
+        "CT: Lễ xong, chúc anh chị em đi bình an.",
+        "CĐ: Tạ ơn Chúa."
+      ],
       "text": "NGHI THỨC KẾT LỄ\nCT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha.\nCT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em.\nCĐ: Amen.\nCT: Lễ xong, chúc anh chị em đi bình an.\nCĐ: Tạ ơn Chúa.",
-      "html": "<div class=\"kho-prayer-text\">NGHI THỨC KẾT LỄ<br>CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha.<br>CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em.<br>CĐ: Amen.<br>CT: Lễ xong, chúc anh chị em đi bình an.<br>CĐ: Tạ ơn Chúa.</div>",
-      "excerpt": "NGHI THỨC KẾT LỄ CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha. CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em. CĐ: Amen. CT: Lễ xong, chúc anh chị…",
+      "html": "<p>NGHI THỨC KẾT LỄ</p>\n<p>CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha.</p>\n<p>CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em.</p>\n<p>CĐ: Amen.</p>\n<p>CT: Lễ xong, chúc anh chị em đi bình an.</p>\n<p>CĐ: Tạ ơn Chúa.</p>",
+      "excerpt": "NGHI THỨC KẾT LỄ CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha. CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em. CĐ: Amen. CT: Lễ xong, chúc anh chị em đi bình an. CĐ: Tạ ơn Chúa.",
       "wordCount": 52,
       "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-kinh-nguyen",
-      "slug": "kinh-nguyen/kinh-nguyen",
-      "title": "KINH NGUYỆN",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 17,
-      "headingLevel": 1,
-      "paragraphRange": [
-        252,
-        252
-      ],
-      "text": "KINH NGUYỆN",
-      "html": "<div class=\"kho-prayer-text\">KINH NGUYỆN</div>",
-      "excerpt": "KINH NGUYỆN",
-      "wordCount": 2,
-      "lineCount": 1
     },
     {
       "id": "kinh-nguyen-kho-1-tel-chikal",
@@ -597,15 +762,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 18,
+      "order": 13,
       "headingLevel": 2,
+      "pageRange": [
+        25,
+        26
+      ],
       "paragraphRange": [
         254,
         256
       ],
+      "lines": [
+        "1. Tềl chikal",
+        "Bơh sơnđăn Yàng Bàp mơ Yàng",
+        "Kòn mơ Yàng Nhơm. Amen."
+      ],
       "text": "1. Tềl chikal\nBơh sơnđăn Yàng Bàp mơ Yàng\nKòn mơ Yàng Nhơm. Amen.",
-      "html": "<div class=\"kho-prayer-text\">1. Tềl chikal<br>Bơh sơnđăn Yàng Bàp mơ Yàng<br>Kòn mơ Yàng Nhơm. Amen.</div>",
+      "html": "<p>1. Tềl chikal</p>\n<p>Bơh sơnđăn Yàng Bàp mơ Yàng</p>\n<p>Kòn mơ Yàng Nhơm. Amen.</p>",
       "excerpt": "1. Tềl chikal Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm. Amen.",
       "wordCount": 14,
       "lineCount": 3
@@ -617,78 +792,39 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 19,
+      "order": 14,
       "headingLevel": 2,
+      "pageRange": [
+        26,
+        27
+      ],
       "paragraphRange": [
         257,
-        262
-      ],
-      "text": "2. Huềng duh yal\nY. Huềng duh Kơnràñ dê neh yal Maria in,\nH. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.\n- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.\nY. Do ùr duh broă Kơnràñ dê\nH. Dăn gơlik gơs añ in jăt be jơnau Đi dê.",
-      "html": "<div class=\"kho-prayer-text\">2. Huềng duh yal<br>Y. Huềng duh Kơnràñ dê neh yal Maria in,<br>H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.<br>- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.<br>Y. Do ùr duh broă Kơnràñ dê<br>H. Dăn gơlik gơs añ in jăt be jơnau Đi dê.</div>",
-      "excerpt": "2. Huềng duh yal Y. Huềng duh Kơnràñ dê neh yal Maria in, H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ…",
-      "wordCount": 89,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-cho-gom-ai-maria-maria-niam-goh",
-      "slug": "kinh-nguyen/cho-gom-ai-maria-maria-niam-goh",
-      "title": "+ Chờ gờm Ai Maria … - Maria niăm goh, …",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 20,
-      "headingLevel": 2,
-      "paragraphRange": [
-        263,
-        265
-      ],
-      "text": "+ Chờ gờm Ai Maria … - Maria niăm goh, …\nY. Mơ Jơnau Đơs neh gơs poăc să,\nH. Mơ Khai neh ơm tam gùl bol he",
-      "html": "<div class=\"kho-prayer-text\">+ Chờ gờm Ai Maria … - Maria niăm goh, …<br>Y. Mơ Jơnau Đơs neh gơs poăc să,<br>H. Mơ Khai neh ơm tam gùl bol he</div>",
-      "excerpt": "+ Chờ gờm Ai Maria … - Maria niăm goh, … Y. Mơ Jơnau Đơs neh gơs poăc să, H. Mơ Khai neh ơm tam gùl bol he",
-      "wordCount": 24,
-      "lineCount": 3
-    },
-    {
-      "id": "kinh-nguyen-kho-cho-gom-ai-maria-maria-niam-goh-2",
-      "slug": "kinh-nguyen/cho-gom-ai-maria-maria-niam-goh",
-      "title": "+ Chờ gờm Ai Maria … - Maria niăm goh, …",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 21,
-      "headingLevel": 2,
-      "paragraphRange": [
-        266,
-        268
-      ],
-      "text": "+ Chờ gờm Ai Maria … - Maria niăm goh, …\nY. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê\nH. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.",
-      "html": "<div class=\"kho-prayer-text\">+ Chờ gờm Ai Maria … - Maria niăm goh, …<br>Y. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê<br>H. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.</div>",
-      "excerpt": "+ Chờ gờm Ai Maria … - Maria niăm goh, … Y. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê H. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.",
-      "wordCount": 34,
-      "lineCount": 3
-    },
-    {
-      "id": "kinh-nguyen-kho-he-rac-ih",
-      "slug": "kinh-nguyen/he-rac-ih",
-      "title": "He răc ih,",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 22,
-      "headingLevel": 2,
-      "paragraphRange": [
-        269,
         270
       ],
-      "text": "He răc ih,\nƠ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">He răc ih,<br>Ơ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "He răc ih, Ơ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong…",
-      "wordCount": 66,
-      "lineCount": 2
+      "lines": [
+        "2. Huềng duh yal",
+        "Y. Huềng duh Kơnràñ dê neh yal Maria in,",
+        "H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.",
+        "- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.",
+        "Y. Do ùr duh broă Kơnràñ dê",
+        "H. Dăn gơlik gơs añ in jăt be jơnau Đi dê.",
+        "+ Chờ gờm Ai Maria … - Maria niăm goh, …",
+        "Y. Mơ Jơnau Đơs neh gơs poăc să,",
+        "H. Mơ Khai neh ơm tam gùl bol he",
+        "+ Chờ gờm Ai Maria … - Maria niăm goh, …",
+        "Y. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê",
+        "H. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.",
+        "He răc ih,",
+        "Ơ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
+      "text": "2. Huềng duh yal\nY. Huềng duh Kơnràñ dê neh yal Maria in,\nH. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.\n- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.\nY. Do ùr duh broă Kơnràñ dê\nH. Dăn gơlik gơs añ in jăt be jơnau Đi dê.\n+ Chờ gờm Ai Maria … - Maria niăm goh, …\nY. Mơ Jơnau Đơs neh gơs poăc să,\nH. Mơ Khai neh ơm tam gùl bol he\n+ Chờ gờm Ai Maria … - Maria niăm goh, …\nY. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê\nH. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.\nHe răc ih,\nƠ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
+      "html": "<p>2. Huềng duh yal</p>\n<p>Y. Huềng duh Kơnràñ dê neh yal Maria in,</p>\n<p>H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.</p>\n<p>- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.</p>\n<p>Y. Do ùr duh broă Kơnràñ dê</p>\n<p>H. Dăn gơlik gơs añ in jăt be jơnau Đi dê.</p>\n<p>+ Chờ gờm Ai Maria … - Maria niăm goh, …</p>\n<p>Y. Mơ Jơnau Đơs neh gơs poăc să,</p>\n<p>H. Mơ Khai neh ơm tam gùl bol he</p>\n<p>+ Chờ gờm Ai Maria … - Maria niăm goh, …</p>\n<p>Y. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê</p>\n<p>H. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê.</p>\n<p>He răc ih,</p>\n<p>Ơ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "2. Huềng duh yal Y. Huềng duh Kơnràñ dê neh yal Maria in, H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm. - Maria niăm go…",
+      "wordCount": 213,
+      "lineCount": 14
     },
     {
       "id": "kinh-nguyen-kho-1-dau-thanh-gia",
@@ -697,15 +833,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 23,
+      "order": 15,
       "headingLevel": 3,
+      "pageRange": [
+        27,
+        27
+      ],
       "paragraphRange": [
         273,
         275
       ],
+      "lines": [
+        "1. Dấu Thánh giá",
+        "Nhân danh Cha và Con và Thánh Thần.",
+        "Amen."
+      ],
       "text": "1. Dấu Thánh giá\nNhân danh Cha và Con và Thánh Thần.\nAmen.",
-      "html": "<div class=\"kho-prayer-text\">1. Dấu Thánh giá<br>Nhân danh Cha và Con và Thánh Thần.<br>Amen.</div>",
+      "html": "<p>1. Dấu Thánh giá</p>\n<p>Nhân danh Cha và Con và Thánh Thần.</p>\n<p>Amen.</p>",
       "excerpt": "1. Dấu Thánh giá Nhân danh Cha và Con và Thánh Thần. Amen.",
       "wordCount": 13,
       "lineCount": 3
@@ -717,78 +863,71 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 24,
+      "order": 16,
       "headingLevel": 3,
+      "pageRange": [
+        27,
+        28
+      ],
       "paragraphRange": [
         276,
-        277
+        288
       ],
-      "text": "2. Kinh Truyền tin\nX: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..",
-      "html": "<div class=\"kho-prayer-text\">2. Kinh Truyền tin<br>X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..</div>",
-      "excerpt": "2. Kinh Truyền tin X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..",
-      "wordCount": 36,
-      "lineCount": 2
+      "lines": [
+        "2. Kinh Truyền tin",
+        "X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..",
+        "- Thánh Maria……",
+        "X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền.",
+        "+ Kính mừng…..",
+        "Thánh Maria……",
+        "X: Chốc ấy Ngôi Thứ Hai xuống thế làm người.",
+        "Đ: Và ở cùng chúng con. + Kính mừng…..",
+        "Thánh Maria……",
+        "X: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con.",
+        "Đ: Đáng chịu lấy những sự Chúa Kitô đã hứa.",
+        "Chúng ta cùng cầu nguyện:",
+        "Lạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen."
+      ],
+      "text": "2. Kinh Truyền tin\nX: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..\n- Thánh Maria……\nX: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền.\n+ Kính mừng…..\nThánh Maria……\nX: Chốc ấy Ngôi Thứ Hai xuống thế làm người.\nĐ: Và ở cùng chúng con. + Kính mừng…..\nThánh Maria……\nX: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con.\nĐ: Đáng chịu lấy những sự Chúa Kitô đã hứa.\nChúng ta cùng cầu nguyện:\nLạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen.",
+      "html": "<p>2. Kinh Truyền tin</p>\n<p>X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng…..</p>\n<p>- Thánh Maria……</p>\n<p>X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền.</p>\n<p>+ Kính mừng…..</p>\n<p>Thánh Maria……</p>\n<p>X: Chốc ấy Ngôi Thứ Hai xuống thế làm người.</p>\n<p>Đ: Và ở cùng chúng con. + Kính mừng…..</p>\n<p>Thánh Maria……</p>\n<p>X: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con.</p>\n<p>Đ: Đáng chịu lấy những sự Chúa Kitô đã hứa.</p>\n<p>Chúng ta cùng cầu nguyện:</p>\n<p>Lạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen.</p>",
+      "excerpt": "2. Kinh Truyền tin X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng….. - Thánh Maria…… X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vân…",
+      "wordCount": 182,
+      "lineCount": 13
     },
     {
-      "id": "kinh-nguyen-kho-thanh-maria",
-      "slug": "kinh-nguyen/thanh-maria",
-      "title": "- Thánh Maria……",
+      "id": "kinh-nguyen-kho-3-o-ur-botau-tro-de-tam-kal-kis-wol",
+      "slug": "kinh-nguyen/3-o-ur-botau-tro-de-tam-kal-kis-wol",
+      "title": "3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 25,
-      "headingLevel": 2,
-      "paragraphRange": [
-        278,
-        280
+      "order": 17,
+      "headingLevel": null,
+      "pageRange": [
+        29,
+        29
       ],
-      "text": "- Thánh Maria……\nX: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền.\n+ Kính mừng…..",
-      "html": "<div class=\"kho-prayer-text\">- Thánh Maria……<br>X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền.<br>+ Kính mừng…..</div>",
-      "excerpt": "- Thánh Maria…… X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền. + Kính mừng…..",
-      "wordCount": 23,
-      "lineCount": 3
-    },
-    {
-      "id": "kinh-nguyen-kho-thanh-maria-2",
-      "slug": "kinh-nguyen/thanh-maria",
-      "title": "Thánh Maria……",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 26,
-      "headingLevel": 2,
       "paragraphRange": [
-        281,
-        283
-      ],
-      "text": "Thánh Maria……\nX: Chốc ấy Ngôi Thứ Hai xuống thế làm người.\nĐ: Và ở cùng chúng con. + Kính mừng…..",
-      "html": "<div class=\"kho-prayer-text\">Thánh Maria……<br>X: Chốc ấy Ngôi Thứ Hai xuống thế làm người.<br>Đ: Và ở cùng chúng con. + Kính mừng…..</div>",
-      "excerpt": "Thánh Maria…… X: Chốc ấy Ngôi Thứ Hai xuống thế làm người. Đ: Và ở cùng chúng con. + Kính mừng…..",
-      "wordCount": 20,
-      "lineCount": 3
-    },
-    {
-      "id": "kinh-nguyen-kho-thanh-maria-3",
-      "slug": "kinh-nguyen/thanh-maria",
-      "title": "Thánh Maria……",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 27,
-      "headingLevel": 2,
-      "paragraphRange": [
-        284,
+        291,
         295
       ],
-      "text": "Thánh Maria……\nX: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con.\nĐ: Đáng chịu lấy những sự Chúa Kitô đã hứa.\nChúng ta cùng cầu nguyện:\nLạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen.\n3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl) Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!\nH. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia.\nY. Neh kis wơl be Khai neh đơs. Alleluia.\nH. Dăn răc Yàng bol kòn in.\nAlleluia.",
-      "html": "<div class=\"kho-prayer-text\">Thánh Maria……<br>X: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con.<br>Đ: Đáng chịu lấy những sự Chúa Kitô đã hứa.<br>Chúng ta cùng cầu nguyện:<br>Lạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen.<br>3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl) Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!<br>H. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia.<br>Y. Neh kis wơl be Khai neh đơs. Alleluia.<br>H. Dăn răc Yàng bol kòn in.<br>Alleluia.</div>",
-      "excerpt": "Thánh Maria…… X: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con. Đ: Đáng chịu lấy những sự Chúa Kitô đã hứa. Chúng ta cùng cầu nguyện: Lạy Chúa, chúng con xin Chúa ban ơn xuống trong…",
-      "wordCount": 150,
-      "lineCount": 10
+      "lines": [
+        "3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl)",
+        "Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!",
+        "H. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia.",
+        "Y. Neh kis wơl be Khai neh đơs. Alleluia.",
+        "H. Dăn răc Yàng bol kòn in.",
+        "Alleluia."
+      ],
+      "text": "3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl)\nY. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!\nH. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia.\nY. Neh kis wơl be Khai neh đơs. Alleluia.\nH. Dăn răc Yàng bol kòn in.\nAlleluia.",
+      "html": "<p>3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl)</p>\n<p>Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!</p>\n<p>H. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia.</p>\n<p>Y. Neh kis wơl be Khai neh đơs. Alleluia.</p>\n<p>H. Dăn răc Yàng bol kòn in.</p>\n<p>Alleluia.</p>",
+      "excerpt": "3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl) Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia! H. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia. Y. Neh kis wơl be Khai neh đơs. Alleluia. H. Dăn răc Yàng bol kòn in. Alleluia.",
+      "wordCount": 47,
+      "lineCount": 6
     },
     {
       "id": "kinh-nguyen-kho-3-lay-nu-vuong-thien-dang",
@@ -797,16 +936,32 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 28,
+      "order": 18,
       "headingLevel": 3,
+      "pageRange": [
+        29,
+        30
+      ],
       "paragraphRange": [
         296,
         305
       ],
+      "lines": [
+        "3. Lạy Nữ Vương Thiên Đàng",
+        "X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia.",
+        "Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia.",
+        "Đ: Xin cầu cùng Chúa cho chúng con.",
+        "Alleluia.",
+        "Y. Chờhờp chờchờr tĕ, ơ Maria Ùr tơmo ! Alleluia !",
+        "H. Bơh Kơnràñ neh kis wơl ngăn. Alleluia !",
+        "He răc ih,",
+        "Ơ Yàng, - Đi neh pơha nùs tơnchờ dunia bơh bơta kis wơl Kòn Đi dê, Jesu Kristo, Kơnràñ bol kòn, dăn Đi lơh làng bol kòn in, bơh Maria Ùr tơmo, Mè Khai dê, - dờp ală bơta chờhờp rài kis gơs sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn - Amen."
+      ],
       "text": "3. Lạy Nữ Vương Thiên Đàng\nX: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia.\nĐ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia.\nĐ: Xin cầu cùng Chúa cho chúng con.\nAlleluia.\nY. Chờhờp chờchờr tĕ, ơ Maria Ùr tơmo ! Alleluia !\nH. Bơh Kơnràñ neh kis wơl ngăn. Alleluia !\nHe răc ih,\nƠ Yàng, - Đi neh pơha nùs tơnchờ dunia bơh bơta kis wơl Kòn Đi dê, Jesu Kristo, Kơnràñ bol kòn, dăn Đi lơh làng bol kòn in, bơh Maria Ùr tơmo, Mè Khai dê, - dờp ală bơta chờhờp rài kis gơs sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn - Amen.",
-      "html": "<div class=\"kho-prayer-text\">3. Lạy Nữ Vương Thiên Đàng<br>X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia.<br>Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia.<br>Đ: Xin cầu cùng Chúa cho chúng con.<br>Alleluia.<br>Y. Chờhờp chờchờr tĕ, ơ Maria Ùr tơmo ! Alleluia !<br>H. Bơh Kơnràñ neh kis wơl ngăn. Alleluia !<br>He răc ih,<br>Ơ Yàng, - Đi neh pơha nùs tơnchờ dunia bơh bơta kis wơl Kòn Đi dê, Jesu Kristo, Kơnràñ bol kòn, dăn Đi lơh làng bol kòn in, bơh Maria Ùr tơmo, Mè Khai dê, - dờp ală bơta chờhờp rài kis gơs sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn - Amen.</div>",
-      "excerpt": "3. Lạy Nữ Vương Thiên Đàng X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia. Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia…",
+      "html": "<p>3. Lạy Nữ Vương Thiên Đàng</p>\n<p>X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia.</p>\n<p>Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia.</p>\n<p>Đ: Xin cầu cùng Chúa cho chúng con.</p>\n<p>Alleluia.</p>\n<p>Y. Chờhờp chờchờr tĕ, ơ Maria Ùr tơmo ! Alleluia !</p>\n<p>H. Bơh Kơnràñ neh kis wơl ngăn. Alleluia !</p>\n<p>He răc ih,</p>\n<p>Ơ Yàng, - Đi neh pơha nùs tơnchờ dunia bơh bơta kis wơl Kòn Đi dê, Jesu Kristo, Kơnràñ bol kòn, dăn Đi lơh làng bol kòn in, bơh Maria Ùr tơmo, Mè Khai dê, - dờp ală bơta chờhờp rài kis gơs sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn - Amen.</p>",
+      "excerpt": "3. Lạy Nữ Vương Thiên Đàng X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia. Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia. Đ: Xin cầu cùng Chúa cho chúng con. Alleluia. Y. Chờ…",
       "wordCount": 121,
       "lineCount": 9
     },
@@ -817,16 +972,32 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 29,
+      "order": 19,
       "headingLevel": 3,
+      "pageRange": [
+        31,
+        31
+      ],
       "paragraphRange": [
         307,
         317
       ],
+      "lines": [
+        "4. Ơ Yàng Nhơm",
+        "Y. Ơ Yàng Nhơm, dăn Đi tus,",
+        "H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai",
+        "Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs,",
+        "H. Mơ Đi lơh pa wơl măt ù-tiah.",
+        "X: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoan khoái lạc. Alleluia.",
+        "Đ: Vì Chúa đã sống lại thật. Alleluia.",
+        "Chúng ta cùng cầu nguyện:",
+        "Lạy Chúa là Đấng đã làm cho thiên hạ được vui mừng quá bội, bởi Đức Chúa Giêsu Kitô là Con Chúa, cùng là Chúa chúng con, đã sống lại; xin vì Đức Nữ Đồng Trinh Maria là Thánh Mẫu Người, nguyện cầu cho chúng con được hưởng phúc vui vẻ hằng sống đời đời. Vì công nghiệp Chúa Kitô là Chúa chúng con. Amen."
+      ],
       "text": "4. Ơ Yàng Nhơm\nY. Ơ Yàng Nhơm, dăn Đi tus,\nH. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai\nY. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs,\nH. Mơ Đi lơh pa wơl măt ù-tiah.\nX: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoan khoái lạc. Alleluia.\nĐ: Vì Chúa đã sống lại thật. Alleluia.\nChúng ta cùng cầu nguyện:\nLạy Chúa là Đấng đã làm cho thiên hạ được vui mừng quá bội, bởi Đức Chúa Giêsu Kitô là Con Chúa, cùng là Chúa chúng con, đã sống lại; xin vì Đức Nữ Đồng Trinh Maria là Thánh Mẫu Người, nguyện cầu cho chúng con được hưởng phúc vui vẻ hằng sống đời đời. Vì công nghiệp Chúa Kitô là Chúa chúng con. Amen.",
-      "html": "<div class=\"kho-prayer-text\">4. Ơ Yàng Nhơm<br>Y. Ơ Yàng Nhơm, dăn Đi tus,<br>H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai<br>Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs,<br>H. Mơ Đi lơh pa wơl măt ù-tiah.<br>X: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoan khoái lạc. Alleluia.<br>Đ: Vì Chúa đã sống lại thật. Alleluia.<br>Chúng ta cùng cầu nguyện:<br>Lạy Chúa là Đấng đã làm cho thiên hạ được vui mừng quá bội, bởi Đức Chúa Giêsu Kitô là Con Chúa, cùng là Chúa chúng con, đã sống lại; xin vì Đức Nữ Đồng Trinh Maria là Thánh Mẫu Người, nguyện cầu cho chúng con được hưởng phúc vui vẻ hằng sống đời đời. Vì công nghiệp Chúa Kitô là Chúa chúng con. Amen.</div>",
-      "excerpt": "4. Ơ Yàng Nhơm Y. Ơ Yàng Nhơm, dăn Đi tus, H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs, H. Mơ Đi lơh pa wơl măt…",
+      "html": "<p>4. Ơ Yàng Nhơm</p>\n<p>Y. Ơ Yàng Nhơm, dăn Đi tus,</p>\n<p>H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai</p>\n<p>Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs,</p>\n<p>H. Mơ Đi lơh pa wơl măt ù-tiah.</p>\n<p>X: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoan khoái lạc. Alleluia.</p>\n<p>Đ: Vì Chúa đã sống lại thật. Alleluia.</p>\n<p>Chúng ta cùng cầu nguyện:</p>\n<p>Lạy Chúa là Đấng đã làm cho thiên hạ được vui mừng quá bội, bởi Đức Chúa Giêsu Kitô là Con Chúa, cùng là Chúa chúng con, đã sống lại; xin vì Đức Nữ Đồng Trinh Maria là Thánh Mẫu Người, nguyện cầu cho chúng con được hưởng phúc vui vẻ hằng sống đời đời. Vì công nghiệp Chúa Kitô là Chúa chúng con. Amen.</p>",
+      "excerpt": "4. Ơ Yàng Nhơm Y. Ơ Yàng Nhơm, dăn Đi tus, H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs, H. Mơ Đi lơh pa wơl măt ù-tiah. X: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoa…",
       "wordCount": 140,
       "lineCount": 9
     },
@@ -837,16 +1008,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 30,
+      "order": 20,
       "headingLevel": 3,
+      "pageRange": [
+        32,
+        32
+      ],
       "paragraphRange": [
         319,
         324
       ],
+      "lines": [
+        "4. Kinh Đức Chúa Thánh Thần",
+        "Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con; chúng con xin Đức Chúa Trời cho Đức Chúa Thánh Thần xuống.",
+        "He răc ih,",
+        "Ơ Yàng, Đi neh ai bơta àng Yàng",
+        "Nhơm dê — bơto nùs bol pindờn, Dăn ai bol kòn in tiăm tam Nhơm hơ̆ ală jơnau",
+        "Song dơpă, mơ chờhờp sùm bơh Khai pơndờm-pơnđiăng, Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, Amen."
+      ],
       "text": "4. Kinh Đức Chúa Thánh Thần\nChúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con; chúng con xin Đức Chúa Trời cho Đức Chúa Thánh Thần xuống.\nHe răc ih,\nƠ Yàng, Đi neh ai bơta àng Yàng\nNhơm dê — bơto nùs bol pindờn, Dăn ai bol kòn in tiăm tam Nhơm hơ̆ ală jơnau\nSong dơpă, mơ chờhờp sùm bơh Khai pơndờm-pơnđiăng, Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, Amen.",
-      "html": "<div class=\"kho-prayer-text\">4. Kinh Đức Chúa Thánh Thần<br>Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con; chúng con xin Đức Chúa Trời cho Đức Chúa Thánh Thần xuống.<br>He răc ih,<br>Ơ Yàng, Đi neh ai bơta àng Yàng<br>Nhơm dê — bơto nùs bol pindờn, Dăn ai bol kòn in tiăm tam Nhơm hơ̆ ală jơnau<br>Song dơpă, mơ chờhờp sùm bơh Khai pơndờm-pơnđiăng, Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, Amen.</div>",
-      "excerpt": "4. Kinh Đức Chúa Thánh Thần Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và…",
+      "html": "<p>4. Kinh Đức Chúa Thánh Thần</p>\n<p>Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con; chúng con xin Đức Chúa Trời cho Đức Chúa Thánh Thần xuống.</p>\n<p>He răc ih,</p>\n<p>Ơ Yàng, Đi neh ai bơta àng Yàng</p>\n<p>Nhơm dê — bơto nùs bol pindờn, Dăn ai bol kòn in tiăm tam Nhơm hơ̆ ală jơnau</p>\n<p>Song dơpă, mơ chờhờp sùm bơh Khai pơndờm-pơnđiăng, Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, Amen.</p>",
+      "excerpt": "4. Kinh Đức Chúa Thánh Thần Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con…",
       "wordCount": 111,
       "lineCount": 6
     },
@@ -857,16 +1041,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 31,
+      "order": 21,
       "headingLevel": 3,
+      "pageRange": [
+        33,
+        33
+      ],
       "paragraphRange": [
         327,
         328
       ],
+      "lines": [
+        "5. Dăn Kơnràñ pơnđàng",
+        "Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen."
+      ],
       "text": "5. Dăn Kơnràñ pơnđàng\nƠ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen.",
-      "html": "<div class=\"kho-prayer-text\">5. Dăn Kơnràñ pơnđàng<br>Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen.</div>",
-      "excerpt": "5. Dăn Kơnràñ pơnđàng Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm…",
+      "html": "<p>5. Dăn Kơnràñ pơnđàng</p>\n<p>Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen.</p>",
+      "excerpt": "5. Dăn Kơnràñ pơnđàng Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen.",
       "wordCount": 42,
       "lineCount": 2
     },
@@ -877,16 +1070,28 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 32,
+      "order": 22,
       "headingLevel": 3,
+      "pageRange": [
+        33,
+        33
+      ],
       "paragraphRange": [
         330,
         334
       ],
+      "lines": [
+        "6. Añ pindờn Yàng",
+        "Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah.",
+        "Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he:",
+        "- Sửa lại mọi sự trong ngoài chúng con.",
+        "Chúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi lòng dậy dỗ các Thánh Tông Đồ, thì rầy chúng con cũng xin Đức Chúa Trời cho Đức Chúa Thánh Thần lại xuống, yên ủi dạy dỗ chúng con làm những việc lành, vì công nghiệp vô cùng Đức Chúa GiêsuKitô là Chúa chúng con. Amen."
+      ],
       "text": "6. Añ pindờn Yàng\nAñ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah.\nAñ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he:\n- Sửa lại mọi sự trong ngoài chúng con.\nChúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi lòng dậy dỗ các Thánh Tông Đồ, thì rầy chúng con cũng xin Đức Chúa Trời cho Đức Chúa Thánh Thần lại xuống, yên ủi dạy dỗ chúng con làm những việc lành, vì công nghiệp vô cùng Đức Chúa GiêsuKitô là Chúa chúng con. Amen.",
-      "html": "<div class=\"kho-prayer-text\">6. Añ pindờn Yàng<br>Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah.<br>Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he:<br>- Sửa lại mọi sự trong ngoài chúng con.<br>Chúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi lòng dậy dỗ các Thánh Tông Đồ, thì rầy chúng con cũng xin Đức Chúa Trời cho Đức Chúa Thánh Thần lại xuống, yên ủi dạy dỗ chúng con làm những việc lành, vì công nghiệp vô cùng Đức Chúa GiêsuKitô là Chúa chúng con. Amen.</div>",
-      "excerpt": "6. Añ pindờn Yàng Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah. Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he: - Sửa lại mọi sự trong ngoài chúng con. Chúng con cầu cùng Đức…",
+      "html": "<p>6. Añ pindờn Yàng</p>\n<p>Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah.</p>\n<p>Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he:</p>\n<p>- Sửa lại mọi sự trong ngoài chúng con.</p>\n<p>Chúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi lòng dậy dỗ các Thánh Tông Đồ, thì rầy chúng con cũng xin Đức Chúa Trời cho Đức Chúa Thánh Thần lại xuống, yên ủi dạy dỗ chúng con làm những việc lành, vì công nghiệp vô cùng Đức Chúa GiêsuKitô là Chúa chúng con. Amen.</p>",
+      "excerpt": "6. Añ pindờn Yàng Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah. Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he: - Sửa lại mọi sự trong ngoài chúng con. Chúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi l…",
       "wordCount": 95,
       "lineCount": 5
     },
@@ -897,16 +1102,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 33,
+      "order": 23,
       "headingLevel": 3,
+      "pageRange": [
+        34,
+        34
+      ],
       "paragraphRange": [
         336,
         337
       ],
+      "lines": [
+        "5. Kinh sáng soi",
+        "Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen."
+      ],
       "text": "5. Kinh sáng soi\nCúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen.",
-      "html": "<div class=\"kho-prayer-text\">5. Kinh sáng soi<br>Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen.</div>",
-      "excerpt": "5. Kinh sáng soi Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn…",
+      "html": "<p>5. Kinh sáng soi</p>\n<p>Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen.</p>",
+      "excerpt": "5. Kinh sáng soi Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen.",
       "wordCount": 44,
       "lineCount": 2
     },
@@ -917,16 +1131,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 34,
+      "order": 24,
       "headingLevel": 3,
+      "pageRange": [
+        34,
+        35
+      ],
       "paragraphRange": [
         339,
         345
       ],
+      "lines": [
+        "6. Kinh Tin Kính",
+        "Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất.",
+        "Tôi tin kính Đức Chúa Giêsu Kitô là Con Một",
+        "Đức Chúa Cha cùng là Chúa chúng tôi",
+        "neh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài Ponsio Pilato, kong tơs dơ chikal, chơt mơ kong tơp, mù tam làng bồc, ngai pe kis wơl bơh bol cau chơt, guh trồ, nggui đah ma Yàng Bàp tờm gơnrơh, bơh nggen hìngnau tus cah rơña cau kis mơ cau chơt.",
+        "Añ pindờn Yàng Nhơm, Pơrjum niăm goh jơh ală cau in, bơta bol niăm goh tamklăc bal, bơta hồ tìs, bơta poăc să kis wơl – mơ bơta kis sùm. Amen."
+      ],
       "text": "6. Kinh Tin Kính\nTôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất.\nTôi tin kính Đức Chúa Giêsu Kitô là Con Một\nĐức Chúa Cha cùng là Chúa chúng tôi\nneh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài Ponsio Pilato, kong tơs dơ chikal, chơt mơ kong tơp, mù tam làng bồc, ngai pe kis wơl bơh bol cau chơt, guh trồ, nggui đah ma Yàng Bàp tờm gơnrơh, bơh nggen hìngnau tus cah rơña cau kis mơ cau chơt.\nAñ pindờn Yàng Nhơm, Pơrjum niăm goh jơh ală cau in, bơta bol niăm goh tamklăc bal, bơta hồ tìs, bơta poăc să kis wơl – mơ bơta kis sùm. Amen.",
-      "html": "<div class=\"kho-prayer-text\">6. Kinh Tin Kính<br>Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất.<br>Tôi tin kính Đức Chúa Giêsu Kitô là Con Một<br>Đức Chúa Cha cùng là Chúa chúng tôi<br>neh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài Ponsio Pilato, kong tơs dơ chikal, chơt mơ kong tơp, mù tam làng bồc, ngai pe kis wơl bơh bol cau chơt, guh trồ, nggui đah ma Yàng Bàp tờm gơnrơh, bơh nggen hìngnau tus cah rơña cau kis mơ cau chơt.<br>Añ pindờn Yàng Nhơm, Pơrjum niăm goh jơh ală cau in, bơta bol niăm goh tamklăc bal, bơta hồ tìs, bơta poăc să kis wơl – mơ bơta kis sùm. Amen.</div>",
-      "excerpt": "6. Kinh Tin Kính Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất. Tôi tin kính Đức Chúa Giêsu Kitô là Con Một Đức Chúa Cha cùng là Chúa chúng tôi neh geh ơn bun bơh…",
+      "html": "<p>6. Kinh Tin Kính</p>\n<p>Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất.</p>\n<p>Tôi tin kính Đức Chúa Giêsu Kitô là Con Một</p>\n<p>Đức Chúa Cha cùng là Chúa chúng tôi</p>\n<p>neh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài Ponsio Pilato, kong tơs dơ chikal, chơt mơ kong tơp, mù tam làng bồc, ngai pe kis wơl bơh bol cau chơt, guh trồ, nggui đah ma Yàng Bàp tờm gơnrơh, bơh nggen hìngnau tus cah rơña cau kis mơ cau chơt.</p>\n<p>Añ pindờn Yàng Nhơm, Pơrjum niăm goh jơh ală cau in, bơta bol niăm goh tamklăc bal, bơta hồ tìs, bơta poăc să kis wơl – mơ bơta kis sùm. Amen.</p>",
+      "excerpt": "6. Kinh Tin Kính Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất. Tôi tin kính Đức Chúa Giêsu Kitô là Con Một Đức Chúa Cha cùng là Chúa chúng tôi neh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài…",
       "wordCount": 127,
       "lineCount": 6
     },
@@ -937,16 +1164,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 35,
+      "order": 25,
       "headingLevel": 3,
+      "pageRange": [
+        35,
+        35
+      ],
       "paragraphRange": [
         347,
         350
       ],
+      "lines": [
+        "7. Kòn pindờn",
+        "Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờñ ngăn kis mơ chơt tam bơta pindờn gen.",
+        "Amen.",
+        "bởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria đồng trinh, chịu nạn đời quan Phong-xi-ô Philatô, chịu đóng đanh trên cây Thánh-giá, chết và táng xác; xuống ngục tổ tông, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống phán xét kẻ sống và kẻ chết. Tôi tin kính Đức Chúa Thánh Thần. Tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công. Tôi tin phép tha tội. Tôi tin xác loài người ngày sau sống lại. Tôi tin hằng sống vậy. Amen."
+      ],
       "text": "7. Kòn pindờn\nKòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờñ ngăn kis mơ chơt tam bơta pindờn gen.\nAmen.\nbởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria đồng trinh, chịu nạn đời quan Phong-xi-ô Philatô, chịu đóng đanh trên cây Thánh-giá, chết và táng xác; xuống ngục tổ tông, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống phán xét kẻ sống và kẻ chết. Tôi tin kính Đức Chúa Thánh Thần. Tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công. Tôi tin phép tha tội. Tôi tin xác loài người ngày sau sống lại. Tôi tin hằng sống vậy. Amen.",
-      "html": "<div class=\"kho-prayer-text\">7. Kòn pindờn<br>Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờñ ngăn kis mơ chơt tam bơta pindờn gen.<br>Amen.<br>bởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria đồng trinh, chịu nạn đời quan Phong-xi-ô Philatô, chịu đóng đanh trên cây Thánh-giá, chết và táng xác; xuống ngục tổ tông, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống phán xét kẻ sống và kẻ chết. Tôi tin kính Đức Chúa Thánh Thần. Tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công. Tôi tin phép tha tội. Tôi tin xác loài người ngày sau sống lại. Tôi tin hằng sống vậy. Amen.</div>",
-      "excerpt": "7. Kòn pindờn Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn…",
+      "html": "<p>7. Kòn pindờn</p>\n<p>Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờñ ngăn kis mơ chơt tam bơta pindờn gen.</p>\n<p>Amen.</p>\n<p>bởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria đồng trinh, chịu nạn đời quan Phong-xi-ô Philatô, chịu đóng đanh trên cây Thánh-giá, chết và táng xác; xuống ngục tổ tông, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống phán xét kẻ sống và kẻ chết. Tôi tin kính Đức Chúa Thánh Thần. Tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công. Tôi tin phép tha tội. Tôi tin xác loài người ngày sau sống lại. Tôi tin hằng sống vậy. Amen.</p>",
+      "excerpt": "7. Kòn pindờn Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờ…",
       "wordCount": 174,
       "lineCount": 4
     },
@@ -957,16 +1195,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 36,
+      "order": 26,
       "headingLevel": 3,
+      "pageRange": [
+        36,
+        36
+      ],
       "paragraphRange": [
         352,
         354
       ],
+      "lines": [
+        "7. Kinh Tin",
+        "Lạy Chúa con, con tin thật có một Đức Chúa",
+        "Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các điều Hội Thánh dậy thì con tin vững vàng vì Chúa là Đấng thông minh và chân thật vô cùng đã phán truyền cho Hội Thánh. Amen."
+      ],
       "text": "7. Kinh Tin\nLạy Chúa con, con tin thật có một Đức Chúa\nTrời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các điều Hội Thánh dậy thì con tin vững vàng vì Chúa là Đấng thông minh và chân thật vô cùng đã phán truyền cho Hội Thánh. Amen.",
-      "html": "<div class=\"kho-prayer-text\">7. Kinh Tin<br>Lạy Chúa con, con tin thật có một Đức Chúa<br>Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các điều Hội Thánh dậy thì con tin vững vàng vì Chúa là Đấng thông minh và chân thật vô cùng đã phán truyền cho Hội Thánh. Amen.</div>",
-      "excerpt": "7. Kinh Tin Lạy Chúa con, con tin thật có một Đức Chúa Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết…",
+      "html": "<p>7. Kinh Tin</p>\n<p>Lạy Chúa con, con tin thật có một Đức Chúa</p>\n<p>Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các điều Hội Thánh dậy thì con tin vững vàng vì Chúa là Đấng thông minh và chân thật vô cùng đã phán truyền cho Hội Thánh. Amen.</p>",
+      "excerpt": "7. Kinh Tin Lạy Chúa con, con tin thật có một Đức Chúa Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các…",
       "wordCount": 81,
       "lineCount": 3
     },
@@ -977,16 +1225,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 37,
+      "order": 27,
       "headingLevel": 3,
+      "pageRange": [
+        37,
+        37
+      ],
       "paragraphRange": [
         355,
         356
       ],
+      "lines": [
+        "8. Kòn kơnờm",
+        "Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn pin ngăn geh be hơ̆ , bơh Đi tờm song dơpă sùm. Amen."
+      ],
       "text": "8. Kòn kơnờm\nKòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn pin ngăn geh be hơ̆ , bơh Đi tờm song dơpă sùm. Amen.",
-      "html": "<div class=\"kho-prayer-text\">8. Kòn kơnờm<br>Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn pin ngăn geh be hơ̆ , bơh Đi tờm song dơpă sùm. Amen.</div>",
-      "excerpt": "8. Kòn kơnờm Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit…",
+      "html": "<p>8. Kòn kơnờm</p>\n<p>Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn pin ngăn geh be hơ̆ , bơh Đi tờm song dơpă sùm. Amen.</p>",
+      "excerpt": "8. Kòn kơnờm Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn…",
       "wordCount": 66,
       "lineCount": 2
     },
@@ -997,16 +1254,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 38,
+      "order": 28,
       "headingLevel": 3,
+      "pageRange": [
+        37,
+        37
+      ],
       "paragraphRange": [
         358,
         359
       ],
+      "lines": [
+        "9. Kòn gơboh",
+        "Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen."
+      ],
       "text": "9. Kòn gơboh\nKòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen.",
-      "html": "<div class=\"kho-prayer-text\">9. Kòn gơboh<br>Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen.</div>",
-      "excerpt": "9. Kòn gơboh Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn…",
+      "html": "<p>9. Kòn gơboh</p>\n<p>Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen.</p>",
+      "excerpt": "9. Kòn gơboh Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen.",
       "wordCount": 49,
       "lineCount": 2
     },
@@ -1017,15 +1283,24 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 39,
+      "order": 29,
       "headingLevel": 3,
+      "pageRange": [
+        37,
+        38
+      ],
       "paragraphRange": [
         361,
         362
       ],
+      "lines": [
+        "10. Ơ Bàp",
+        "Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ."
+      ],
       "text": "10. Ơ Bàp\nƠ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ.",
-      "html": "<div class=\"kho-prayer-text\">10. Ơ Bàp<br>Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ.</div>",
+      "html": "<p>10. Ơ Bàp</p>\n<p>Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ.</p>",
       "excerpt": "10. Ơ Bàp Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ.",
       "wordCount": 31,
       "lineCount": 2
@@ -1037,16 +1312,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 40,
+      "order": 30,
       "headingLevel": 3,
+      "pageRange": [
+        38,
+        38
+      ],
       "paragraphRange": [
         364,
         365
       ],
+      "lines": [
+        "8. Kinh Cậy",
+        "Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lòng lành vô cùng đã phán hứa sự ấy chẳng có lẽ nào sai được. Amen."
+      ],
       "text": "8. Kinh Cậy\nLạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lòng lành vô cùng đã phán hứa sự ấy chẳng có lẽ nào sai được. Amen.",
-      "html": "<div class=\"kho-prayer-text\">8. Kinh Cậy<br>Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lòng lành vô cùng đã phán hứa sự ấy chẳng có lẽ nào sai được. Amen.</div>",
-      "excerpt": "8. Kinh Cậy Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời…",
+      "html": "<p>8. Kinh Cậy</p>\n<p>Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lòng lành vô cùng đã phán hứa sự ấy chẳng có lẽ nào sai được. Amen.</p>",
+      "excerpt": "8. Kinh Cậy Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lò…",
       "wordCount": 70,
       "lineCount": 2
     },
@@ -1057,15 +1341,24 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 41,
+      "order": 31,
       "headingLevel": 3,
+      "pageRange": [
+        38,
+        38
+      ],
       "paragraphRange": [
         367,
         368
       ],
+      "lines": [
+        "9. Kinh Mến",
+        "Lạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen."
+      ],
       "text": "9. Kinh Mến\nLạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen.",
-      "html": "<div class=\"kho-prayer-text\">9. Kinh Mến<br>Lạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen.</div>",
+      "html": "<p>9. Kinh Mến</p>\n<p>Lạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen.</p>",
       "excerpt": "9. Kinh Mến Lạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen.",
       "wordCount": 42,
       "lineCount": 2
@@ -1077,16 +1370,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 42,
+      "order": 32,
       "headingLevel": 3,
+      "pageRange": [
+        39,
+        39
+      ],
       "paragraphRange": [
         371,
         374
       ],
+      "lines": [
+        "10. Kinh Lạy Cha",
+        "Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời.",
+        "Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh. - Amen."
+      ],
       "text": "10. Kinh Lạy Cha\nLạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời.\nDăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh. - Amen.",
-      "html": "<div class=\"kho-prayer-text\">10. Kinh Lạy Cha<br>Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời.<br>Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh. - Amen.</div>",
-      "excerpt": "10. Kinh Lạy Cha Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời. Dăn ai bol kòn in ngai do phan sa pah ngai…",
+      "html": "<p>10. Kinh Lạy Cha</p>\n<p>Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời.</p>\n<p>Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh. - Amen.</p>",
+      "excerpt": "10. Kinh Lạy Cha Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ…",
       "wordCount": 73,
       "lineCount": 3
     },
@@ -1097,16 +1400,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 43,
+      "order": 33,
       "headingLevel": 3,
+      "pageRange": [
+        39,
+        39
+      ],
       "paragraphRange": [
         376,
         379
       ],
+      "lines": [
+        "11. Chờ-gờm",
+        "Chờ-gờm Ai Maria bềng jơnau hàng goh,",
+        "Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.",
+        "Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen."
+      ],
       "text": "11. Chờ-gờm\nChờ-gờm Ai Maria bềng jơnau hàng goh,\nKơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.\nMaria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.",
-      "html": "<div class=\"kho-prayer-text\">11. Chờ-gờm<br>Chờ-gờm Ai Maria bềng jơnau hàng goh,<br>Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.<br>Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.</div>",
-      "excerpt": "11. Chờ-gờm Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm. Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn…",
+      "html": "<p>11. Chờ-gờm</p>\n<p>Chờ-gờm Ai Maria bềng jơnau hàng goh,</p>\n<p>Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm.</p>\n<p>Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.</p>",
+      "excerpt": "11. Chờ-gờm Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm. Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen.",
       "wordCount": 53,
       "lineCount": 4
     },
@@ -1117,16 +1431,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 44,
+      "order": 34,
       "headingLevel": 3,
+      "pageRange": [
+        39,
+        40
+      ],
       "paragraphRange": [
         382,
         387
       ],
+      "lines": [
+        "12. Gơklŏ",
+        "Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen.",
+        "Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ. Amen."
+      ],
       "text": "12. Gơklŏ\nGơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen.\nXin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ. Amen.",
-      "html": "<div class=\"kho-prayer-text\">12. Gơklŏ<br>Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen.<br>Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ. Amen.</div>",
-      "excerpt": "12. Gơklŏ Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen. Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ…",
+      "html": "<p>12. Gơklŏ</p>\n<p>Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen.</p>\n<p>Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ. Amen.</p>",
+      "excerpt": "12. Gơklŏ Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen. Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nh…",
       "wordCount": 62,
       "lineCount": 3
     },
@@ -1137,16 +1461,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 45,
+      "order": 35,
       "headingLevel": 3,
+      "pageRange": [
+        40,
+        40
+      ],
       "paragraphRange": [
         389,
         391
       ],
+      "lines": [
+        "11. Kinh Kính Mừng",
+        "Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ.",
+        "Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen."
+      ],
       "text": "11. Kinh Kính Mừng\nKính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ.\nThánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen.",
-      "html": "<div class=\"kho-prayer-text\">11. Kinh Kính Mừng<br>Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ.<br>Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen.</div>",
-      "excerpt": "11. Kinh Kính Mừng Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ. Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là…",
+      "html": "<p>11. Kinh Kính Mừng</p>\n<p>Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ.</p>\n<p>Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen.</p>",
+      "excerpt": "11. Kinh Kính Mừng Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ. Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen.",
       "wordCount": 54,
       "lineCount": 3
     },
@@ -1157,15 +1491,24 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 46,
+      "order": 36,
       "headingLevel": 3,
+      "pageRange": [
+        41,
+        41
+      ],
       "paragraphRange": [
         394,
         395
       ],
+      "lines": [
+        "12. Kinh Sáng Danh",
+        "Sáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen."
+      ],
       "text": "12. Kinh Sáng Danh\nSáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen.",
-      "html": "<div class=\"kho-prayer-text\">12. Kinh Sáng Danh<br>Sáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen.</div>",
+      "html": "<p>12. Kinh Sáng Danh</p>\n<p>Sáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen.</p>",
       "excerpt": "12. Kinh Sáng Danh Sáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen.",
       "wordCount": 36,
       "lineCount": 2
@@ -1177,16 +1520,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 47,
+      "order": 37,
       "headingLevel": 3,
+      "pageRange": [
+        41,
+        41
+      ],
       "paragraphRange": [
         397,
         400
       ],
+      "lines": [
+        "13. Dăn Kơnràñ ai pràn",
+        "Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng song ring Đi dê sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
+        "(Tam ngai-yàng mơ tam ngai leh dờng gen đal bơnah do tai: 14-19)"
+      ],
       "text": "13. Dăn Kơnràñ ai pràn\nƠ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng song ring Đi dê sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.\n(Tam ngai-yàng mơ tam ngai leh dờng gen đal bơnah do tai: 14-19)",
-      "html": "<div class=\"kho-prayer-text\">13. Dăn Kơnràñ ai pràn<br>Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng song ring Đi dê sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.<br>(Tam ngai-yàng mơ tam ngai leh dờng gen đal bơnah do tai: 14-19)</div>",
-      "excerpt": "13. Dăn Kơnràñ ai pràn Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi…",
+      "html": "<p>13. Dăn Kơnràñ ai pràn</p>\n<p>Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng song ring Đi dê sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>\n<p>(Tam ngai-yàng mơ tam ngai leh dờng gen đal bơnah do tai: 14-19)</p>",
+      "excerpt": "13. Dăn Kơnràñ ai pràn Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng…",
       "wordCount": 84,
       "lineCount": 3
     },
@@ -1197,18 +1550,62 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 48,
+      "order": 38,
       "headingLevel": 4,
+      "pageRange": [
+        41,
+        42
+      ],
       "paragraphRange": [
         402,
+        409
+      ],
+      "lines": [
+        "14. Jơt jơnau Yàng sồr",
+        "Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh.",
+        "Bàr : Bañ tơmoh gời să Yàng.",
+        "Pe : Ơm duh khoai ngai yàng.",
+        "Poan : Dong nđàc me bàp.",
+        "Prăm : Bañ gơsơt cau.",
+        "Prau : Bañ lơh dri bơrnàn.",
+        "Poh: Bañ kơñau phan cau."
+      ],
+      "text": "14. Jơt jơnau Yàng sồr\nDùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh.\nBàr : Bañ tơmoh gời să Yàng.\nPe : Ơm duh khoai ngai yàng.\nPoan : Dong nđàc me bàp.\nPrăm : Bañ gơsơt cau.\nPrau : Bañ lơh dri bơrnàn.\nPoh: Bañ kơñau phan cau.",
+      "html": "<p>14. Jơt jơnau Yàng sồr</p>\n<p>Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh.</p>\n<p>Bàr : Bañ tơmoh gời să Yàng.</p>\n<p>Pe : Ơm duh khoai ngai yàng.</p>\n<p>Poan : Dong nđàc me bàp.</p>\n<p>Prăm : Bañ gơsơt cau.</p>\n<p>Prau : Bañ lơh dri bơrnàn.</p>\n<p>Poh: Bañ kơñau phan cau.</p>",
+      "excerpt": "14. Jơt jơnau Yàng sồr Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh. Bàr : Bañ tơmoh gời să Yàng. Pe : Ơm duh khoai ngai yàng. Poan : Dong nđàc me bàp. Prăm : Bañ gơsơt cau. Prau : Bañ lơh dri bơrnàn. Poh: Bañ kơñau phan cau.",
+      "wordCount": 48,
+      "lineCount": 8
+    },
+    {
+      "id": "kinh-nguyen-kho-13-kinh-dang-minh-buoi-sang",
+      "slug": "kinh-nguyen/13-kinh-dang-minh-buoi-sang",
+      "title": "13. Kinh dâng mình buổi sáng",
+      "categoryId": "cat-kinh-nguyen",
+      "categorySlug": "kinh-nguyen",
+      "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
+      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
+      "order": 39,
+      "headingLevel": null,
+      "pageRange": [
+        42,
+        42
+      ],
+      "paragraphRange": [
+        410,
         411
       ],
-      "text": "14. Jơt jơnau Yàng sồr\nDùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh.\nBàr : Bañ tơmoh gời să Yàng.\nPe : Ơm duh khoai ngai yàng.\nPoan : Dong nđàc me bàp.\nPrăm : Bañ gơsơt cau.\nPrau : Bañ lơh dri bơrnàn.\nPoh: Bañ kơñau phan cau.\n13. Kinh dâng mình buổi sáng\nLạy Chúa là sự sáng linh hồn con …",
-      "html": "<div class=\"kho-prayer-text\">14. Jơt jơnau Yàng sồr<br>Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh.<br>Bàr : Bañ tơmoh gời să Yàng.<br>Pe : Ơm duh khoai ngai yàng.<br>Poan : Dong nđàc me bàp.<br>Prăm : Bañ gơsơt cau.<br>Prau : Bañ lơh dri bơrnàn.<br>Poh: Bañ kơñau phan cau.<br>13. Kinh dâng mình buổi sáng<br>Lạy Chúa là sự sáng linh hồn con …</div>",
-      "excerpt": "14. Jơt jơnau Yàng sồr Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh. Bàr : Bañ tơmoh gời să Yàng. Pe : Ơm duh khoai ngai yàng. Poan : Dong nđàc me bàp. Prăm : Bañ gơsơt cau…",
-      "wordCount": 62,
-      "lineCount": 10
+      "lines": [
+        "13. Kinh dâng mình buổi sáng",
+        "Lạy Chúa là sự sáng linh hồn con …"
+      ],
+      "text": "13. Kinh dâng mình buổi sáng\nLạy Chúa là sự sáng linh hồn con …",
+      "html": "<p>13. Kinh dâng mình buổi sáng</p>\n<p>Lạy Chúa là sự sáng linh hồn con …</p>",
+      "excerpt": "13. Kinh dâng mình buổi sáng Lạy Chúa là sự sáng linh hồn con …",
+      "wordCount": 14,
+      "lineCount": 2
     },
     {
       "id": "kinh-nguyen-kho-14-kinh-muoi-dieu-ran",
@@ -1217,16 +1614,34 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 49,
+      "order": 40,
       "headingLevel": 4,
+      "pageRange": [
+        43,
+        43
+      ],
       "paragraphRange": [
         424,
         434
       ],
+      "lines": [
+        "14. Kinh mười điều răn",
+        "Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ.",
+        "Thứ ba: giữ ngày chủ nhật.",
+        "Thứ bốn: thảo kính cha mẹ.",
+        "Thứ năm: chớ giết người.",
+        "Thứ sáu: chớ làm sự dâm dục.",
+        "Thứ bảy: chớ lấy của người.",
+        "Phàm: Bañ đơs blăc.",
+        "Sin: Bañ ngờñ bao cau",
+        "Jơt: Bañ hàm phan cau.",
+        "Jơt jơnau gen trơgùm wơl tam bàr bơta do : kờñ gơboh mơ Yàng rơlau jơh, mơ kờñ gơboh mơ cau kàr să tờm he. Amen."
+      ],
       "text": "14. Kinh mười điều răn\nThứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ.\nThứ ba: giữ ngày chủ nhật.\nThứ bốn: thảo kính cha mẹ.\nThứ năm: chớ giết người.\nThứ sáu: chớ làm sự dâm dục.\nThứ bảy: chớ lấy của người.\nPhàm: Bañ đơs blăc.\nSin: Bañ ngờñ bao cau\nJơt: Bañ hàm phan cau.\nJơt jơnau gen trơgùm wơl tam bàr bơta do : kờñ gơboh mơ Yàng rơlau jơh, mơ kờñ gơboh mơ cau kàr să tờm he. Amen.",
-      "html": "<div class=\"kho-prayer-text\">14. Kinh mười điều răn<br>Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ.<br>Thứ ba: giữ ngày chủ nhật.<br>Thứ bốn: thảo kính cha mẹ.<br>Thứ năm: chớ giết người.<br>Thứ sáu: chớ làm sự dâm dục.<br>Thứ bảy: chớ lấy của người.<br>Phàm: Bañ đơs blăc.<br>Sin: Bañ ngờñ bao cau<br>Jơt: Bañ hàm phan cau.<br>Jơt jơnau gen trơgùm wơl tam bàr bơta do : kờñ gơboh mơ Yàng rơlau jơh, mơ kờñ gơboh mơ cau kàr să tờm he. Amen.</div>",
-      "excerpt": "14. Kinh mười điều răn Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ. Thứ ba: giữ ngày chủ nhật. Thứ bốn: thảo kính cha…",
+      "html": "<p>14. Kinh mười điều răn</p>\n<p>Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ.</p>\n<p>Thứ ba: giữ ngày chủ nhật.</p>\n<p>Thứ bốn: thảo kính cha mẹ.</p>\n<p>Thứ năm: chớ giết người.</p>\n<p>Thứ sáu: chớ làm sự dâm dục.</p>\n<p>Thứ bảy: chớ lấy của người.</p>\n<p>Phàm: Bañ đơs blăc.</p>\n<p>Sin: Bañ ngờñ bao cau</p>\n<p>Jơt: Bañ hàm phan cau.</p>\n<p>Jơt jơnau gen trơgùm wơl tam bàr bơta do : kờñ gơboh mơ Yàng rơlau jơh, mơ kờñ gơboh mơ cau kàr să tờm he. Amen.</p>",
+      "excerpt": "14. Kinh mười điều răn Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ. Thứ ba: giữ ngày chủ nhật. Thứ bốn: thảo kính cha mẹ. Thứ năm: chớ giết người. Thứ sáu: chớ làm sự dâ…",
       "wordCount": 100,
       "lineCount": 11
     },
@@ -1237,18 +1652,69 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 50,
+      "order": 41,
       "headingLevel": 4,
+      "pageRange": [
+        43,
+        44
+      ],
       "paragraphRange": [
         437,
+        448
+      ],
+      "lines": [
+        "15. Prau jơnau Pơrjum niăm sồr",
+        "Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr.",
+        "Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr.",
+        "Pe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl.",
+        "Prăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr.",
+        "Prau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr.",
+        "Thứ tám: chớ làm chứng dối.",
+        "Thứ chín: chớ muốn vợ chồng người.",
+        "Thứ mười: chớ tham của người.",
+        "Mười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen."
+      ],
+      "text": "15. Prau jơnau Pơrjum niăm sồr\nDùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr.\nBàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr.\nPe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl.\nPrăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr.\nPrau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr.\nThứ tám: chớ làm chứng dối.\nThứ chín: chớ muốn vợ chồng người.\nThứ mười: chớ tham của người.\nMười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen.",
+      "html": "<p>15. Prau jơnau Pơrjum niăm sồr</p>\n<p>Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr.</p>\n<p>Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr.</p>\n<p>Pe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl.</p>\n<p>Prăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr.</p>\n<p>Prau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr.</p>\n<p>Thứ tám: chớ làm chứng dối.</p>\n<p>Thứ chín: chớ muốn vợ chồng người.</p>\n<p>Thứ mười: chớ tham của người.</p>\n<p>Mười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen.</p>",
+      "excerpt": "15. Prau jơnau Pơrjum niăm sồr Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr. Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr. Pe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis W…",
+      "wordCount": 126,
+      "lineCount": 10
+    },
+    {
+      "id": "kinh-nguyen-kho-15-kinh-sau-dieu-ran-hoi-thanh",
+      "slug": "kinh-nguyen/15-kinh-sau-dieu-ran-hoi-thanh",
+      "title": "15. Kinh sáu điều răn Hội Thánh",
+      "categoryId": "cat-kinh-nguyen",
+      "categorySlug": "kinh-nguyen",
+      "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
+      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
+      "order": 42,
+      "headingLevel": null,
+      "pageRange": [
+        44,
+        45
+      ],
+      "paragraphRange": [
+        450,
         455
       ],
-      "text": "15. Prau jơnau Pơrjum niăm sồr\nDùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr.\nBàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr.\nPe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl.\nPrăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr.\nPrau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr.\nThứ tám: chớ làm chứng dối.\nThứ chín: chớ muốn vợ chồng người.\nThứ mười: chớ tham của người.\nMười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen.\n15. Kinh sáu điều răn Hội Thánh Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc.\nThứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc.\nThứ ba: xưng tội trong một năm ít là một lần.\nThứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh.\nThứ năm: giữ chay những ngày Hội-thánh buộc.\nThứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy.",
-      "html": "<div class=\"kho-prayer-text\">15. Prau jơnau Pơrjum niăm sồr<br>Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr.<br>Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr.<br>Pe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl.<br>Prăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr.<br>Prau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr.<br>Thứ tám: chớ làm chứng dối.<br>Thứ chín: chớ muốn vợ chồng người.<br>Thứ mười: chớ tham của người.<br>Mười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen.<br>15. Kinh sáu điều răn Hội Thánh Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc.<br>Thứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc.<br>Thứ ba: xưng tội trong một năm ít là một lần.<br>Thứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh.<br>Thứ năm: giữ chay những ngày Hội-thánh buộc.<br>Thứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy.</div>",
-      "excerpt": "15. Prau jơnau Pơrjum niăm sồr Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr. Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr. Pe: Yal tìs tam dùl năm êt lah…",
-      "wordCount": 205,
-      "lineCount": 16
+      "lines": [
+        "15. Kinh sáu điều răn Hội Thánh",
+        "Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc.",
+        "Thứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc.",
+        "Thứ ba: xưng tội trong một năm ít là một lần.",
+        "Thứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh.",
+        "Thứ năm: giữ chay những ngày Hội-thánh buộc.",
+        "Thứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy."
+      ],
+      "text": "15. Kinh sáu điều răn Hội Thánh\nThứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc.\nThứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc.\nThứ ba: xưng tội trong một năm ít là một lần.\nThứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh.\nThứ năm: giữ chay những ngày Hội-thánh buộc.\nThứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy.",
+      "html": "<p>15. Kinh sáu điều răn Hội Thánh</p>\n<p>Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc.</p>\n<p>Thứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc.</p>\n<p>Thứ ba: xưng tội trong một năm ít là một lần.</p>\n<p>Thứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh.</p>\n<p>Thứ năm: giữ chay những ngày Hội-thánh buộc.</p>\n<p>Thứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy.</p>",
+      "excerpt": "15. Kinh sáu điều răn Hội Thánh Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc. Thứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc. Thứ ba: xưng tội trong một năm ít là một lần. Thứ bốn: chịu Mình Thánh Đức Chúa Giêsu tron…",
+      "wordCount": 79,
+      "lineCount": 7
     },
     {
       "id": "kinh-nguyen-kho-16-poh-tel-gonroh",
@@ -1257,16 +1723,28 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 51,
+      "order": 43,
       "headingLevel": 4,
+      "pageRange": [
+        45,
+        46
+      ],
       "paragraphRange": [
         457,
         462
       ],
+      "lines": [
+        "16. Poh tềl-gơnrơh",
+        "Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn.",
+        "Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs.",
+        "Prăm : Tềl-gơnrơh bong jiờu cau kòp.",
+        "Prau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao."
+      ],
       "text": "16. Poh tềl-gơnrơh\nDùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn.\nPe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs.\nPrăm : Tềl-gơnrơh bong jiờu cau kòp.\nPrau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao.",
-      "html": "<div class=\"kho-prayer-text\">16. Poh tềl-gơnrơh<br>Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn.<br>Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs.<br>Prăm : Tềl-gơnrơh bong jiờu cau kòp.<br>Prau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao.</div>",
-      "excerpt": "16. Poh tềl-gơnrơh Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn. Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs. Prăm : Tềl-gơnrơh bong jiờu cau kòp. Prau: Tềl-gơnrơh pồ…",
+      "html": "<p>16. Poh tềl-gơnrơh</p>\n<p>Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn.</p>\n<p>Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs.</p>\n<p>Prăm : Tềl-gơnrơh bong jiờu cau kòp.</p>\n<p>Prau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao.</p>",
+      "excerpt": "16. Poh tềl-gơnrơh Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn. Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs. Prăm : Tềl-gơnrơh bong jiờu cau kòp. Prau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao.",
       "wordCount": 42,
       "lineCount": 5
     },
@@ -1277,16 +1755,30 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 52,
+      "order": 44,
       "headingLevel": 4,
+      "pageRange": [
+        46,
+        46
+      ],
       "paragraphRange": [
         464,
         470
       ],
+      "lines": [
+        "17. Gơboh mơ cau geh jơt poan bơta",
+        "Poh bơta đah să-jăn :",
+        "Dùl: Ai cau jơgloh in sa.",
+        "Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm.",
+        "Prăm: Ai hìu cau năc in mut.",
+        "Prau: Tơwài cau đi gơna.",
+        "Poh: Dong kờl tơp să cau chơt."
+      ],
       "text": "17. Gơboh mơ cau geh jơt poan bơta\nPoh bơta đah să-jăn :\nDùl: Ai cau jơgloh in sa.\nBàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm.\nPrăm: Ai hìu cau năc in mut.\nPrau: Tơwài cau đi gơna.\nPoh: Dong kờl tơp să cau chơt.",
-      "html": "<div class=\"kho-prayer-text\">17. Gơboh mơ cau geh jơt poan bơta<br>Poh bơta đah să-jăn :<br>Dùl: Ai cau jơgloh in sa.<br>Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm.<br>Prăm: Ai hìu cau năc in mut.<br>Prau: Tơwài cau đi gơna.<br>Poh: Dong kờl tơp să cau chơt.</div>",
-      "excerpt": "17. Gơboh mơ cau geh jơt poan bơta Poh bơta đah să-jăn : Dùl: Ai cau jơgloh in sa. Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm. Prăm: Ai hìu cau năc in…",
+      "html": "<p>17. Gơboh mơ cau geh jơt poan bơta</p>\n<p>Poh bơta đah să-jăn :</p>\n<p>Dùl: Ai cau jơgloh in sa.</p>\n<p>Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm.</p>\n<p>Prăm: Ai hìu cau năc in mut.</p>\n<p>Prau: Tơwài cau đi gơna.</p>\n<p>Poh: Dong kờl tơp să cau chơt.</p>",
+      "excerpt": "17. Gơboh mơ cau geh jơt poan bơta Poh bơta đah să-jăn : Dùl: Ai cau jơgloh in sa. Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm. Prăm: Ai hìu cau năc in mut. Prau: Tơwài cau đi gơna. Poh: Dong kờl tơp să c…",
       "wordCount": 58,
       "lineCount": 7
     },
@@ -1297,16 +1789,31 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 53,
+      "order": 45,
       "headingLevel": 4,
+      "pageRange": [
+        46,
+        47
+      ],
       "paragraphRange": [
         472,
         479
       ],
+      "lines": [
+        "16. Bảy phép bí tích",
+        "Thứ nhất: là phép Rửa tội.",
+        "Thứ hai: là phép Thêm sức.",
+        "Thứ ba: là phép Mình Thánh Chúa.",
+        "Thứ bốn: là phép Giải tội.",
+        "Thứ năm: là phép Xức dầu thánh.",
+        "Thứ sáu: là phép Truyền chức thánh.",
+        "Thứ bảy: là phép Hôn-phối."
+      ],
       "text": "16. Bảy phép bí tích\nThứ nhất: là phép Rửa tội.\nThứ hai: là phép Thêm sức.\nThứ ba: là phép Mình Thánh Chúa.\nThứ bốn: là phép Giải tội.\nThứ năm: là phép Xức dầu thánh.\nThứ sáu: là phép Truyền chức thánh.\nThứ bảy: là phép Hôn-phối.",
-      "html": "<div class=\"kho-prayer-text\">16. Bảy phép bí tích<br>Thứ nhất: là phép Rửa tội.<br>Thứ hai: là phép Thêm sức.<br>Thứ ba: là phép Mình Thánh Chúa.<br>Thứ bốn: là phép Giải tội.<br>Thứ năm: là phép Xức dầu thánh.<br>Thứ sáu: là phép Truyền chức thánh.<br>Thứ bảy: là phép Hôn-phối.</div>",
-      "excerpt": "16. Bảy phép bí tích Thứ nhất: là phép Rửa tội. Thứ hai: là phép Thêm sức. Thứ ba: là phép Mình Thánh Chúa. Thứ bốn: là phép Giải tội. Thứ năm: là phép Xức dầu thánh. Thứ sáu: là phép…",
+      "html": "<p>16. Bảy phép bí tích</p>\n<p>Thứ nhất: là phép Rửa tội.</p>\n<p>Thứ hai: là phép Thêm sức.</p>\n<p>Thứ ba: là phép Mình Thánh Chúa.</p>\n<p>Thứ bốn: là phép Giải tội.</p>\n<p>Thứ năm: là phép Xức dầu thánh.</p>\n<p>Thứ sáu: là phép Truyền chức thánh.</p>\n<p>Thứ bảy: là phép Hôn-phối.</p>",
+      "excerpt": "16. Bảy phép bí tích Thứ nhất: là phép Rửa tội. Thứ hai: là phép Thêm sức. Thứ ba: là phép Mình Thánh Chúa. Thứ bốn: là phép Giải tội. Thứ năm: là phép Xức dầu thánh. Thứ sáu: là phép Truyền chức thánh. Thứ bảy: là phép Hôn-phối.",
       "wordCount": 50,
       "lineCount": 8
     },
@@ -1317,16 +1824,37 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 54,
+      "order": 46,
       "headingLevel": 4,
+      "pageRange": [
+        47,
+        48
+      ],
       "paragraphRange": [
         480,
         495
       ],
+      "lines": [
+        "17. Thương người có 14 mối",
+        "Thương xác bảy mối",
+        "Thứ nhất: cho kẻ đói ăn.",
+        "Thứ hai: cho kẻ khát uống.",
+        "Thứ ba: cho kẻ rách rưới ăn mặc.",
+        "Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc.",
+        "Thứ năm: cho khách đỗ nhà.",
+        "Thứ sáu: chuộc kẻ làm tôi.",
+        "Thứ bảy: chôn xác kẻ chết.",
+        "Poh bơta đah sồp-soàn :",
+        "Dùl: Bơto jơnau niăm cau in,",
+        "Bàr: Pơnđàng nùs tồr cau brơngơi.",
+        "Pe: Pơndờm pơnđiăng cau mhoăt-yăn.",
+        "Poan: Ràc-kơriăn cau jăt gùng tìs. Prăm: Lời cau ềng sền he ờ-sơp. Prau: Ơt-ơl cau tơnhào nùs he. Poh: Răc cau kỉs mơ cau chơt in."
+      ],
       "text": "17. Thương người có 14 mối\nThương xác bảy mối\nThứ nhất: cho kẻ đói ăn.\nThứ hai: cho kẻ khát uống.\nThứ ba: cho kẻ rách rưới ăn mặc.\nThứ bốn: viếng kẻ liệt cùng kẻ tù rạc.\nThứ năm: cho khách đỗ nhà.\nThứ sáu: chuộc kẻ làm tôi.\nThứ bảy: chôn xác kẻ chết.\nPoh bơta đah sồp-soàn :\nDùl: Bơto jơnau niăm cau in,\nBàr: Pơnđàng nùs tồr cau brơngơi.\nPe: Pơndờm pơnđiăng cau mhoăt-yăn.\nPoan: Ràc-kơriăn cau jăt gùng tìs. Prăm: Lời cau ềng sền he ờ-sơp. Prau: Ơt-ơl cau tơnhào nùs he. Poh: Răc cau kỉs mơ cau chơt in.",
-      "html": "<div class=\"kho-prayer-text\">17. Thương người có 14 mối<br>Thương xác bảy mối<br>Thứ nhất: cho kẻ đói ăn.<br>Thứ hai: cho kẻ khát uống.<br>Thứ ba: cho kẻ rách rưới ăn mặc.<br>Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc.<br>Thứ năm: cho khách đỗ nhà.<br>Thứ sáu: chuộc kẻ làm tôi.<br>Thứ bảy: chôn xác kẻ chết.<br>Poh bơta đah sồp-soàn :<br>Dùl: Bơto jơnau niăm cau in,<br>Bàr: Pơnđàng nùs tồr cau brơngơi.<br>Pe: Pơndờm pơnđiăng cau mhoăt-yăn.<br>Poan: Ràc-kơriăn cau jăt gùng tìs. Prăm: Lời cau ềng sền he ờ-sơp. Prau: Ơt-ơl cau tơnhào nùs he. Poh: Răc cau kỉs mơ cau chơt in.</div>",
-      "excerpt": "17. Thương người có 14 mối Thương xác bảy mối Thứ nhất: cho kẻ đói ăn. Thứ hai: cho kẻ khát uống. Thứ ba: cho kẻ rách rưới ăn mặc. Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc. Thứ năm: cho khách…",
+      "html": "<p>17. Thương người có 14 mối</p>\n<p>Thương xác bảy mối</p>\n<p>Thứ nhất: cho kẻ đói ăn.</p>\n<p>Thứ hai: cho kẻ khát uống.</p>\n<p>Thứ ba: cho kẻ rách rưới ăn mặc.</p>\n<p>Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc.</p>\n<p>Thứ năm: cho khách đỗ nhà.</p>\n<p>Thứ sáu: chuộc kẻ làm tôi.</p>\n<p>Thứ bảy: chôn xác kẻ chết.</p>\n<p>Poh bơta đah sồp-soàn :</p>\n<p>Dùl: Bơto jơnau niăm cau in,</p>\n<p>Bàr: Pơnđàng nùs tồr cau brơngơi.</p>\n<p>Pe: Pơndờm pơnđiăng cau mhoăt-yăn.</p>\n<p>Poan: Ràc-kơriăn cau jăt gùng tìs. Prăm: Lời cau ềng sền he ờ-sơp. Prau: Ơt-ơl cau tơnhào nùs he. Poh: Răc cau kỉs mơ cau chơt in.</p>",
+      "excerpt": "17. Thương người có 14 mối Thương xác bảy mối Thứ nhất: cho kẻ đói ăn. Thứ hai: cho kẻ khát uống. Thứ ba: cho kẻ rách rưới ăn mặc. Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc. Thứ năm: cho khách đỗ nhà. Thứ sáu: chuộc kẻ làm tôi. Thứ bảy: chôn xá…",
       "wordCount": 110,
       "lineCount": 14
     },
@@ -1337,16 +1865,36 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 55,
+      "order": 47,
       "headingLevel": 4,
+      "pageRange": [
+        48,
+        49
+      ],
       "paragraphRange": [
         497,
         514
       ],
+      "lines": [
+        "18. Poh bơta niăm mơ poh bơta tìs tờm",
+        "Dùl: Pơndêt-să, bañ pơnhừ",
+        "Bàr: Bơnas, bañ sềt-pềr.",
+        "Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ.",
+        "Prăm: Kơrhia, bañ jròk.",
+        "Prau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah.",
+        "Thương linh hồn bảy mối:",
+        "Thứ nhất: lấy lời lành mà khuyên người.",
+        "Thứ hai: mở dậy kẻ mê muội. Thứ ba: yên ủi kẻ âu lo.",
+        "Thứ bốn: răn bảo kẻ có tội.",
+        "Thứ năm: tha kẻ dể ta.",
+        "Thứ sáu: nhịn kẻ mất lòng ta.",
+        "Thứ bảy: cầu cho kẻ sống và kẻ chết."
+      ],
       "text": "18. Poh bơta niăm mơ poh bơta tìs tờm\nDùl: Pơndêt-să, bañ pơnhừ\nBàr: Bơnas, bañ sềt-pềr.\nPe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ.\nPrăm: Kơrhia, bañ jròk.\nPrau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah.\nThương linh hồn bảy mối:\nThứ nhất: lấy lời lành mà khuyên người.\nThứ hai: mở dậy kẻ mê muội. Thứ ba: yên ủi kẻ âu lo.\nThứ bốn: răn bảo kẻ có tội.\nThứ năm: tha kẻ dể ta.\nThứ sáu: nhịn kẻ mất lòng ta.\nThứ bảy: cầu cho kẻ sống và kẻ chết.",
-      "html": "<div class=\"kho-prayer-text\">18. Poh bơta niăm mơ poh bơta tìs tờm<br>Dùl: Pơndêt-să, bañ pơnhừ<br>Bàr: Bơnas, bañ sềt-pềr.<br>Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ.<br>Prăm: Kơrhia, bañ jròk.<br>Prau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah.<br>Thương linh hồn bảy mối:<br>Thứ nhất: lấy lời lành mà khuyên người.<br>Thứ hai: mở dậy kẻ mê muội. Thứ ba: yên ủi kẻ âu lo.<br>Thứ bốn: răn bảo kẻ có tội.<br>Thứ năm: tha kẻ dể ta.<br>Thứ sáu: nhịn kẻ mất lòng ta.<br>Thứ bảy: cầu cho kẻ sống và kẻ chết.</div>",
-      "excerpt": "18. Poh bơta niăm mơ poh bơta tìs tờm Dùl: Pơndêt-să, bañ pơnhừ Bàr: Bơnas, bañ sềt-pềr. Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ. Prăm: Kơrhia, bañ jròk. Prau: Gơboh mơ cau…",
+      "html": "<p>18. Poh bơta niăm mơ poh bơta tìs tờm</p>\n<p>Dùl: Pơndêt-să, bañ pơnhừ</p>\n<p>Bàr: Bơnas, bañ sềt-pềr.</p>\n<p>Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ.</p>\n<p>Prăm: Kơrhia, bañ jròk.</p>\n<p>Prau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah.</p>\n<p>Thương linh hồn bảy mối:</p>\n<p>Thứ nhất: lấy lời lành mà khuyên người.</p>\n<p>Thứ hai: mở dậy kẻ mê muội. Thứ ba: yên ủi kẻ âu lo.</p>\n<p>Thứ bốn: răn bảo kẻ có tội.</p>\n<p>Thứ năm: tha kẻ dể ta.</p>\n<p>Thứ sáu: nhịn kẻ mất lòng ta.</p>\n<p>Thứ bảy: cầu cho kẻ sống và kẻ chết.</p>",
+      "excerpt": "18. Poh bơta niăm mơ poh bơta tìs tờm Dùl: Pơndêt-să, bañ pơnhừ Bàr: Bơnas, bañ sềt-pềr. Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ. Prăm: Kơrhia, bañ jròk. Prau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah. Thương linh hồ…",
       "wordCount": 101,
       "lineCount": 13
     },
@@ -1357,16 +1905,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 56,
+      "order": 48,
       "headingLevel": 4,
+      "pageRange": [
+        49,
+        49
+      ],
       "paragraphRange": [
         516,
         522
       ],
+      "lines": [
+        "18. Cải tội bảy mối có bảy đức",
+        "Thứ nhất: khiêm nhường, chớ kiêu ngạo.",
+        "Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục.",
+        "Thứ bốn: hay nhịn, chớ hờn giận.",
+        "Thứ năm: kiêng bớt chớ mê ăn uống.",
+        "Thứ sáu: yêu người chớ ghen ghét. Thứ bảy: siêng năng việc Đức Chúa Trời, chớ làm biếng."
+      ],
       "text": "18. Cải tội bảy mối có bảy đức\nThứ nhất: khiêm nhường, chớ kiêu ngạo.\nThứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục.\nThứ bốn: hay nhịn, chớ hờn giận.\nThứ năm: kiêng bớt chớ mê ăn uống.\nThứ sáu: yêu người chớ ghen ghét. Thứ bảy: siêng năng việc Đức Chúa Trời, chớ làm biếng.",
-      "html": "<div class=\"kho-prayer-text\">18. Cải tội bảy mối có bảy đức<br>Thứ nhất: khiêm nhường, chớ kiêu ngạo.<br>Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục.<br>Thứ bốn: hay nhịn, chớ hờn giận.<br>Thứ năm: kiêng bớt chớ mê ăn uống.<br>Thứ sáu: yêu người chớ ghen ghét. Thứ bảy: siêng năng việc Đức Chúa Trời, chớ làm biếng.</div>",
-      "excerpt": "18. Cải tội bảy mối có bảy đức Thứ nhất: khiêm nhường, chớ kiêu ngạo. Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục. Thứ bốn: hay nhịn, chớ hờn giận. Thứ năm…",
+      "html": "<p>18. Cải tội bảy mối có bảy đức</p>\n<p>Thứ nhất: khiêm nhường, chớ kiêu ngạo.</p>\n<p>Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục.</p>\n<p>Thứ bốn: hay nhịn, chớ hờn giận.</p>\n<p>Thứ năm: kiêng bớt chớ mê ăn uống.</p>\n<p>Thứ sáu: yêu người chớ ghen ghét. Thứ bảy: siêng năng việc Đức Chúa Trời, chớ làm biếng.</p>",
+      "excerpt": "18. Cải tội bảy mối có bảy đức Thứ nhất: khiêm nhường, chớ kiêu ngạo. Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục. Thứ bốn: hay nhịn, chớ hờn giận. Thứ năm: kiêng bớt chớ mê ăn uống. Thứ sáu: yêu người chớ ghen…",
       "wordCount": 65,
       "lineCount": 6
     },
@@ -1377,16 +1938,31 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 57,
+      "order": 49,
       "headingLevel": 4,
+      "pageRange": [
+        49,
+        50
+      ],
       "paragraphRange": [
         524,
         531
       ],
+      "lines": [
+        "19. Phàm bơta bơtoah",
+        "Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai.",
+        "Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah.",
+        "Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau jơgloh tơhìr bơta song-ring, bơh bol khai rơp geh hờm. Prăm: Bơtoah bol cau nđàc-sơngit, bơh bol khai rơp geh sơnđàc.",
+        "Prau: Bơtoah bol cau nùs sàng goh, bơh bol khai rơp gŏ Yàng.",
+        "Poh: Bơtoah bol cau pơnring lơngai, bơh bol khai rơp geh hòi lah kòn Yàng.",
+        "Phàm: Bơtoah bol cau kong kup kơriăn bơh bơta song ring, bơh lơgar trồ gơrê mơ bol khai.",
+        "Chờ hờp mơ rơhờn tĕ bơh phan jờng dờng ngăn tam trồ."
+      ],
       "text": "19. Phàm bơta bơtoah\nDùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai.\nBar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah.\nPe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau jơgloh tơhìr bơta song-ring, bơh bol khai rơp geh hờm. Prăm: Bơtoah bol cau nđàc-sơngit, bơh bol khai rơp geh sơnđàc.\nPrau: Bơtoah bol cau nùs sàng goh, bơh bol khai rơp gŏ Yàng.\nPoh: Bơtoah bol cau pơnring lơngai, bơh bol khai rơp geh hòi lah kòn Yàng.\nPhàm: Bơtoah bol cau kong kup kơriăn bơh bơta song ring, bơh lơgar trồ gơrê mơ bol khai.\nChờ hờp mơ rơhờn tĕ bơh phan jờng dờng ngăn tam trồ.",
-      "html": "<div class=\"kho-prayer-text\">19. Phàm bơta bơtoah<br>Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai.<br>Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah.<br>Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau jơgloh tơhìr bơta song-ring, bơh bol khai rơp geh hờm. Prăm: Bơtoah bol cau nđàc-sơngit, bơh bol khai rơp geh sơnđàc.<br>Prau: Bơtoah bol cau nùs sàng goh, bơh bol khai rơp gŏ Yàng.<br>Poh: Bơtoah bol cau pơnring lơngai, bơh bol khai rơp geh hòi lah kòn Yàng.<br>Phàm: Bơtoah bol cau kong kup kơriăn bơh bơta song ring, bơh lơgar trồ gơrê mơ bol khai.<br>Chờ hờp mơ rơhờn tĕ bơh phan jờng dờng ngăn tam trồ.</div>",
-      "excerpt": "19. Phàm bơta bơtoah Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai. Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah. Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol…",
+      "html": "<p>19. Phàm bơta bơtoah</p>\n<p>Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai.</p>\n<p>Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah.</p>\n<p>Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau jơgloh tơhìr bơta song-ring, bơh bol khai rơp geh hờm. Prăm: Bơtoah bol cau nđàc-sơngit, bơh bol khai rơp geh sơnđàc.</p>\n<p>Prau: Bơtoah bol cau nùs sàng goh, bơh bol khai rơp gŏ Yàng.</p>\n<p>Poh: Bơtoah bol cau pơnring lơngai, bơh bol khai rơp geh hòi lah kòn Yàng.</p>\n<p>Phàm: Bơtoah bol cau kong kup kơriăn bơh bơta song ring, bơh lơgar trồ gơrê mơ bol khai.</p>\n<p>Chờ hờp mơ rơhờn tĕ bơh phan jờng dờng ngăn tam trồ.</p>",
+      "excerpt": "19. Phàm bơta bơtoah Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai. Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah. Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau…",
       "wordCount": 129,
       "lineCount": 8
     },
@@ -1397,278 +1973,151 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 58,
+      "order": 50,
       "headingLevel": 4,
+      "pageRange": [
+        51,
+        52
+      ],
       "paragraphRange": [
         534,
-        543
+        540
       ],
-      "text": "19. Phúc thật tám mối\nThứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.\nThứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ.\nThứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi.\nThứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời.\nThứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời.\nThứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.\n20. Răc ñòng\nPrăm bơta chờhờp",
-      "html": "<div class=\"kho-prayer-text\">19. Phúc thật tám mối<br>Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.<br>Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ.<br>Thứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi.<br>Thứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời.<br>Thứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời.<br>Thứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.<br>20. Răc ñòng<br>Prăm bơta chờhờp</div>",
-      "excerpt": "19. Phúc thật tám mối Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ. Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm…",
-      "wordCount": 170,
+      "lines": [
+        "19. Phúc thật tám mối",
+        "Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.",
+        "Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ.",
+        "Thứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi.",
+        "Thứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời.",
+        "Thứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời.",
+        "Thứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ."
+      ],
+      "text": "19. Phúc thật tám mối\nThứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.\nThứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ.\nThứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi.\nThứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời.\nThứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời.\nThứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.",
+      "html": "<p>19. Phúc thật tám mối</p>\n<p>Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.</p>\n<p>Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ.</p>\n<p>Thứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi.</p>\n<p>Thứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời.</p>\n<p>Thứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời.</p>\n<p>Thứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ.</p>",
+      "excerpt": "19. Phúc thật tám mối Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ. Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ. Thứ ba: ai khóc lóc, đó là phúc thật, vì chư…",
+      "wordCount": 164,
+      "lineCount": 7
+    },
+    {
+      "id": "kinh-nguyen-kho-20-rac-nong",
+      "slug": "kinh-nguyen/20-rac-nong",
+      "title": "20. Răc ñòng",
+      "categoryId": "cat-kinh-nguyen",
+      "categorySlug": "kinh-nguyen",
+      "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
+      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
+      "order": 51,
+      "headingLevel": null,
+      "pageRange": [
+        52,
+        53
+      ],
+      "paragraphRange": [
+        541,
+        555
+      ],
+      "lines": [
+        "20. Răc ñòng",
+        "Prăm bơta chờhờp",
+        "(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)",
+        "Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să.",
+        "Bàr: Kơlôi Mè Maria lòt còp kơnùr",
+        "Elisabet. He dăn lă geh nùs gơboh mơ cau.",
+        "Pe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp.",
+        "Poan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh.",
+        "Prăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng."
+      ],
+      "text": "20. Răc ñòng\nPrăm bơta chờhờp\n(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)\nDùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să.\nBàr: Kơlôi Mè Maria lòt còp kơnùr\nElisabet. He dăn lă geh nùs gơboh mơ cau.\nPe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp.\nPoan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh.\nPrăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng.",
+      "html": "<p>20. Răc ñòng</p>\n<p>Prăm bơta chờhờp</p>\n<p>(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)</p>\n<p>Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să.</p>\n<p>Bàr: Kơlôi Mè Maria lòt còp kơnùr</p>\n<p>Elisabet. He dăn lă geh nùs gơboh mơ cau.</p>\n<p>Pe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp.</p>\n<p>Poan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh.</p>\n<p>Prăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng.</p>",
+      "excerpt": "20. Răc ñòng Prăm bơta chờhờp (Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng) Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să. Bàr: Kơlôi Mè Maria lòt còp kơnùr Elisabet. He dă…",
+      "wordCount": 110,
       "lineCount": 9
     },
     {
-      "id": "kinh-nguyen-kho-tam-ngai-do-bar-mo-tam-ala-ngai-yang-kal-mu-tus-mo-kal-lik-ling",
-      "slug": "kinh-nguyen/tam-ngai-do-bar-mo-tam-ala-ngai-yang-kal-mu-tus-mo-kal-lik-ling",
-      "title": "(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)",
+      "id": "kinh-nguyen-kho-20-phep-lan-hat",
+      "slug": "kinh-nguyen/20-phep-lan-hat",
+      "title": "20. Phép lần hạt",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 59,
-      "headingLevel": 2,
-      "paragraphRange": [
-        544,
-        558
+      "order": 52,
+      "headingLevel": null,
+      "pageRange": [
+        53,
+        63
       ],
-      "text": "(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)\nDùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să.\nBàr: Kơlôi Mè Maria lòt còp kơnùr\nElisabet. He dăn lă geh nùs gơboh mơ cau.\nPe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp.\nPoan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh.\nPrăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng.\n20. Phép lần hạt\nNăm sự vui",
-      "html": "<div class=\"kho-prayer-text\">(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)<br>Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să.<br>Bàr: Kơlôi Mè Maria lòt còp kơnùr<br>Elisabet. He dăn lă geh nùs gơboh mơ cau.<br>Pe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp.<br>Poan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh.<br>Prăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng.<br>20. Phép lần hạt<br>Năm sự vui</div>",
-      "excerpt": "(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng) Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să. Bàr: Kơlôi Mè Maria lòt còp…",
-      "wordCount": 111,
-      "lineCount": 9
-    },
-    {
-      "id": "kinh-nguyen-kho-suy-niem-vao-thu-hai-va-thu-bay",
-      "slug": "kinh-nguyen/suy-niem-vao-thu-hai-va-thu-bay",
-      "title": "(Suy niệm vào thứ Hai và thứ Bẩy)",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 60,
-      "headingLevel": 2,
       "paragraphRange": [
-        559,
-        572
-      ],
-      "text": "(Suy niệm vào thứ Hai và thứ Bẩy)\nThứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường.\nThứ hai thì ngắm: Đức Bà đi viếng bà\nThánh Isave. Ta hãy xin cho được lòng yêu người.\nThứ ba thì ngắm: Đức Bà sinh Đức Chúa\nGiêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn.\nThứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy.\nThứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn.\nPrăm bơta àng",
-      "html": "<div class=\"kho-prayer-text\">(Suy niệm vào thứ Hai và thứ Bẩy)<br>Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường.<br>Thứ hai thì ngắm: Đức Bà đi viếng bà<br>Thánh Isave. Ta hãy xin cho được lòng yêu người.<br>Thứ ba thì ngắm: Đức Bà sinh Đức Chúa<br>Giêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn.<br>Thứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy.<br>Thứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn.<br>Prăm bơta àng</div>",
-      "excerpt": "(Suy niệm vào thứ Hai và thứ Bẩy) Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường. Thứ hai thì ngắm: Đức Bà đi viếng bà Thánh Isave. Ta hãy…",
-      "wordCount": 118,
-      "lineCount": 9
-    },
-    {
-      "id": "kinh-nguyen-kho-tam-ngai-do-pram",
-      "slug": "kinh-nguyen/tam-ngai-do-pram",
-      "title": "(Tam ngai dơ̆ prăm)",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 61,
-      "headingLevel": 2,
-      "paragraphRange": [
-        573,
-        583
-      ],
-      "text": "(Tam ngai dơ̆ prăm)\nDùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng.\nBàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê.\nPe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm.\nPoan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng.\nPrăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do.",
-      "html": "<div class=\"kho-prayer-text\">(Tam ngai dơ̆ prăm)<br>Dùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng.<br>Bàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê.<br>Pe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm.<br>Poan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng.<br>Prăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do.</div>",
-      "excerpt": "(Tam ngai dơ̆ prăm) Dùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng. Bàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ…",
-      "wordCount": 113,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-nam-su-sang",
-      "slug": "kinh-nguyen/nam-su-sang",
-      "title": "Năm Sự Sáng",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 62,
-      "headingLevel": 2,
-      "paragraphRange": [
-        584,
-        584
-      ],
-      "text": "Năm Sự Sáng",
-      "html": "<div class=\"kho-prayer-text\">Năm Sự Sáng</div>",
-      "excerpt": "Năm Sự Sáng",
-      "wordCount": 3,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-suy-niem-vao-thu-nam",
-      "slug": "kinh-nguyen/suy-niem-vao-thu-nam",
-      "title": "Suy niệm vào thứ năm",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 63,
-      "headingLevel": 3,
-      "paragraphRange": [
-        585,
-        595
-      ],
-      "text": "Suy niệm vào thứ năm\nThứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa.\nThứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa.\nThứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa.\nThứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần.\nThứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người.",
-      "html": "<div class=\"kho-prayer-text\">Suy niệm vào thứ năm<br>Thứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa.<br>Thứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa.<br>Thứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa.<br>Thứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần.<br>Thứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người.</div>",
-      "excerpt": "Suy niệm vào thứ năm Thứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa. Thứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại…",
-      "wordCount": 145,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-pram-bota-je-yan",
-      "slug": "kinh-nguyen/pram-bota-je-yan",
-      "title": "Prăm bơta jê yăn",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 64,
-      "headingLevel": 2,
-      "paragraphRange": [
-        596,
-        596
-      ],
-      "text": "Prăm bơta jê yăn",
-      "html": "<div class=\"kho-prayer-text\">Prăm bơta jê yăn</div>",
-      "excerpt": "Prăm bơta jê yăn",
-      "wordCount": 4,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-tam-ngai-do-pe-ngai-do-prau-mo-tam-ala-ngai-yang-kal-poan-jot",
-      "slug": "kinh-nguyen/tam-ngai-do-pe-ngai-do-prau-mo-tam-ala-ngai-yang-kal-poan-jot",
-      "title": "(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 65,
-      "headingLevel": 3,
-      "paragraphRange": [
-        597,
-        607
-      ],
-      "text": "(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)\nDùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs.\nBar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar.\nPe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl.\nPoan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai.\nPrăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê.",
-      "html": "<div class=\"kho-prayer-text\">(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)<br>Dùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs.<br>Bar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar.<br>Pe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl.<br>Poan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai.<br>Prăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê.</div>",
-      "excerpt": "(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt) Dùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs. Bar: Kơlôi Kơnràñ Jesu kong…",
-      "wordCount": 112,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-nam-su-thuong",
-      "slug": "kinh-nguyen/nam-su-thuong",
-      "title": "Năm Sự Thương",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 66,
-      "headingLevel": 2,
-      "paragraphRange": [
-        609,
-        609
-      ],
-      "text": "Năm Sự Thương",
-      "html": "<div class=\"kho-prayer-text\">Năm Sự Thương</div>",
-      "excerpt": "Năm Sự Thương",
-      "wordCount": 3,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-suy-niem-vao-thu-ba-va-thu-sau",
-      "slug": "kinh-nguyen/suy-niem-vao-thu-ba-va-thu-sau",
-      "title": "Suy niệm vào thứ Ba và thứ Sáu",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 67,
-      "headingLevel": 3,
-      "paragraphRange": [
-        610,
-        620
-      ],
-      "text": "Suy niệm vào thứ Ba và thứ Sáu\nThứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên.\nThứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng.\nThứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng.\nThứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa.\nThứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa.",
-      "html": "<div class=\"kho-prayer-text\">Suy niệm vào thứ Ba và thứ Sáu<br>Thứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên.<br>Thứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng.<br>Thứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng.<br>Thứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa.<br>Thứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa.</div>",
-      "excerpt": "Suy niệm vào thứ Ba và thứ Sáu Thứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên. Thứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho…",
-      "wordCount": 120,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-pram-bota-goklo",
-      "slug": "kinh-nguyen/pram-bota-goklo",
-      "title": "Prăm bơta gơklŏ",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 68,
-      "headingLevel": 2,
-      "paragraphRange": [
-        623,
-        623
-      ],
-      "text": "Prăm bơta gơklŏ",
-      "html": "<div class=\"kho-prayer-text\">Prăm bơta gơklŏ</div>",
-      "excerpt": "Prăm bơta gơklŏ",
-      "wordCount": 3,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-tam-ngai-do-poan-ngai-do-poh-mo-tam-ala-ngai-yang-kal-kis-wol-mo-kal-dar-nam",
-      "slug": "kinh-nguyen/tam-ngai-do-poan-ngai-do-poh-mo-tam-ala-ngai-yang-kal-kis-wol-mo-kal-dar-nam",
-      "title": "(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 69,
-      "headingLevel": 3,
-      "paragraphRange": [
-        624,
-        634
-      ],
-      "text": "(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)\nDùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn.\nBar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ.\nPe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê.\nPoan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê.\nPrăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ.",
-      "html": "<div class=\"kho-prayer-text\">(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)<br>Dùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn.<br>Bar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ.<br>Pe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê.<br>Poan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê.<br>Prăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ.</div>",
-      "excerpt": "(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm) Dùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn. Bar: Kơlôi Kơnràñ Jesu guh trồ…",
-      "wordCount": 112,
-      "lineCount": 6
-    },
-    {
-      "id": "kinh-nguyen-kho-nam-su-mung",
-      "slug": "kinh-nguyen/nam-su-mung",
-      "title": "Năm Sự Mừng",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 70,
-      "headingLevel": 2,
-      "paragraphRange": [
-        637,
-        637
-      ],
-      "text": "Năm Sự Mừng",
-      "html": "<div class=\"kho-prayer-text\">Năm Sự Mừng</div>",
-      "excerpt": "Năm Sự Mừng",
-      "wordCount": 3,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-suy-niem-vao-ngay-thu-tu-va-chua-nhat",
-      "slug": "kinh-nguyen/suy-niem-vao-ngay-thu-tu-va-chua-nhat",
-      "title": "Suy niệm vào ngày thứ Tư và Chúa nhật",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 71,
-      "headingLevel": 3,
-      "paragraphRange": [
-        638,
+        556,
         656
       ],
-      "text": "Suy niệm vào ngày thứ Tư và Chúa nhật\nThứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn.\nThứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời.\nThứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần.\nThứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ.\nThứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng.\nTŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau.\nDilah răc ñòng cau chơt in, lồc răc jơnau\n“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :\nƠ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà.",
-      "html": "<div class=\"kho-prayer-text\">Suy niệm vào ngày thứ Tư và Chúa nhật<br>Thứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn.<br>Thứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời.<br>Thứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần.<br>Thứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ.<br>Thứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng.<br>Tŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau.<br>Dilah răc ñòng cau chơt in, lồc răc jơnau<br>“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :<br>Ơ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà.</div>",
-      "excerpt": "Suy niệm vào ngày thứ Tư và Chúa nhật Thứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn. Thứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin…",
-      "wordCount": 222,
-      "lineCount": 10
+      "lines": [
+        "20. Phép lần hạt",
+        "Năm sự vui",
+        "(Suy niệm vào thứ Hai và thứ Bẩy)",
+        "Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường.",
+        "Thứ hai thì ngắm: Đức Bà đi viếng bà",
+        "Thánh Isave. Ta hãy xin cho được lòng yêu người.",
+        "Thứ ba thì ngắm: Đức Bà sinh Đức Chúa",
+        "Giêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn.",
+        "Thứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy.",
+        "Thứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn.",
+        "Prăm bơta àng",
+        "(Tam ngai dơ̆ prăm)",
+        "Dùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng.",
+        "Bàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê.",
+        "Pe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm.",
+        "Poan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng.",
+        "Prăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do.",
+        "Năm Sự Sáng",
+        "Suy niệm vào thứ năm",
+        "Thứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa.",
+        "Thứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa.",
+        "Thứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa.",
+        "Thứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần.",
+        "Thứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người.",
+        "Prăm bơta jê yăn",
+        "(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)",
+        "Dùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs.",
+        "Bar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar.",
+        "Pe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl.",
+        "Poan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai.",
+        "Prăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê.",
+        "Năm Sự Thương",
+        "Suy niệm vào thứ Ba và thứ Sáu",
+        "Thứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên.",
+        "Thứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng.",
+        "Thứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng.",
+        "Thứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa.",
+        "Thứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa.",
+        "Prăm bơta gơklŏ",
+        "(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)",
+        "Dùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn.",
+        "Bar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ.",
+        "Pe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê.",
+        "Poan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê.",
+        "Prăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ.",
+        "Năm Sự Mừng",
+        "Suy niệm vào ngày thứ Tư và Chúa nhật",
+        "Thứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn.",
+        "Thứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời.",
+        "Thứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần.",
+        "Thứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ.",
+        "Thứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng.",
+        "Tŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau.",
+        "Dilah răc ñòng cau chơt in, lồc răc jơnau",
+        "“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :",
+        "Ơ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà."
+      ],
+      "text": "20. Phép lần hạt\nNăm sự vui\n(Suy niệm vào thứ Hai và thứ Bẩy)\nThứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường.\nThứ hai thì ngắm: Đức Bà đi viếng bà\nThánh Isave. Ta hãy xin cho được lòng yêu người.\nThứ ba thì ngắm: Đức Bà sinh Đức Chúa\nGiêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn.\nThứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy.\nThứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn.\nPrăm bơta àng\n(Tam ngai dơ̆ prăm)\nDùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng.\nBàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê.\nPe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm.\nPoan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng.\nPrăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do.\nNăm Sự Sáng\nSuy niệm vào thứ năm\nThứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa.\nThứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa.\nThứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa.\nThứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần.\nThứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người.\nPrăm bơta jê yăn\n(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)\nDùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs.\nBar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar.\nPe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl.\nPoan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai.\nPrăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê.\nNăm Sự Thương\nSuy niệm vào thứ Ba và thứ Sáu\nThứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên.\nThứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng.\nThứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng.\nThứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa.\nThứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa.\nPrăm bơta gơklŏ\n(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)\nDùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn.\nBar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ.\nPe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê.\nPoan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê.\nPrăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ.\nNăm Sự Mừng\nSuy niệm vào ngày thứ Tư và Chúa nhật\nThứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn.\nThứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời.\nThứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần.\nThứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ.\nThứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng.\nTŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau.\nDilah răc ñòng cau chơt in, lồc răc jơnau\n“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :\nƠ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà.",
+      "html": "<p>20. Phép lần hạt</p>\n<p>Năm sự vui</p>\n<p>(Suy niệm vào thứ Hai và thứ Bẩy)</p>\n<p>Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường.</p>\n<p>Thứ hai thì ngắm: Đức Bà đi viếng bà</p>\n<p>Thánh Isave. Ta hãy xin cho được lòng yêu người.</p>\n<p>Thứ ba thì ngắm: Đức Bà sinh Đức Chúa</p>\n<p>Giêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn.</p>\n<p>Thứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy.</p>\n<p>Thứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn.</p>\n<p>Prăm bơta àng</p>\n<p>(Tam ngai dơ̆ prăm)</p>\n<p>Dùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng.</p>\n<p>Bàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê.</p>\n<p>Pe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm.</p>\n<p>Poan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng.</p>\n<p>Prăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do.</p>\n<p>Năm Sự Sáng</p>\n<p>Suy niệm vào thứ năm</p>\n<p>Thứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa.</p>\n<p>Thứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa.</p>\n<p>Thứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa.</p>\n<p>Thứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần.</p>\n<p>Thứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người.</p>\n<p>Prăm bơta jê yăn</p>\n<p>(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)</p>\n<p>Dùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs.</p>\n<p>Bar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar.</p>\n<p>Pe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl.</p>\n<p>Poan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai.</p>\n<p>Prăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê.</p>\n<p>Năm Sự Thương</p>\n<p>Suy niệm vào thứ Ba và thứ Sáu</p>\n<p>Thứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên.</p>\n<p>Thứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng.</p>\n<p>Thứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng.</p>\n<p>Thứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa.</p>\n<p>Thứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa.</p>\n<p>Prăm bơta gơklŏ</p>\n<p>(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)</p>\n<p>Dùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn.</p>\n<p>Bar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ.</p>\n<p>Pe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê.</p>\n<p>Poan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê.</p>\n<p>Prăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ.</p>\n<p>Năm Sự Mừng</p>\n<p>Suy niệm vào ngày thứ Tư và Chúa nhật</p>\n<p>Thứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn.</p>\n<p>Thứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời.</p>\n<p>Thứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần.</p>\n<p>Thứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ.</p>\n<p>Thứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng.</p>\n<p>Tŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau.</p>\n<p>Dilah răc ñòng cau chơt in, lồc răc jơnau</p>\n<p>“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :</p>\n<p>Ơ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà.</p>",
+      "excerpt": "20. Phép lần hạt Năm sự vui (Suy niệm vào thứ Hai và thứ Bẩy) Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường. Thứ hai thì ngắm: Đức Bà đi viếng bà Thánh Isave. Ta hãy xin cho được lòng yêu…",
+      "wordCount": 965,
+      "lineCount": 56
     },
     {
       "id": "kinh-nguyen-kho-21-kon-mhoat-koloi-kinh-an-nan-toi",
@@ -1677,16 +2126,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 72,
+      "order": 53,
       "headingLevel": 4,
+      "pageRange": [
+        63,
+        63
+      ],
       "paragraphRange": [
         658,
         659
       ],
+      "lines": [
+        "21. Kòn mhoăt kơlôi (Kinh Ăn năn tội)",
+        "Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen."
+      ],
       "text": "21. Kòn mhoăt kơlôi (Kinh Ăn năn tội)\nƠ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen.",
-      "html": "<div class=\"kho-prayer-text\">21. Kòn mhoăt kơlôi (Kinh Ăn năn tội)<br>Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen.</div>",
-      "excerpt": "21. Kòn mhoăt kơlôi (Kinh Ăn năn tội) Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs…",
+      "html": "<p>21. Kòn mhoăt kơlôi (Kinh Ăn năn tội)</p>\n<p>Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen.</p>",
+      "excerpt": "21. Kòn mhoăt kơlôi (Kinh Ăn năn tội) Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen.",
       "wordCount": 48,
       "lineCount": 2
     },
@@ -1697,18 +2155,56 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 73,
+      "order": 54,
       "headingLevel": 4,
+      "pageRange": [
+        63,
+        63
+      ],
       "paragraphRange": [
         661,
+        662
+      ],
+      "lines": [
+        "22. Dăn Yàng drơng (Kinh Phó Dâng)",
+        "Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen."
+      ],
+      "text": "22. Dăn Yàng drơng (Kinh Phó Dâng)\nƠ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen.",
+      "html": "<p>22. Dăn Yàng drơng (Kinh Phó Dâng)</p>\n<p>Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen.</p>",
+      "excerpt": "22. Dăn Yàng drơng (Kinh Phó Dâng) Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dă…",
+      "wordCount": 69,
+      "lineCount": 2
+    },
+    {
+      "id": "kinh-nguyen-kho-23-dan-ai-kah-wol-kinh-hay-nho",
+      "slug": "kinh-nguyen/23-dan-ai-kah-wol-kinh-hay-nho",
+      "title": "23. Dăn Ai kah wơl (Kinh Hãy nhớ)",
+      "categoryId": "cat-kinh-nguyen",
+      "categorySlug": "kinh-nguyen",
+      "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
+      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
+      "order": 55,
+      "headingLevel": null,
+      "pageRange": [
+        64,
+        64
+      ],
+      "paragraphRange": [
+        663,
         664
       ],
-      "text": "22. Dăn Yàng drơng (Kinh Phó Dâng)\nƠ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen.\n23. Dăn Ai kah wơl (Kinh Hãy nhớ)\nƠ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">22. Dăn Yàng drơng (Kinh Phó Dâng)<br>Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen.<br>23. Dăn Ai kah wơl (Kinh Hãy nhớ)<br>Ơ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen.</div>",
-      "excerpt": "22. Dăn Yàng drơng (Kinh Phó Dâng) Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh…",
-      "wordCount": 161,
-      "lineCount": 4
+      "lines": [
+        "23. Dăn Ai kah wơl (Kinh Hãy nhớ)",
+        "Ơ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen."
+      ],
+      "text": "23. Dăn Ai kah wơl (Kinh Hãy nhớ)\nƠ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen.",
+      "html": "<p>23. Dăn Ai kah wơl (Kinh Hãy nhớ)</p>\n<p>Ơ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen.</p>",
+      "excerpt": "23. Dăn Ai kah wơl (Kinh Hãy nhớ) Ơ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn…",
+      "wordCount": 92,
+      "lineCount": 2
     },
     {
       "id": "kinh-nguyen-kho-24-bol-kon-ran-pru-kinh-trong-cay",
@@ -1717,18 +2213,56 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 74,
+      "order": 56,
       "headingLevel": 4,
+      "pageRange": [
+        64,
+        64
+      ],
       "paragraphRange": [
         666,
+        668
+      ],
+      "lines": [
+        "24. Bol kòn ràn prŭ (Kinh Trông Cậy)",
+        "Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen."
+      ],
+      "text": "24. Bol kòn ràn prŭ (Kinh Trông Cậy)\nƠ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen.",
+      "html": "<p>24. Bol kòn ràn prŭ (Kinh Trông Cậy)</p>\n<p>Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen.</p>",
+      "excerpt": "24. Bol kòn ràn prŭ (Kinh Trông Cậy) Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal ni…",
+      "wordCount": 58,
+      "lineCount": 2
+    },
+    {
+      "id": "kinh-nguyen-kho-25-o-hueng-duh-gar-kinh-thien-than-ban-menh",
+      "slug": "kinh-nguyen/25-o-hueng-duh-gar-kinh-thien-than-ban-menh",
+      "title": "25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)",
+      "categoryId": "cat-kinh-nguyen",
+      "categorySlug": "kinh-nguyen",
+      "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
+      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
+      "order": 57,
+      "headingLevel": null,
+      "pageRange": [
+        65,
+        65
+      ],
+      "paragraphRange": [
+        670,
         671
       ],
-      "text": "24. Bol kòn ràn prŭ (Kinh Trông Cậy)\nƠ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen.\n25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)\nƠ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">24. Bol kòn ràn prŭ (Kinh Trông Cậy)<br>Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen.<br>25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)<br>Ơ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen.</div>",
-      "excerpt": "24. Bol kòn ràn prŭ (Kinh Trông Cậy) Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh…",
-      "wordCount": 99,
-      "lineCount": 4
+      "lines": [
+        "25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)",
+        "Ơ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen."
+      ],
+      "text": "25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)\nƠ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen.",
+      "html": "<p>25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)</p>\n<p>Ơ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen.</p>",
+      "excerpt": "25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh) Ơ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen.",
+      "wordCount": 41,
+      "lineCount": 2
     },
     {
       "id": "kinh-nguyen-kho-26-un-ngai-yang-kinh-cam-on",
@@ -1737,18 +2271,33 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "I. KINH NGUYỆN THƯỜNG DÙNG",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 75,
+      "order": 58,
       "headingLevel": 4,
+      "pageRange": [
+        65,
+        66
+      ],
       "paragraphRange": [
         673,
-        685
+        681
       ],
-      "text": "26. Ưn-ngài Yàng (Kinh Cám ơn)\nƠ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti.\nTam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi.\nƠ Yàng, dăn dong kòn prăp nền jơnau kòn hơ.\nMaria niăm goh, Mè Yàng dê, răc hàñ kòn in.\nHuềng duh gàr kòn, răc hàñ kòn in.\nJoseph niăm goh, răc hàñ kòn in.\nCau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen.\nII. ALĂ JƠNAU RĂC DĂN IS ỒN",
-      "html": "<div class=\"kho-prayer-text\">26. Ưn-ngài Yàng (Kinh Cám ơn)<br>Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti.<br>Tam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi.<br>Ơ Yàng, dăn dong kòn prăp nền jơnau kòn hơ.<br>Maria niăm goh, Mè Yàng dê, răc hàñ kòn in.<br>Huềng duh gàr kòn, răc hàñ kòn in.<br>Joseph niăm goh, răc hàñ kòn in.<br>Cau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen.<br>II. ALĂ JƠNAU RĂC DĂN IS ỒN</div>",
-      "excerpt": "26. Ưn-ngài Yàng (Kinh Cám ơn) Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng…",
-      "wordCount": 207,
-      "lineCount": 9
+      "lines": [
+        "26. Ưn-ngài Yàng (Kinh Cám ơn)",
+        "Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti.",
+        "Tam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi.",
+        "Ơ Yàng, dăn dong kòn prăp nền jơnau kòn hơ.",
+        "Maria niăm goh, Mè Yàng dê, răc hàñ kòn in.",
+        "Huềng duh gàr kòn, răc hàñ kòn in.",
+        "Joseph niăm goh, răc hàñ kòn in.",
+        "Cau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen."
+      ],
+      "text": "26. Ưn-ngài Yàng (Kinh Cám ơn)\nƠ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti.\nTam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi.\nƠ Yàng, dăn dong kòn prăp nền jơnau kòn hơ.\nMaria niăm goh, Mè Yàng dê, răc hàñ kòn in.\nHuềng duh gàr kòn, răc hàñ kòn in.\nJoseph niăm goh, răc hàñ kòn in.\nCau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen.",
+      "html": "<p>26. Ưn-ngài Yàng (Kinh Cám ơn)</p>\n<p>Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti.</p>\n<p>Tam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi.</p>\n<p>Ơ Yàng, dăn dong kòn prăp nền jơnau kòn hơ.</p>\n<p>Maria niăm goh, Mè Yàng dê, răc hàñ kòn in.</p>\n<p>Huềng duh gàr kòn, răc hàñ kòn in.</p>\n<p>Joseph niăm goh, răc hàñ kòn in.</p>\n<p>Cau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen.</p>",
+      "excerpt": "26. Ưn-ngài Yàng (Kinh Cám ơn) Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ l…",
+      "wordCount": 200,
+      "lineCount": 8
     },
     {
       "id": "kinh-nguyen-kho-1-rac-dan-mo-sa-mham-niam-goh-konran-jesu-kinh-cau-truoc-thanh-the-chua-giesu",
@@ -1757,56 +2306,88 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 76,
+      "order": 59,
       "headingLevel": 4,
+      "pageRange": [
+        67,
+        67
+      ],
       "paragraphRange": [
         687,
-        690
+        688
       ],
-      "text": "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)\nƠ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen.\n2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ",
-      "html": "<div class=\"kho-prayer-text\">1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)<br>Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen.<br>2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ</div>",
-      "excerpt": "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu) Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn…",
-      "wordCount": 94,
-      "lineCount": 3
+      "lines": [
+        "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)",
+        "Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen."
+      ],
+      "text": "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)\nƠ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen.",
+      "html": "<p>1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)</p>\n<p>Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen.</p>",
+      "excerpt": "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu) Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ S…",
+      "wordCount": 85,
+      "lineCount": 2
     },
     {
-      "id": "kinh-nguyen-kho-jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
-      "slug": "kinh-nguyen/jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
-      "title": "Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)",
+      "id": "kinh-nguyen-kho-2-rac-dan-mo-plai-nus-niam-goh-konran-jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
+      "slug": "kinh-nguyen/2-rac-dan-mo-plai-nus-niam-goh-konran-jesu-kinh-cau-trai-tim-cuc-thanh-duc-chua-giesu",
+      "title": "2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 77,
-      "headingLevel": 2,
+      "order": 60,
+      "headingLevel": null,
+      "pageRange": [
+        67,
+        68
+      ],
       "paragraphRange": [
-        691,
+        690,
         697
       ],
-      "text": "Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)\nƠ Yàng, Đi neh nđàc pơha nùs pà bềng\nlìu bol kòn in/ ală đăm phan màng ờ\nNhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,\nBol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)<br>Ơ Yàng, Đi neh nđàc pơha nùs pà bềng<br>lìu bol kòn in/ ală đăm phan màng ờ<br>Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,<br>Bol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu) Ơ Yàng, Đi neh nđàc pơha nùs pà bềng lìu bol kòn in/ ală đăm phan màng ờ Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală…",
-      "wordCount": 79,
+      "lines": [
+        "2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)",
+        "Ơ Yàng, Đi neh nđàc pơha nùs pà bềng",
+        "lìu bol kòn in/ ală đăm phan màng ờ",
+        "Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,",
+        "Bol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
+      "text": "2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)\nƠ Yàng, Đi neh nđàc pơha nùs pà bềng\nlìu bol kòn in/ ală đăm phan màng ờ\nNhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,\nBol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
+      "html": "<p>2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)</p>\n<p>Ơ Yàng, Đi neh nđàc pơha nùs pà bềng</p>\n<p>lìu bol kòn in/ ală đăm phan màng ờ</p>\n<p>Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,</p>\n<p>Bol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu) Ơ Yàng, Đi neh nđàc pơha nùs pà bềng lìu bol kòn in/ ală đăm phan màng ờ Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn…",
+      "wordCount": 88,
       "lineCount": 5
     },
     {
-      "id": "kinh-nguyen-kho-3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh-sach-duc-trinh-nu-maria",
-      "slug": "kinh-nguyen/3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh-sach-duc-trinh-nu-maria",
+      "id": "kinh-nguyen-kho-3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh",
+      "slug": "kinh-nguyen/3-rac-dan-mo-joseph-niam-goh-boklau-maria-botoah-ur-tomo-kinh-cau-thanh-ca-giuse-ban-thanh",
       "title": "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 78,
+      "order": 61,
       "headingLevel": 3,
+      "pageRange": [
+        68,
+        68
+      ],
       "paragraphRange": [
         699,
         703
       ],
+      "lines": [
+        "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)",
+        "Ơ Yàng tờm gơnrơh, bol kòn khoai dăn",
+        "Đi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir ală bơta ndơp ndơr tơngklàs kòn bơnus, mơ ală bơta sơnrờp gơ dê, Đi neh jào Khai in kơ̆ mềr sền gàr.",
+        "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)\nƠ Yàng tờm gơnrơh, bol kòn khoai dăn\nĐi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir ală bơta ndơp ndơr tơngklàs kòn bơnus, mơ ală bơta sơnrờp gơ dê, Đi neh jào Khai in kơ̆ mềr sền gàr.\nBol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)<br>Ơ Yàng tờm gơnrơh, bol kòn khoai dăn<br>Đi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir ală bơta ndơp ndơr tơngklàs kòn bơnus, mơ ală bơta sơnrờp gơ dê, Đi neh jào Khai in kơ̆ mềr sền gàr.<br>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria) Ơ Yàng tờm gơnrơh, bol kòn khoai dăn Đi ai Pơrjum niăm Đi dê, bơh…",
+      "html": "<p>3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)</p>\n<p>Ơ Yàng tờm gơnrơh, bol kòn khoai dăn</p>\n<p>Đi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir ală bơta ndơp ndơr tơngklàs kòn bơnus, mơ ală bơta sơnrờp gơ dê, Đi neh jào Khai in kơ̆ mềr sền gàr.</p>\n<p>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria) Ơ Yàng tờm gơnrơh, bol kòn khoai dăn Đi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir a…",
       "wordCount": 82,
       "lineCount": 4
     },
@@ -1817,16 +2398,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 79,
+      "order": 62,
       "headingLevel": 3,
+      "pageRange": [
+        69,
+        69
+      ],
       "paragraphRange": [
         705,
         708
       ],
+      "lines": [
+        "4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ)",
+        "Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê, bol kòn bơsir ală broă Đi sồr, mơ geh dờp aiă phan jờng Đi hơ. Bol kòn dăn gơ gen",
+        "bơh Kristo, Kơnràñ bol kòn. Amen"
+      ],
       "text": "4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ)\nƠ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê, bol kòn bơsir ală broă Đi sồr, mơ geh dờp aiă phan jờng Đi hơ. Bol kòn dăn gơ gen\nbơh Kristo, Kơnràñ bol kòn. Amen",
-      "html": "<div class=\"kho-prayer-text\">4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ)<br>Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê, bol kòn bơsir ală broă Đi sồr, mơ geh dờp aiă phan jờng Đi hơ. Bol kòn dăn gơ gen<br>bơh Kristo, Kơnràñ bol kòn. Amen</div>",
-      "excerpt": "4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ) Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in…",
+      "html": "<p>4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ)</p>\n<p>Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê, bol kòn bơsir ală broă Đi sồr, mơ geh dờp aiă phan jờng Đi hơ. Bol kòn dăn gơ gen</p>\n<p>bơh Kristo, Kơnràñ bol kòn. Amen</p>",
+      "excerpt": "4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ) Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê…",
       "wordCount": 79,
       "lineCount": 3
     },
@@ -1837,37 +2428,66 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 80,
+      "order": 63,
       "headingLevel": 3,
+      "pageRange": [
+        69,
+        71
+      ],
       "paragraphRange": [
         710,
-        722
+        720
       ],
-      "text": "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)\nƠ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ.\nNgăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau\nDong Gàr dê, kờl răc bol pindờn in\ntam làng bol Yàng dê.\nƠ Joseph niăm goh, Cau Gràng Gàr\nPơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;\nĐi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen.\n6. Răc dăn mơ bol cơng mhàm niăm goh",
-      "html": "<div class=\"kho-prayer-text\">5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)<br>Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ.<br>Ngăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau<br>Dong Gàr dê, kờl răc bol pindờn in<br>tam làng bol Yàng dê.<br>Ơ Joseph niăm goh, Cau Gràng Gàr<br>Pơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;<br>Đi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen.<br>6. Răc dăn mơ bol cơng mhàm niăm goh</div>",
-      "excerpt": "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh) Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau…",
-      "wordCount": 266,
-      "lineCount": 9
+      "lines": [
+        "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)",
+        "Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ.",
+        "Ngăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau",
+        "Dong Gàr dê, kờl răc bol pindờn in",
+        "tam làng bol Yàng dê.",
+        "Ơ Joseph niăm goh, Cau Gràng Gàr",
+        "Pơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;",
+        "Đi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen."
+      ],
+      "text": "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)\nƠ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ.\nNgăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau\nDong Gàr dê, kờl răc bol pindờn in\ntam làng bol Yàng dê.\nƠ Joseph niăm goh, Cau Gràng Gàr\nPơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;\nĐi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen.",
+      "html": "<p>5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)</p>\n<p>Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ.</p>\n<p>Ngăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau</p>\n<p>Dong Gàr dê, kờl răc bol pindờn in</p>\n<p>tam làng bol Yàng dê.</p>\n<p>Ơ Joseph niăm goh, Cau Gràng Gàr</p>\n<p>Pơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;</p>\n<p>Đi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen.</p>",
+      "excerpt": "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh) Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ l…",
+      "wordCount": 257,
+      "lineCount": 8
     },
     {
-      "id": "kinh-nguyen-kho-viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
-      "slug": "kinh-nguyen/viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
-      "title": "Việt Nam (Kinh Các thánh tử đạo Việt Nam)",
+      "id": "kinh-nguyen-kho-6-rac-dan-mo-bol-cong-mham-niam-goh-viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
+      "slug": "kinh-nguyen/6-rac-dan-mo-bol-cong-mham-niam-goh-viet-nam-kinh-cac-thanh-tu-dao-viet-nam",
+      "title": "6. Răc dăn mơ bol cơng mhàm niăm goh Việt Nam (Kinh Các thánh tử đạo Việt Nam)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 81,
-      "headingLevel": 2,
+      "order": 64,
+      "headingLevel": null,
+      "pageRange": [
+        71,
+        73
+      ],
       "paragraphRange": [
-        723,
+        722,
         733
       ],
-      "text": "Việt Nam (Kinh Các thánh tử đạo Việt Nam)\nƠ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do.\nBol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ.\nBol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,\nBol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê.\nDăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar.\nMơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen.",
-      "html": "<div class=\"kho-prayer-text\">Việt Nam (Kinh Các thánh tử đạo Việt Nam)<br>Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do.<br>Bol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ.<br>Bol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,<br>Bol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê.<br>Dăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar.<br>Mơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen.</div>",
-      "excerpt": "Việt Nam (Kinh Các thánh tử đạo Việt Nam) Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal…",
-      "wordCount": 216,
+      "lines": [
+        "6. Răc dăn mơ bol cơng mhàm niăm goh Việt Nam (Kinh Các thánh tử đạo Việt Nam)",
+        "Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do.",
+        "Bol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ.",
+        "Bol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,",
+        "Bol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê.",
+        "Dăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar.",
+        "Mơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen."
+      ],
+      "text": "6. Răc dăn mơ bol cơng mhàm niăm goh Việt Nam (Kinh Các thánh tử đạo Việt Nam)\nƠ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do.\nBol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ.\nBol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,\nBol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê.\nDăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar.\nMơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen.",
+      "html": "<p>6. Răc dăn mơ bol cơng mhàm niăm goh Việt Nam (Kinh Các thánh tử đạo Việt Nam)</p>\n<p>Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do.</p>\n<p>Bol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ.</p>\n<p>Bol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,</p>\n<p>Bol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê.</p>\n<p>Dăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar.</p>\n<p>Mơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen.</p>",
+      "excerpt": "6. Răc dăn mơ bol cơng mhàm niăm goh Việt Nam (Kinh Các thánh tử đạo Việt Nam) Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtà…",
+      "wordCount": 225,
       "lineCount": 7
     },
     {
@@ -1877,57 +2497,57 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 82,
+      "order": 65,
       "headingLevel": 3,
+      "pageRange": [
+        73,
+        73
+      ],
       "paragraphRange": [
         735,
         737
       ],
+      "lines": [
+        "7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu)",
+        "Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơngklàs. Bol kòn dăn Đi ai Pơrjum niăm Đi dê làm khop dunia, gơjềng tềl gơnrơh bơta tơngklàs, mơ ai Pơrjum niăm in ràng tơlik mơ lơh gơs bơta ndơp ndơr kờñ gơboh Đi dê dơ kòn bơnus. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu)\nƠ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơngklàs. Bol kòn dăn Đi ai Pơrjum niăm Đi dê làm khop dunia, gơjềng tềl gơnrơh bơta tơngklàs, mơ ai Pơrjum niăm in ràng tơlik mơ lơh gơs bơta ndơp ndơr kờñ gơboh Đi dê dơ kòn bơnus. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu)<br>Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơngklàs. Bol kòn dăn Đi ai Pơrjum niăm Đi dê làm khop dunia, gơjềng tềl gơnrơh bơta tơngklàs, mơ ai Pơrjum niăm in ràng tơlik mơ lơh gơs bơta ndơp ndơr kờñ gơboh Đi dê dơ kòn bơnus. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu) Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm…",
+      "html": "<p>7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu)</p>\n<p>Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơngklàs. Bol kòn dăn Đi ai Pơrjum niăm Đi dê làm khop dunia, gơjềng tềl gơnrơh bơta tơngklàs, mơ ai Pơrjum niăm in ràng tơlik mơ lơh gơs bơta ndơp ndơr kờñ gơboh Đi dê dơ kòn bơnus. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu) Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơ…",
       "wordCount": 97,
       "lineCount": 2
     },
     {
-      "id": "kinh-nguyen-kho-8-rac-dan-porjum-niam-ba-tiah-in",
-      "slug": "kinh-nguyen/8-rac-dan-porjum-niam-ba-tiah-in",
-      "title": "8. Răc dăn Pơrjum niăm bă tiah in",
+      "id": "kinh-nguyen-kho-8-rac-dan-porjum-niam-ba-tiah-in-kinh-cau-cho-hoi-thanh",
+      "slug": "kinh-nguyen/8-rac-dan-porjum-niam-ba-tiah-in-kinh-cau-cho-hoi-thanh",
+      "title": "8. Răc dăn Pơrjum niăm bă tiah in (Kinh cầu cho Hội Thánh)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 83,
+      "order": 66,
       "headingLevel": 3,
+      "pageRange": [
+        74,
+        75
+      ],
       "paragraphRange": [
         739,
-        739
-      ],
-      "text": "8. Răc dăn Pơrjum niăm bă tiah in",
-      "html": "<div class=\"kho-prayer-text\">8. Răc dăn Pơrjum niăm bă tiah in</div>",
-      "excerpt": "8. Răc dăn Pơrjum niăm bă tiah in",
-      "wordCount": 8,
-      "lineCount": 1
-    },
-    {
-      "id": "kinh-nguyen-kho-kinh-cau-cho-hoi-thanh",
-      "slug": "kinh-nguyen/kinh-cau-cho-hoi-thanh",
-      "title": "(Kinh cầu cho Hội Thánh)",
-      "categoryId": "cat-kinh-nguyen",
-      "categorySlug": "kinh-nguyen",
-      "categoryName": "KINH NGUYỆN",
-      "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 84,
-      "headingLevel": 3,
-      "paragraphRange": [
-        740,
         744
       ],
-      "text": "(Kinh cầu cho Hội Thánh)\nƠ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol\nĐi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia.\nBol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">(Kinh cầu cho Hội Thánh)<br>Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol<br>Đi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia.<br>Bol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "(Kinh cầu cho Hội Thánh) Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai…",
-      "wordCount": 114,
+      "lines": [
+        "8. Răc dăn Pơrjum niăm bă tiah in (Kinh cầu cho Hội Thánh)",
+        "Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol",
+        "Đi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia.",
+        "Bol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen."
+      ],
+      "text": "8. Răc dăn Pơrjum niăm bă tiah in (Kinh cầu cho Hội Thánh)\nƠ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol\nĐi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia.\nBol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen.",
+      "html": "<p>8. Răc dăn Pơrjum niăm bă tiah in (Kinh cầu cho Hội Thánh)</p>\n<p>Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol</p>\n<p>Đi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia.</p>\n<p>Bol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "8. Răc dăn Pơrjum niăm bă tiah in (Kinh cầu cho Hội Thánh) Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol Đi dê/…",
+      "wordCount": 122,
       "lineCount": 4
     },
     {
@@ -1937,16 +2557,28 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 85,
+      "order": 67,
       "headingLevel": 3,
+      "pageRange": [
+        75,
+        75
+      ],
       "paragraphRange": [
         747,
         753
       ],
+      "lines": [
+        "9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng)",
+        "Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp,",
+        "Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm",
+        "Ê bol kòn dê … mơ dăn Đi ai cau Đi",
+        "neh ơn gơs cau pơnjăt gơnoar broă Petro dê, gơjềng tơnggu me mơ bơnàng rơgơi gŏ bơta pindờn dùl lơm mơ bơta tamk lăc bal. Bol kòn dăn gơ gen bơn Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng)\nƠ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp,\nĐi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm\nÊ bol kòn dê … mơ dăn Đi ai cau Đi\nneh ơn gơs cau pơnjăt gơnoar broă Petro dê, gơjềng tơnggu me mơ bơnàng rơgơi gŏ bơta pindờn dùl lơm mơ bơta tamk lăc bal. Bol kòn dăn gơ gen bơn Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng)<br>Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp,<br>Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm<br>Ê bol kòn dê … mơ dăn Đi ai cau Đi<br>neh ơn gơs cau pơnjăt gơnoar broă Petro dê, gơjềng tơnggu me mơ bơnàng rơgơi gŏ bơta pindờn dùl lơm mơ bơta tamk lăc bal. Bol kòn dăn gơ gen bơn Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng) Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp, Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp…",
+      "html": "<p>9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng)</p>\n<p>Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp,</p>\n<p>Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm</p>\n<p>Ê bol kòn dê … mơ dăn Đi ai cau Đi</p>\n<p>neh ơn gơs cau pơnjăt gơnoar broă Petro dê, gơjềng tơnggu me mơ bơnàng rơgơi gŏ bơta pindờn dùl lơm mơ bơta tamk lăc bal. Bol kòn dăn gơ gen bơn Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng) Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp, Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm Ê bol kòn…",
       "wordCount": 97,
       "lineCount": 5
     },
@@ -1957,16 +2589,30 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 86,
+      "order": 68,
       "headingLevel": 3,
+      "pageRange": [
+        76,
+        76
+      ],
       "paragraphRange": [
         755,
         762
       ],
+      "lines": [
+        "10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục)",
+        "Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta",
+        "tampà rơ̆ rà",
+        "Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh.",
+        "Bol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơn gơs pô làng bol Đi dê, làng ala măt Kơnràñ Kristo,",
+        "khai lăm bồ mpồl belàt mơ khai lah cau ê, mơ kơ̆",
+        "mềr gơs cau bơto jơnau yàng, cau lơh yàng tam bơta duh khoai goh rơyŭ, mơ cau dong duh tam bơta boh lăm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục)\nƠ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta\ntampà rơ̆ rà\nAlă bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh.\nBol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơn gơs pô làng bol Đi dê, làng ala măt Kơnràñ Kristo,\nkhai lăm bồ mpồl belàt mơ khai lah cau ê, mơ kơ̆\nmềr gơs cau bơto jơnau yàng, cau lơh yàng tam bơta duh khoai goh rơyŭ, mơ cau dong duh tam bơta boh lăm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục)<br>Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta<br>tampà rơ̆ rà<br>Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh.<br>Bol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơn gơs pô làng bol Đi dê, làng ala măt Kơnràñ Kristo,<br>khai lăm bồ mpồl belàt mơ khai lah cau ê, mơ kơ̆<br>mềr gơs cau bơto jơnau yàng, cau lơh yàng tam bơta duh khoai goh rơyŭ, mơ cau dong duh tam bơta boh lăm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục) Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta tampà rơ̆ rà Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh…",
+      "html": "<p>10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục)</p>\n<p>Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta</p>\n<p>tampà rơ̆ rà</p>\n<p>Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh.</p>\n<p>Bol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơn gơs pô làng bol Đi dê, làng ala măt Kơnràñ Kristo,</p>\n<p>khai lăm bồ mpồl belàt mơ khai lah cau ê, mơ kơ̆</p>\n<p>mềr gơs cau bơto jơnau yàng, cau lơh yàng tam bơta duh khoai goh rơyŭ, mơ cau dong duh tam bơta boh lăm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục) Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta tampà rơ̆ rà Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh. Bol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơ…",
       "wordCount": 115,
       "lineCount": 7
     },
@@ -1977,16 +2623,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 87,
+      "order": 69,
       "headingLevel": 3,
+      "pageRange": [
+        77,
+        77
+      ],
       "paragraphRange": [
         764,
         766
       ],
+      "lines": [
+        "11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục)",
+        "Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong duh neh dờp. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục)\nƠ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong duh neh dờp. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục)<br>Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong duh neh dờp. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục) Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà…",
+      "html": "<p>11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục)</p>\n<p>Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong duh neh dờp. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục) Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong…",
       "wordCount": 72,
       "lineCount": 2
     },
@@ -1997,38 +2652,57 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 88,
+      "order": 70,
       "headingLevel": 3,
+      "pageRange": [
+        77,
+        77
+      ],
       "paragraphRange": [
         768,
         771
       ],
+      "lines": [
+        "12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ)",
+        "Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi,",
+        "Bol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, mơ niăm lơnhơn tam bơta dong duh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ)\nƠ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi,\nBol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, mơ niăm lơnhơn tam bơta dong duh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ)<br>Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi,<br>Bol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, mơ niăm lơnhơn tam bơta dong duh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ) Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi, Bol kòn dăn Đi ai bol khai geh…",
+      "html": "<p>12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ)</p>\n<p>Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi,</p>\n<p>Bol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, mơ niăm lơnhơn tam bơta dong duh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ) Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi, Bol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, m…",
       "wordCount": 73,
       "lineCount": 3
     },
     {
-      "id": "kinh-nguyen-kho-13-rac-dan-ala-cau-lang-pindon-in",
-      "slug": "kinh-nguyen/13-rac-dan-ala-cau-lang-pindon-in",
-      "title": "13. Răc dăn ală cau làng pindờn in",
+      "id": "kinh-nguyen-kho-13-rac-dan-ala-cau-lang-pindon-in-kinh-cau-cho-cac-tin-huu",
+      "slug": "kinh-nguyen/13-rac-dan-ala-cau-lang-pindon-in-kinh-cau-cho-cac-tin-huu",
+      "title": "13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu)",
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 89,
+      "order": 71,
       "headingLevel": 3,
+      "pageRange": [
+        78,
+        78
+      ],
       "paragraphRange": [
         773,
         775
       ],
-      "text": "13. Răc dăn ală cau làng pindờn in\n(Kinh cầu cho các tín hữu)\nƠ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">13. Răc dăn ală cau làng pindờn in<br>(Kinh cầu cho các tín hữu)<br>Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu) Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam…",
+      "lines": [
+        "13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu)",
+        "Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
+      "text": "13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu)\nƠ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
+      "html": "<p>13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu)</p>\n<p>Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "13. Răc dăn ală cau làng pindờn in (Kinh cầu cho các tín hữu) Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm K…",
       "wordCount": 87,
-      "lineCount": 3
+      "lineCount": 2
     },
     {
       "id": "kinh-nguyen-kho-14-rac-dan-ala-cau-kristo-in-geh-tam-klac-gos-dul-kinh-cau-cho-cac-kito-huu-hiep-nhat",
@@ -2037,16 +2711,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 90,
+      "order": 72,
       "headingLevel": 3,
+      "pageRange": [
+        78,
+        79
+      ],
       "paragraphRange": [
         777,
         784
       ],
+      "lines": [
+        "14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất)",
+        "Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm,",
+        "dăn Đi ring nùs wèt sền mpồl belàt Kòn Đi",
+        "dê,",
+        "làng ală cau dùl tềl gơnrơh pơnđum neh pơniăm",
+        "goh rơyŭ, gen geh bơta pindờn wil tơl tam bơrkuăt mơ geh che kờñ gơboh tơrbŏ gơs dùl jơi ntum. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất)\nƠ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm,\ndăn Đi ring nùs wèt sền mpồl belàt Kòn Đi\ndê,\nlàng ală cau dùl tềl gơnrơh pơnđum neh pơniăm\ngoh rơyŭ, gen geh bơta pindờn wil tơl tam bơrkuăt mơ geh che kờñ gơboh tơrbŏ gơs dùl jơi ntum. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất)<br>Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm,<br>dăn Đi ring nùs wèt sền mpồl belàt Kòn Đi<br>dê,<br>làng ală cau dùl tềl gơnrơh pơnđum neh pơniăm<br>goh rơyŭ, gen geh bơta pindờn wil tơl tam bơrkuăt mơ geh che kờñ gơboh tơrbŏ gơs dùl jơi ntum. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất) Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm, dăn Đi…",
+      "html": "<p>14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất)</p>\n<p>Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm,</p>\n<p>dăn Đi ring nùs wèt sền mpồl belàt Kòn Đi</p>\n<p>dê,</p>\n<p>làng ală cau dùl tềl gơnrơh pơnđum neh pơniăm</p>\n<p>goh rơyŭ, gen geh bơta pindờn wil tơl tam bơrkuăt mơ geh che kờñ gơboh tơrbŏ gơs dùl jơi ntum. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất) Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm, dăn Đi ring nùs wèt sền mpồl belàt Kòn Đi dê, làng ală cau dù…",
       "wordCount": 90,
       "lineCount": 6
     },
@@ -2057,16 +2744,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 91,
+      "order": 73,
       "headingLevel": 3,
+      "pageRange": [
+        79,
+        79
+      ],
       "paragraphRange": [
         786,
         788
       ],
+      "lines": [
+        "15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo)",
+        "Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus nggen làng Jơnau Yal Niăm geh yal pơnrơ jơh ală bơta crơng gơs in mơ làng bol Đi dê, dơ̆ geh Jơnau đơs bơta kis dê tơrgùm mơ geh pràn gơnoar ală tềl gơnrơh đơng gàr, gen lòt tus tam gùng tơngklàs mơ kờñ gơboh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, ~ Amen."
+      ],
       "text": "15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo)\nƠ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus nggen làng Jơnau Yal Niăm geh yal pơnrơ jơh ală bơta crơng gơs in mơ làng bol Đi dê, dơ̆ geh Jơnau đơs bơta kis dê tơrgùm mơ geh pràn gơnoar ală tềl gơnrơh đơng gàr, gen lòt tus tam gùng tơngklàs mơ kờñ gơboh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, ~ Amen.",
-      "html": "<div class=\"kho-prayer-text\">15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo)<br>Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus nggen làng Jơnau Yal Niăm geh yal pơnrơ jơh ală bơta crơng gơs in mơ làng bol Đi dê, dơ̆ geh Jơnau đơs bơta kis dê tơrgùm mơ geh pràn gơnoar ală tềl gơnrơh đơng gàr, gen lòt tus tam gùng tơngklàs mơ kờñ gơboh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, ~ Amen.</div>",
-      "excerpt": "15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo) Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi…",
+      "html": "<p>15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo)</p>\n<p>Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus nggen làng Jơnau Yal Niăm geh yal pơnrơ jơh ală bơta crơng gơs in mơ làng bol Đi dê, dơ̆ geh Jơnau đơs bơta kis dê tơrgùm mơ geh pràn gơnoar ală tềl gơnrơh đơng gàr, gen lòt tus tam gùng tơngklàs mơ kờñ gơboh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, ~ Amen.</p>",
+      "excerpt": "15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo) Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus…",
       "wordCount": 110,
       "lineCount": 2
     },
@@ -2077,16 +2773,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 92,
+      "order": 74,
       "headingLevel": 3,
+      "pageRange": [
+        80,
+        80
+      ],
       "paragraphRange": [
         790,
         792
       ],
+      "lines": [
+        "16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc)",
+        "Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bol cau làng dê, gen bơta ring nùs bal mơ bơta song dơpă gch tơngkơ̆ mơ geh bơta pas gds sùm sùm bal mơ bơia ring lơngai. Bol kòn đăn BƠ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc)\nƠ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bol cau làng dê, gen bơta ring nùs bal mơ bơta song dơpă gch tơngkơ̆ mơ geh bơta pas gds sùm sùm bal mơ bơia ring lơngai. Bol kòn đăn BƠ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc)<br>Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bol cau làng dê, gen bơta ring nùs bal mơ bơta song dơpă gch tơngkơ̆ mơ geh bơta pas gds sùm sùm bal mơ bơia ring lơngai. Bol kòn đăn BƠ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc) Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng…",
+      "html": "<p>16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc)</p>\n<p>Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bol cau làng dê, gen bơta ring nùs bal mơ bơta song dơpă gch tơngkơ̆ mơ geh bơta pas gds sùm sùm bal mơ bơia ring lơngai. Bol kòn đăn BƠ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc) Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bo…",
       "wordCount": 91,
       "lineCount": 2
     },
@@ -2097,16 +2802,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 93,
+      "order": 75,
       "headingLevel": 3,
+      "pageRange": [
+        81,
+        81
+      ],
       "paragraphRange": [
         793,
         796
       ],
+      "lines": [
+        "17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình)",
+        "Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm goh Kòn Dul Đi dê, dờn dờp ală jơnau adăt adia hìu bơnhă dê mơ dờn jăt bơta kờñ gơboh, gen bol kòn rơp geh chờhờp kờp ală phan jờng rài rài.",
+        "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình)\nƠ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm goh Kòn Dul Đi dê, dờn dờp ală jơnau adăt adia hìu bơnhă dê mơ dờn jăt bơta kờñ gơboh, gen bol kòn rơp geh chờhờp kờp ală phan jờng rài rài.\nBol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình)<br>Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm goh Kòn Dul Đi dê, dờn dờp ală jơnau adăt adia hìu bơnhă dê mơ dờn jăt bơta kờñ gơboh, gen bol kòn rơp geh chờhờp kờp ală phan jờng rài rài.<br>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình) Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai…",
+      "html": "<p>17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình)</p>\n<p>Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm goh Kòn Dul Đi dê, dờn dờp ală jơnau adăt adia hìu bơnhă dê mơ dờn jăt bơta kờñ gơboh, gen bol kòn rơp geh chờhờp kờp ală phan jờng rài rài.</p>\n<p>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình) Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm…",
       "wordCount": 98,
       "lineCount": 3
     },
@@ -2117,16 +2832,29 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 94,
+      "order": 76,
       "headingLevel": 3,
+      "pageRange": [
+        81,
+        84
+      ],
       "paragraphRange": [
         798,
         806
       ],
+      "lines": [
+        "18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới)",
+        "Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùng tambao geh bơtoah tam bơta dùl lơm mơ kơ̆ mềr, tam broă deh dùh mơ tơngguh bơta kis,",
+        "Ơ Kơnràñ, Đi neh gơboh mơ bơtào gùng tambao gơs tềl gơnrơh: dăn Đi dong ală yô bao in kis kơ̆ mềr bal, ai me bàp in git kah broă bơtê bơto oh kòn, ai oh kòn in git dờn duh mơ gơboh mơ me bàp; dăn Đi ai ală rơnàng kơnòm in jòi bàn tam hìu bơnhă bơta dong kờl kơ̆ nhăp khà màng gơs kòn bơnus bol khai dê in mơ geh dờng gơs tam jơnau ngăn mơ nùs gơboh.",
+        "Ơ hìu bơnhă niăm goh Nazareth, gơs krơh àng rài kis niăm goh, song ring mơ gơboh dê, dăn ai hìu bơnhă bol kòn in gơjềng anih bơtùng bơta mờng niăm tam lơnhơn, duh broă mơ rắc dăn ; dăn ai bol kòn in git bơt bơtào hìu bơnhă gơjềng bơta pơndờm pơnđiăng rài kis bềng bơta tơlòng in ; dăn ai bol kòn in git lơh jơh ală cau tam hìu bơnhă geh tơngguh làng geh bơnah tam broă crơng tơngguh ntum jơi mơ, lơh broă bal tam bơta bơt bơtào Pơrjum niăm.",
+        "Dăn pe Nă sùm tòm măt tam hìu bơnhă bol kòn, tŭ chờhờp krung be tŭ mhoăt jrùng, tŭ lơh broă krung be tŭ rơlô bòl, tŭ kơlôi kơnòl krung be tŭ kơp kơnờm, tŭ deh kòn krung be tŭ geh cau găn rài, làng tŭ lòt găn ală bơta gơmù gơhào gùng rài dê, bol kòn sùm sùm yal niăm Yàng/ jơl tus ngai geh pơrjum bal mơ pe Nă tam",
+        "Lơgar Trồ. Amen."
+      ],
       "text": "18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới)\nƠ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùng tambao geh bơtoah tam bơta dùl lơm mơ kơ̆ mềr, tam broă deh dùh mơ tơngguh bơta kis,\nƠ Kơnràñ, Đi neh gơboh mơ bơtào gùng tambao gơs tềl gơnrơh: dăn Đi dong ală yô bao in kis kơ̆ mềr bal, ai me bàp in git kah broă bơtê bơto oh kòn, ai oh kòn in git dờn duh mơ gơboh mơ me bàp; dăn Đi ai ală rơnàng kơnòm in jòi bàn tam hìu bơnhă bơta dong kờl kơ̆ nhăp khà màng gơs kòn bơnus bol khai dê in mơ geh dờng gơs tam jơnau ngăn mơ nùs gơboh.\nƠ hìu bơnhă niăm goh Nazareth, gơs krơh àng rài kis niăm goh, song ring mơ gơboh dê, dăn ai hìu bơnhă bol kòn in gơjềng anih bơtùng bơta mờng niăm tam lơnhơn, duh broă mơ rắc dăn ; dăn ai bol kòn in git bơt bơtào hìu bơnhă gơjềng bơta pơndờm pơnđiăng rài kis bềng bơta tơlòng in ; dăn ai bol kòn in git lơh jơh ală cau tam hìu bơnhă geh tơngguh làng geh bơnah tam broă crơng tơngguh ntum jơi mơ, lơh broă bal tam bơta bơt bơtào Pơrjum niăm.\nDăn pe Nă sùm tòm măt tam hìu bơnhă bol kòn, tŭ chờhờp krung be tŭ mhoăt jrùng, tŭ lơh broă krung be tŭ rơlô bòl, tŭ kơlôi kơnòl krung be tŭ kơp kơnờm, tŭ deh kòn krung be tŭ geh cau găn rài, làng tŭ lòt găn ală bơta gơmù gơhào gùng rài dê, bol kòn sùm sùm yal niăm Yàng/ jơl tus ngai geh pơrjum bal mơ pe Nă tam\nLơgar Trồ. Amen.",
-      "html": "<div class=\"kho-prayer-text\">18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới)<br>Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùng tambao geh bơtoah tam bơta dùl lơm mơ kơ̆ mềr, tam broă deh dùh mơ tơngguh bơta kis,<br>Ơ Kơnràñ, Đi neh gơboh mơ bơtào gùng tambao gơs tềl gơnrơh: dăn Đi dong ală yô bao in kis kơ̆ mềr bal, ai me bàp in git kah broă bơtê bơto oh kòn, ai oh kòn in git dờn duh mơ gơboh mơ me bàp; dăn Đi ai ală rơnàng kơnòm in jòi bàn tam hìu bơnhă bơta dong kờl kơ̆ nhăp khà màng gơs kòn bơnus bol khai dê in mơ geh dờng gơs tam jơnau ngăn mơ nùs gơboh.<br>Ơ hìu bơnhă niăm goh Nazareth, gơs krơh àng rài kis niăm goh, song ring mơ gơboh dê, dăn ai hìu bơnhă bol kòn in gơjềng anih bơtùng bơta mờng niăm tam lơnhơn, duh broă mơ rắc dăn ; dăn ai bol kòn in git bơt bơtào hìu bơnhă gơjềng bơta pơndờm pơnđiăng rài kis bềng bơta tơlòng in ; dăn ai bol kòn in git lơh jơh ală cau tam hìu bơnhă geh tơngguh làng geh bơnah tam broă crơng tơngguh ntum jơi mơ, lơh broă bal tam bơta bơt bơtào Pơrjum niăm.<br>Dăn pe Nă sùm tòm măt tam hìu bơnhă bol kòn, tŭ chờhờp krung be tŭ mhoăt jrùng, tŭ lơh broă krung be tŭ rơlô bòl, tŭ kơlôi kơnòl krung be tŭ kơp kơnờm, tŭ deh kòn krung be tŭ geh cau găn rài, làng tŭ lòt găn ală bơta gơmù gơhào gùng rài dê, bol kòn sùm sùm yal niăm Yàng/ jơl tus ngai geh pơrjum bal mơ pe Nă tam<br>Lơgar Trồ. Amen.</div>",
-      "excerpt": "18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới) Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn…",
+      "html": "<p>18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới)</p>\n<p>Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùng tambao geh bơtoah tam bơta dùl lơm mơ kơ̆ mềr, tam broă deh dùh mơ tơngguh bơta kis,</p>\n<p>Ơ Kơnràñ, Đi neh gơboh mơ bơtào gùng tambao gơs tềl gơnrơh: dăn Đi dong ală yô bao in kis kơ̆ mềr bal, ai me bàp in git kah broă bơtê bơto oh kòn, ai oh kòn in git dờn duh mơ gơboh mơ me bàp; dăn Đi ai ală rơnàng kơnòm in jòi bàn tam hìu bơnhă bơta dong kờl kơ̆ nhăp khà màng gơs kòn bơnus bol khai dê in mơ geh dờng gơs tam jơnau ngăn mơ nùs gơboh.</p>\n<p>Ơ hìu bơnhă niăm goh Nazareth, gơs krơh àng rài kis niăm goh, song ring mơ gơboh dê, dăn ai hìu bơnhă bol kòn in gơjềng anih bơtùng bơta mờng niăm tam lơnhơn, duh broă mơ rắc dăn ; dăn ai bol kòn in git bơt bơtào hìu bơnhă gơjềng bơta pơndờm pơnđiăng rài kis bềng bơta tơlòng in ; dăn ai bol kòn in git lơh jơh ală cau tam hìu bơnhă geh tơngguh làng geh bơnah tam broă crơng tơngguh ntum jơi mơ, lơh broă bal tam bơta bơt bơtào Pơrjum niăm.</p>\n<p>Dăn pe Nă sùm tòm măt tam hìu bơnhă bol kòn, tŭ chờhờp krung be tŭ mhoăt jrùng, tŭ lơh broă krung be tŭ rơlô bòl, tŭ kơlôi kơnòl krung be tŭ kơp kơnờm, tŭ deh kòn krung be tŭ geh cau găn rài, làng tŭ lòt găn ală bơta gơmù gơhào gùng rài dê, bol kòn sùm sùm yal niăm Yàng/ jơl tus ngai geh pơrjum bal mơ pe Nă tam</p>\n<p>Lơgar Trồ. Amen.</p>",
+      "excerpt": "18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới) Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùn…",
       "wordCount": 320,
       "lineCount": 6
     },
@@ -2137,16 +2865,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 95,
+      "order": 77,
       "headingLevel": 3,
+      "pageRange": [
+        84,
+        84
+      ],
       "paragraphRange": [
         808,
         810
       ],
+      "lines": [
+        "19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động)",
+        "Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm lơnhơn Đi dê, gơ gơs kuơ làng lơh gơprà lơgar Kơnràñ Kristo dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động)\nƠ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm lơnhơn Đi dê, gơ gơs kuơ làng lơh gơprà lơgar Kơnràñ Kristo dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động)<br>Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm lơnhơn Đi dê, gơ gơs kuơ làng lơh gơprà lơgar Kơnràñ Kristo dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động) Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn…",
+      "html": "<p>19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động)</p>\n<p>Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm lơnhơn Đi dê, gơ gơs kuơ làng lơh gơprà lơgar Kơnràñ Kristo dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động) Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm l…",
       "wordCount": 77,
       "lineCount": 2
     },
@@ -2157,16 +2894,26 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 96,
+      "order": 78,
       "headingLevel": 3,
+      "pageRange": [
+        85,
+        85
+      ],
       "paragraphRange": [
         812,
         815
       ],
+      "lines": [
+        "20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy)",
+        "Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah",
+        "găm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam 4Š “be lơh bol kòn dê, geh bơtơl bềng lìu bơh Đi lơm, lah Bơtau ai ală bơta gơ guh gơs. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy)\nƠ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah\ngăm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam 4Š “be lơh bol kòn dê, geh bơtơl bềng lìu bơh Đi lơm, lah Bơtau ai ală bơta gơ guh gơs. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy)<br>Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah<br>găm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam 4Š “be lơh bol kòn dê, geh bơtơl bềng lìu bơh Đi lơm, lah Bơtau ai ală bơta gơ guh gơs. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy) Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah găm ờ…",
+      "html": "<p>20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy)</p>\n<p>Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah</p>\n<p>găm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam 4Š “be lơh bol kòn dê, geh bơtơl bềng lìu bơh Đi lơm, lah Bơtau ai ală bơta gơ guh gơs. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy) Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah găm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam…",
       "wordCount": 91,
       "lineCount": 3
     },
@@ -2177,16 +2924,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 97,
+      "order": 79,
       "headingLevel": 3,
+      "pageRange": [
+        85,
+        85
+      ],
       "paragraphRange": [
         818,
         820
       ],
+      "lines": [
+        "21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch)",
+        "Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ̆ be lơi, làng kơnờm bơh Đi dong kờl, gơ lơh bol kòn in jờngrơ Đi mơ gơ gơs kuơ jơh ală cau in. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch)\nƠ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ̆ be lơi, làng kơnờm bơh Đi dong kờl, gơ lơh bol kòn in jờngrơ Đi mơ gơ gơs kuơ jơh ală cau in. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch)<br>Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ̆ be lơi, làng kơnờm bơh Đi dong kờl, gơ lơh bol kòn in jờngrơ Đi mơ gơ gơs kuơ jơh ală cau in. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch) Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha…",
+      "html": "<p>21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch)</p>\n<p>Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ̆ be lơi, làng kơnờm bơh Đi dong kờl, gơ lơh bol kòn in jờngrơ Đi mơ gơ gơs kuơ jơh ală cau in. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch) Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ…",
       "wordCount": 90,
       "lineCount": 2
     },
@@ -2197,16 +2953,25 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 98,
+      "order": 80,
       "headingLevel": 3,
+      "pageRange": [
+        86,
+        86
+      ],
       "paragraphRange": [
         822,
         823
       ],
+      "lines": [
+        "22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân)",
+        "Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh mi găm kong kòp jê in, làng ală cau găm kong jê yăn, bòl glar mơ ală bơta kòp tê jê să ndai, gen gŏ he lah cau geh rơwah tam gùl bol cau geh yal pơnrơ lah bơtoah, mơ git he lah cau seh tam klăc gơs dùl/ mơ Kơnràñ Kristo kong jê yăn bơh bơta tơngklàs dunia dê Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân)\nƠ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh mi găm kong kòp jê in, làng ală cau găm kong jê yăn, bòl glar mơ ală bơta kòp tê jê să ndai, gen gŏ he lah cau geh rơwah tam gùl bol cau geh yal pơnrơ lah bơtoah, mơ git he lah cau seh tam klăc gơs dùl/ mơ Kơnràñ Kristo kong jê yăn bơh bơta tơngklàs dunia dê Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân)<br>Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh mi găm kong kòp jê in, làng ală cau găm kong jê yăn, bòl glar mơ ală bơta kòp tê jê să ndai, gen gŏ he lah cau geh rơwah tam gùl bol cau geh yal pơnrơ lah bơtoah, mơ git he lah cau seh tam klăc gơs dùl/ mơ Kơnràñ Kristo kong jê yăn bơh bơta tơngklàs dunia dê Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân) Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi…",
+      "html": "<p>22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân)</p>\n<p>Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh mi găm kong kòp jê in, làng ală cau găm kong jê yăn, bòl glar mơ ală bơta kòp tê jê să ndai, gen gŏ he lah cau geh rơwah tam gùl bol cau geh yal pơnrơ lah bơtoah, mơ git he lah cau seh tam klăc gơs dùl/ mơ Kơnràñ Kristo kong jê yăn bơh bơta tơngklàs dunia dê Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân) Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh m…",
       "wordCount": 128,
       "lineCount": 2
     },
@@ -2217,16 +2982,27 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 99,
+      "order": 81,
       "headingLevel": 3,
+      "pageRange": [
+        87,
+        87
+      ],
       "paragraphRange": [
         825,
         829
       ],
+      "lines": [
+        "23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối)",
+        "Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar gơ hoài nhơm chơt, làng dơ̆ geh pơnđồp bal mơ bơta kong jê yăn Kòn Đi dê,",
+        "mơ geh lip tềl Mhàm Khai dê, gen cau do chài rơgơi tơlik măt ờ gŏ tềl bơ̆ dơđăp Đi.",
+        "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối)\nƠ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar gơ hoài nhơm chơt, làng dơ̆ geh pơnđồp bal mơ bơta kong jê yăn Kòn Đi dê,\nmơ geh lip tềl Mhàm Khai dê, gen cau do chài rơgơi tơlik măt ờ gŏ tềl bơ̆ dơđăp Đi.\nBol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối)<br>Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar gơ hoài nhơm chơt, làng dơ̆ geh pơnđồp bal mơ bơta kong jê yăn Kòn Đi dê,<br>mơ geh lip tềl Mhàm Khai dê, gen cau do chài rơgơi tơlik măt ờ gŏ tềl bơ̆ dơđăp Đi.<br>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối) Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm…",
+      "html": "<p>23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối)</p>\n<p>Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar gơ hoài nhơm chơt, làng dơ̆ geh pơnđồp bal mơ bơta kong jê yăn Kòn Đi dê,</p>\n<p>mơ geh lip tềl Mhàm Khai dê, gen cau do chài rơgơi tơlik măt ờ gŏ tềl bơ̆ dơđăp Đi.</p>\n<p>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối) Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar…",
       "wordCount": 102,
       "lineCount": 4
     },
@@ -2237,16 +3013,30 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 100,
+      "order": 82,
       "headingLevel": 3,
+      "pageRange": [
+        87,
+        88
+      ],
       "paragraphRange": [
         831,
         837
       ],
+      "lines": [
+        "24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời)",
+        "Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/",
+        "kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh",
+        "bơta kis wơl Kòn Đi dê,",
+        "Dăn Đi niăm lơnhơn ai cau duh broă Đi dê…,",
+        "làng neh geh hồ klàs bơh che bơta chơt, gen geh tơmut ơm bal tam bol cau Đi rơwah.",
+        "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
+      ],
       "text": "24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời)\nƠ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/\nkơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh\nbơta kis wơl Kòn Đi dê,\nDăn Đi niăm lơnhơn ai cau duh broă Đi dê…,\nlàng neh geh hồ klàs bơh che bơta chơt, gen geh tơmut ơm bal tam bol cau Đi rơwah.\nBol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời)<br>Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/<br>kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh<br>bơta kis wơl Kòn Đi dê,<br>Dăn Đi niăm lơnhơn ai cau duh broă Đi dê…,<br>làng neh geh hồ klàs bơh che bơta chơt, gen geh tơmut ơm bal tam bol cau Đi rơwah.<br>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời) Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/ kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl…",
+      "html": "<p>24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời)</p>\n<p>Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/</p>\n<p>kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh</p>\n<p>bơta kis wơl Kòn Đi dê,</p>\n<p>Dăn Đi niăm lơnhơn ai cau duh broă Đi dê…,</p>\n<p>làng neh geh hồ klàs bơh che bơta chơt, gen geh tơmut ơm bal tam bol cau Đi rơwah.</p>\n<p>Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời) Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/ kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh bơta kis wơl Kòn Đi dê, Dăn Đi niăm lơnhơn ai cau…",
       "wordCount": 88,
       "lineCount": 7
     },
@@ -2257,3398 +3047,30 @@ window.KINH_NGUYEN_KHO_DI_LINH_DATA = {
       "categoryId": "cat-kinh-nguyen",
       "categorySlug": "kinh-nguyen",
       "categoryName": "KINH NGUYỆN",
+      "part": "II. ALĂ JƠNAU RĂC DĂN IS ỒN",
       "sourceFile": "THANH LE_KINH NGUYEN K'HO.docx",
-      "order": 101,
+      "order": 83,
       "headingLevel": 3,
+      "pageRange": [
+        88,
+        89
+      ],
       "paragraphRange": [
         839,
         842
       ],
+      "lines": [
+        "25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời)",
+        "Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ,",
+        "dăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền rơmê Đi lah Bơtau crơng gơs mơ tơwài. Bol kòn dăn gơ gen bơh Kristo,",
+        "Kơnràñ bol kòn. Amen."
+      ],
       "text": "25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời)\nƠ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ,\ndăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền rơmê Đi lah Bơtau crơng gơs mơ tơwài. Bol kòn dăn gơ gen bơh Kristo,\nKơnràñ bol kòn. Amen.",
-      "html": "<div class=\"kho-prayer-text\">25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời)<br>Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ,<br>dăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền rơmê Đi lah Bơtau crơng gơs mơ tơwài. Bol kòn dăn gơ gen bơh Kristo,<br>Kơnràñ bol kòn. Amen.</div>",
-      "excerpt": "25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời) Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ, dăn ai bol cau duh broă Đi dê, … Neh pha…",
+      "html": "<p>25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời)</p>\n<p>Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ,</p>\n<p>dăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền rơmê Đi lah Bơtau crơng gơs mơ tơwài. Bol kòn dăn gơ gen bơh Kristo,</p>\n<p>Kơnràñ bol kòn. Amen.</p>",
+      "excerpt": "25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời) Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ, dăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền…",
       "wordCount": 76,
       "lineCount": 4
     }
-  ],
-  "paragraphs": [
-    {
-      "index": 5,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "GÙNG LƠH – YÀNG NGHI THỨC THÁNH LỄ GÙNG MUT SƠNTỜM"
-    },
-    {
-      "index": 7,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Bơh sơnđăn Yàng Bàp mơ Yàng Kòn mơ Yàng Nhơm."
-    },
-    {
-      "index": 8,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Amen. CLY: Dăn Kơnràñ ơm bal mơ oh mi."
-    },
-    {
-      "index": 9,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Bal mơ nùs nhơm đi sơl."
-    },
-    {
-      "index": 11,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "BROĂ ỀNG MÀL"
-    },
-    {
-      "index": 12,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Ơ oh mi, he git kah tĕ ală tìs he, làng di pal lơh pơnrơ ală bơta ndơp ndơr niăm goh."
-    },
-    {
-      "index": 13,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Añ yal dơ Yàng tờm gơnrơh, mơ dơ bol đi sơl, ơ oh mi, kơyoa añ neh lơh tìs ir bơh nùs tồr kơlôi, bơh bơr đơs, bơh broă lơh, mơ bơh bơta săng lời:"
-    },
-    {
-      "index": 14,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ tìs, añ tìs, añ tìs dờng ngăn. Gen tàng añ dăn mơ Maria bơtoah Ùr Tơmo sùm, mơ jơh ală Huềng duh, mơ bol Niăm goh, mơ bol đi sơl, ơ oh mi, răc añ in dơđăp Kơnràñ Yàng he."
-    },
-    {
-      "index": 16,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "NGHI THỨC ĐẦU LỄ"
-    },
-    {
-      "index": 18,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Nhân danh Cha, và Con và Thánh Thần."
-    },
-    {
-      "index": 19,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Amen"
-    },
-    {
-      "index": 21,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Chúa ở cùng anh (chị) em."
-    },
-    {
-      "index": 22,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Và ở cùng cha."
-    },
-    {
-      "index": 24,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "HÀNH ĐỘNG THỐNG HỐI"
-    },
-    {
-      "index": 25,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Anh (chị) em, chúng ta hãy nhìn nhận tội lỗi chúng ta, để xứng đáng cử hành mầu nhiệm thánh. CĐ: Tôi thú nhận cùng Thiên Chúa toàn năng, và cùng anh (chị) em: tôi đã phạm tội nhiều trong tư tưởng, lời nói, việc làm, và những điều thiếu sót."
-    },
-    {
-      "index": 26,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lỗi tại tôi, lỗi tại tôi, lỗi tại tôi mọi đàng. Vì vậy tôi xin Ðức Bà Maria trọn đời đồng trinh, các Thiên Thần, các Thánh và anh (chị) em, khẩn cầu cho tôi trước tòa Thiên Chúa, Chúa chúng ta."
-    },
-    {
-      "index": 27,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn Yàng tờm gơnrơh sơnđàc he, hồ ală tìs he mơ lăm he tus tam bơta kis sùm. LB: Amen."
-    },
-    {
-      "index": 29,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Ơ Kơnràñ, dăn sơnđàc."
-    },
-    {
-      "index": 30,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Ơ Kơnràñ, dăn sơnđàc. Y. Ơ Kristo, dăn sơnđàc."
-    },
-    {
-      "index": 31,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Ơ Kristo, đăn sơnđàc."
-    },
-    {
-      "index": 32,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Ơ Kơnràñ, dăn sơnđàc. H. Ơ Kơnràñ, dăn sơnđàc."
-    },
-    {
-      "index": 34,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "*** Gơklŏ Yàng tam kơloàng trồ, mơ tam tiah ring lơngai bol cau di nùs Yàng. Bol kòn jờngrơ Đi, bol kòn yal niăm Đi, bol kòn duh khoai Đi, bol kòn tơngklŏ Đi, bol kòn ưn ngài Đi bơh bơta gơklŏ dờng màng Đi dê,"
-    },
-    {
-      "index": 35,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "ơ Kơnràñ Yàng, Bơtau trồ, Yàng Bàp tờm gơnrơh."
-    },
-    {
-      "index": 36,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ Kòn Dùl, Jesu Kristo,"
-    },
-    {
-      "index": 37,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ Yàng, Belàt kòn Yàng dê, Kòn Bàp dê."
-    },
-    {
-      "index": 38,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Xin Thiên Chúa toàn năng thương xót, tha tội, và dẫn đưa chúng ta đến sự sống muôn đời. CĐ: Amen."
-    },
-    {
-      "index": 40,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Xin Chúa thương xót chúng con."
-    },
-    {
-      "index": 41,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ð: Xin Chúa thương xót chúng con."
-    },
-    {
-      "index": 42,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Xin Chúa Kitô thương xót chúng con."
-    },
-    {
-      "index": 43,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Xin Chúa Kitô thương xót chúng con."
-    },
-    {
-      "index": 44,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Xin Chúa thương xót chúng con. Ð: Xin Chúa thương xót chúng con."
-    },
-    {
-      "index": 46,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "***"
-    },
-    {
-      "index": 47,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Vinh danh Thiên Chúa trên các tầng trời, và bình an dưới thế cho người thiện tâm. Chúng con ca ngợi Chúa, chúng con chúc tụng Chúa, chúng con thờ lạy Chúa, chúng con tôn vinh Chúa, chúng con cảm tạ Chúa vì vinh quang cao cả Chúa. Lạy Chúa là Thiên Chúa, là Vua trên trời, Là Chúa Cha toàn năng. Lạy Con Một Thiên Chúa, Chúa Giêsu Kitô, Lạy Chúa là Thiên Chúa, là Chiên Thiên Chúa là Con Ðức Chúa Cha."
-    },
-    {
-      "index": 49,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn."
-    },
-    {
-      "index": 50,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi tơnroh ală tìs dunia, dăn dờp jơnau bol kòn răc. Đi nggui đah ma Bàp, dăn sơnđàc bol kòn."
-    },
-    {
-      "index": 51,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kơyoa mìng Đi lah Niăm goh, mìng Đi lah Kơnrañ, mìng Đi lah Jơnhoa ngăn, ơ Jesu Kristo. Bal mơ Yàng Nhơm: tam bơta gơklŏ Yàng Bàp dê. Amen."
-    },
-    {
-      "index": 53,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "***"
-    },
-    {
-      "index": 54,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "BROĂ DUH JƠNAU ĐƠS"
-    },
-    {
-      "index": 55,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Hơ jơnau đơs Kơnràñ dê"
-    },
-    {
-      "index": 56,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Ưn ngài Yàng. CLY: Đăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl."
-    },
-    {
-      "index": 57,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Đal tam Jơnau Yal Niăm niăm goh jăt S"
-    },
-    {
-      "index": 58,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Gơklŏ Đi, ơ Kơnràñ,"
-    },
-    {
-      "index": 60,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Hơ̆ Jơnau đơs Kơnràñ dê."
-    },
-    {
-      "index": 61,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Jờngrơ Đi, ơ Kristo."
-    },
-    {
-      "index": 62,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúa xóa tội trần gian, xin thương xót chúng con; Chúa xóa tội trần gian, xin nhậm lời chúng con cầu khẩn. Chúa ngự bên hữu Ðức Chúa Cha, xin thương xót chúng con."
-    },
-    {
-      "index": 63,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Vì, lạy Chúa Giêsu Kitô, chỉ có Chúa là Ðấng Thánh, chỉ có Chúa là Chúa, chỉ có Chúa là Ðấng Tối Cao, cùng Ðức Chúa Thánh Thần trong vinh quang Ðức Chúa Cha. Amen."
-    },
-    {
-      "index": 64,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "***"
-    },
-    {
-      "index": 65,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "PHỤNG VỤ LỜI CHÚA"
-    },
-    {
-      "index": 66,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X. Ðó là Lời Chúa."
-    },
-    {
-      "index": 67,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Tạ ơn Chúa."
-    },
-    {
-      "index": 69,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Chúa ở cùng anh chị em."
-    },
-    {
-      "index": 70,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Và ở cùng cha (thầy)."
-    },
-    {
-      "index": 71,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Tin Mừng Chúa Giêsu Kitô theo thánh… CĐ: Lạy Chúa, vinh danh Chúa"
-    },
-    {
-      "index": 73,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Ðó là lời Chúa."
-    },
-    {
-      "index": 74,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Lạy Chúa Kitô, ngợi khen Chúa."
-    },
-    {
-      "index": 75,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "AÑ PINDỜN"
-    },
-    {
-      "index": 76,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Añ pindờn mìng dùl Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah, jơh ală bơta rơgơi gŏ mơ ală bơta ờ rơgơi gŏ;"
-    },
-    {
-      "index": 77,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ pindờn mìng dùl Kơnràñ Jesu Kristo,"
-    },
-    {
-      "index": 78,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kòn Dùl Yàng dê, deh bơh Bàp lài mơ jơh ală rài, Yàng bơh Yàng, àng bơh àng, Yàng ngăn bơh Yàng ngăn, deh mơ ờ di bơh crơng gơs, geh dùl bơta yàng bal mơ Bàp:"
-    },
-    {
-      "index": 79,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "bơh Khai tàng jơh ală bơta geh crơng gơs."
-    },
-    {
-      "index": 80,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tài bơh he kòn bơnus mơ bơh kờñ tơngklàs he. tàng Khai neh mù bơh trồ Bơh Yàng Nhơm."
-    },
-    {
-      "index": 81,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Khai neh gơs poăc să bơh Maria Ùr Tơmo, mơ gơs kòn bơnus."
-    },
-    {
-      "index": 82,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Khai neh kong tơs dơ chikal krung bơh he in tam rài Ponsio Pilato kong jê yăn mơ kong tơp,"
-    },
-    {
-      "index": 83,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Khai kis wơl ngai pe jăt be Sră goh, guh trồ, nggui đah ma Bàp,"
-    },
-    {
-      "index": 84,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "KINH TIN KÍNH"
-    },
-    {
-      "index": 85,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tôi tin kính một Thiên Chúa là Cha toàn năng, Ðấng tạo thành trời đất, muôn vật hữu hình và vô hình.Tôi tin kính một Chúa Giêsu Kitô, Con Một Thiên Chúa, Sinh bởi Ðức Chúa Cha từ trước muôn đời. Người là Thiên Chúa bởi Thiên Chúa, Ánh Sáng bởi Ánh Sáng, Thiên Chúa thật bởi Thiên Chúa thật, được sinh ra mà không phải được tạo thành, đồng bản thể với Ðức Chúa Cha: nhờ Người mà muôn vật được tạo thành. Vì loài người chúng ta và để cứu độ chúng ta, Người đã từ trời xuống thế. Bởi phép Ðức Chúa Thánh Thần, Người đã nhập thể trong lòng Trinh Nữ Maria, và đã làm người. Người chịu đóng đinh vào thập giá vì chúng ta, thời quan Phongxiô Philatô; Người chịu khổ hình và mai táng, ngày thứ ba Người sống lại như lời Thánh Kinh. Người lên trời, ngự bên hữu Ðức Chúa Cha,"
-    },
-    {
-      "index": 88,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "mơ hìngnau Khai tus wơl àng gơklŏ cah rơña cau kis mơ cau chơt, lơgar Khai dê ờ dut ờ lồi. Añ pindờn Yàng Nhơm,"
-    },
-    {
-      "index": 89,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kơnràñ mơ tờm tơngkis:"
-    },
-    {
-      "index": 90,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "lik bơh Yàng Bàp mơ Yàng Kòn. Khai di duh khoai mơ tơngklŏ Dùl bal mơ Yàng Bàp mơ Yàng Kòn:"
-    },
-    {
-      "index": 91,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Khai neh ngui bol ala bơr làng yal bơto."
-    },
-    {
-      "index": 92,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ pindờn Pơrjum niăm dùl lơm, niăm goh, jơh ală cau in mơ bơh bol Dờp pơyoa. Añ yal tơlik mìng dùl Tềl gơnrơh Pơnđum làng tơnroh ală jơnau tìs. Añ kơp gơn cau chơt kis wơl, Mơ bơta kis rài tơnơ̆ . Amen."
-    },
-    {
-      "index": 94,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "***"
-    },
-    {
-      "index": 100,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "và Người sẽ lại đến trong vinh quang để phán xét kẻ sống và kẻ chết, Nước Người sẽ không bao giờ cùng. Tôi tin kính Ðức Chúa Thánh Thần là Thiên Chúa và là Ðấng ban sự sống, Người bởi Ðức Chúa Cha và Ðức Chúa Con mà ra, Người được phụng thờ và tôn vinh cùng với Ðức Chúa Cha và Ðức Chúa Con: Người đã dùng các tiên tri mà phán dạy. Tôi tin Hội Thánh duy nhất, thánh thiện, công giáo và tông truyền. Tôi tuyên xưng có một Phép Rửa để tha tội. Tôi trông đợi kẻ chết sống lại và sự sống đời sau. Amen."
-    },
-    {
-      "index": 102,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "***"
-    },
-    {
-      "index": 110,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "BROĂ DUH SĂ NIĂM GOH"
-    },
-    {
-      "index": 112,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Yal niăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp bañ, mơ pơdơng gơ Đi in, gen gơlik bơh ù tiah mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in bañ ròng kis. LB: Yal niăm Yàng jơl ală rài."
-    },
-    {
-      "index": 114,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Yalniăm Đi, ơ Kơnràñ, Yàng ăt bồ trồ tiah, Kơyoa bơh nùs anàng Đi dê, bol kòn neh dờp dà ño, mơ pơdơng gơ Đi in,"
-    },
-    {
-      "index": 115,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "gen gơlik bơh chi ño mơ bơh broă lơh kòn bơnus, làng gơjềng bol kòn in phan hùc đah huềng soàn."
-    },
-    {
-      "index": 116,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Yal niăm Yàng jơl ală rài."
-    },
-    {
-      "index": 118,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Răc tĕ, ơ oh mi, làng Yàng Bàp tờm gơnrơh dờp jơnau lơh yàng añ dê mơ krung lah oh mi dê sơl."
-    },
-    {
-      "index": 119,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Dăn Kơnràñ dờp jơnau lơh Yàng bơh tê đi làng jờngrơ mơ tơngklŏ sơnđăn Khai, làng gơlik kuơ he in mơ làm jơh Pơrjum niăm goh Khai dê in sơl."
-    },
-    {
-      "index": 121,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "PHỤNG VỤ THÁNH THỂ"
-    },
-    {
-      "index": 123,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con bánh này, là hoa màu ruộng đất và lao công của con người, xin dâng lên Chúa để trở nên bánh trường sinh nuôi dươ̆ ng chúng con."
-    },
-    {
-      "index": 124,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Chúc tụng Thiên Chúa đến muôn đời."
-    },
-    {
-      "index": 126,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Lạy Chúa là Chúa cả trời đất, chúc tụng Chúa đã rộng ban cho chúng con rượu này, là sản phẩm từ cây nho và lao công của con người, xin dâng lên Chúa để trở thành của uống thiêng liêng cho chúng con."
-    },
-    {
-      "index": 127,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Chúc tụng Thiên Chúa đến muôn đời."
-    },
-    {
-      "index": 129,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Anh chị em hãy cầu nguyện để hy lễ của tôi cũng là của anh chị em được Thiên Chúa là Cha toàn năng chấp nhận."
-    },
-    {
-      "index": 131,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Xin Chúa nhận hi lễ bởi tay cha, để ca tụng tôn vinh danh Chúa, và mưu ích cho chúng ta cùng toàn thể Hội Thánh Người."
-    },
-    {
-      "index": 134,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "JƠNAU HÒI RĂC SĂ NIĂM GOH"
-    },
-    {
-      "index": 135,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl."
-    },
-    {
-      "index": 136,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Tơngguh lă nùs"
-    },
-    {
-      "index": 137,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Bol kòn găm wèt hơ Kơnràñ."
-    },
-    {
-      "index": 138,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: He ưn ngài lă Kơnràñ Yàng he LB: Hơ̆ di pal mơ song dơpă."
-    },
-    {
-      "index": 140,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY:"
-    },
-    {
-      "index": 144,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Niăm goh, Niăm goh, Niăm goh Kơnràñ Yàng ăt bồ trồ tiah."
-    },
-    {
-      "index": 145,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bơta gơklŏ Đi dê bềng làm trồ làm tiah."
-    },
-    {
-      "index": 146,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Hosanna tam kơloàng trồ"
-    },
-    {
-      "index": 147,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Yalniăm Bơtau tus bơh sơnđăn Kơnràñ. Hosanna tam kơloàng trồ."
-    },
-    {
-      "index": 149,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "CLY: JƠNAU HÒI RĂC SĂ NIĂM GOH"
-    },
-    {
-      "index": 150,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "- Do bơta ndơp ndơr pindờn."
-    },
-    {
-      "index": 151,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Ơ Kơnràñ, bol kòn yal pơnrơ bơta Đi kong chơt, mơ yal tơlik bơta Đi kis wơl, jơl Đi tus."
-    },
-    {
-      "index": 152,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "KINH NGUYỆN THÁNH THỂ"
-    },
-    {
-      "index": 153,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X. Chúa ở cùng anh chị em."
-    },
-    {
-      "index": 154,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ð. Và ở cùng cha. X. Hãy nâng tâm hồn lên."
-    },
-    {
-      "index": 155,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ð. Chúng con đang hướng về Chúa. X. Hãy tạ ơn Chúa là Thiên Chúa chúng ta."
-    },
-    {
-      "index": 156,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ð. Thật là chính đáng."
-    },
-    {
-      "index": 158,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: “Lạy Cha chí thánh, nhờ Con yêu quí của Cha là Chúa Giêsu Kitô,..,chúng con ca tụng vinh quang Cha Và đồng thanh tung hô rằng:”"
-    },
-    {
-      "index": 160,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Thánh! Thánh! Thánh! Chúa là Thiên"
-    },
-    {
-      "index": 161,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúa các đạo binh. Trời đất đầy vinh quang Chúa. Hoan hô Chúa trên các tầng trời. Chúc tụng Ðấng ngự đến nhân danh Chúa."
-    },
-    {
-      "index": 162,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Hoan hô Chúa trên các tầng trời."
-    },
-    {
-      "index": 164,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: KINH NGUYỆN THÁNH THỂ - Ðây là mầu nhiệm đức tin."
-    },
-    {
-      "index": 165,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Lạy Chúa, chúng con loan truyền Chúa chịu chết, và tuyên xưng Chúa sống lại, cho tới khi Chúa đến."
-    },
-    {
-      "index": 166,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: … Bơh tờm Khai, bal mơ Khai, mơ tam Khai, jơh bơta dờng màng mơ bơta gơklŏ gơrê mơ Đi. Yàng Bàp tờm gơnrơh, tam bơta tamklăc gơs dùl bal Yàng Nhơm dê, làm jơh ală rài."
-    },
-    {
-      "index": 167,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Amen."
-    },
-    {
-      "index": 168,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "***"
-    },
-    {
-      "index": 170,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "GÙNG TAM KLĂC BAL"
-    },
-    {
-      "index": 171,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Jăt bơr Kơnràñ tơngklàs sồr, mơ bơh geh Khai bơto, tàng he khin đơs:"
-    },
-    {
-      "index": 172,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ. Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in, be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh."
-    },
-    {
-      "index": 173,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn tơngklàs bol kòn, ơ Kơràñ, bơh jơh ală bơta iơh, mơ pơha nùs ai bơta ring lơngai tam rài kis bol kòn, làng bơh Đi sơnđàc dong kờl, bol kòn geh tơngklàs sùm bơh jơnau tìs mơ geh gràng gàr CT: … Chính nhờ Người, với Người và trong Người, Mà mọi danh dự và vinh quang đều qui về Chúa Là Cha toàn năng, trong sự hợp nhất của Chúa Thánh Thần đến muôn đời."
-    },
-    {
-      "index": 174,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Amen"
-    },
-    {
-      "index": 175,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "***"
-    },
-    {
-      "index": 177,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "NGHI THỨC HIỆP LỄ"
-    },
-    {
-      "index": 178,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Vâng lệnh Chúa Cứu Thế, và theo thể thức Người dạy, chúng ta dám nguyện rằng:"
-    },
-    {
-      "index": 179,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, Nước Cha trị đến, Ý Cha thể hiện dưới đất cũng như trên trời. Xin Cha cho chúng con hôm nay lương thực hằng ngày, và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con; xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ."
-    },
-    {
-      "index": 180,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Lạy Chúa , xin cứu chúng con khỏi mọi sự dữ, xin đoái thương cho những ngày chúng con đang sống được bình an. Nhờ Chúa rộng lòng thương cứu giúp, chúng con sẽ luôn luôn thoát khỏi tội lỗi bơh jơh bơta cuê coa, tŭ găm kơp bơta kơnờm bơtoah mơ gơn tus Kơnràñ Jesu Kristo, Bơtau Tơngklàs bol kòn."
-    },
-    {
-      "index": 182,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Kơyoa gơrê mơ Đi, jơh gơnoar, pràn gơnrơh mơ àng gơklŏ jơl ală rài."
-    },
-    {
-      "index": 184,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Ơ Kơnràñ Jesu Kristo, Đi neh đơs mơ bol Dờp pơyoa Đi dê:"
-    },
-    {
-      "index": 185,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ lời bơta ring lơngai bol kòn in, Añ pà bơta ring lơngai Añ dê bol kòn in, dăn Đi bañ sền sơwì ală tìs bol kòn, mơya dăn sền dơ bơta pindờn Pơrjum niăm Đi dê, dăn Đi pơha nùs lơh gơ in ring lơngai mơ tam klăc bal jăt be nùs kờñ Đi dê. Đi ơm kis mơ ăt bồ jơl jơh ală rài."
-    },
-    {
-      "index": 186,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Amen."
-    },
-    {
-      "index": 188,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn bơta ring lơngai Kơnràñ dê ơm sùm bal mơ oh mi."
-    },
-    {
-      "index": 189,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Bal mơ nùs nhơm đi sơl."
-    },
-    {
-      "index": 190,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Oh mi tam nting săp pơndăp bơr tĕ bơta ring lơngai."
-    },
-    {
-      "index": 193,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "và được an toàn khỏi mọi biến loạn, đang khi chúng con mong đợi niềm hy vọng hồng phúc, và ngày trở lại của Chúa Giêsu Kitô, Ðấng Cứu Ðộ chúng con."
-    },
-    {
-      "index": 194,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Vì vương quyền, uy lực và vinh quang là của Chúa đến muôn đời."
-    },
-    {
-      "index": 196,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Lạy Chúa Giêsu Kitô, Chúa đã nói với các Tông đồ rằng: \"Thầy để lại bình an cho các con, Thầy ban bình an của Thầy cho các con\". Xin đừng chấp tội chúng con, nhưng xin nhìn đến đức tin của"
-    },
-    {
-      "index": 197,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Hội Thánh Chúa; xin đoái thương ban cho Hội Thánh được bình an và hợp nhất theo thánh ý Chúa. Chúa hằng sống và hiển trị muôn đời."
-    },
-    {
-      "index": 198,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Amen."
-    },
-    {
-      "index": 201,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Bình an của Chúa hằng ở cùng anh chị em."
-    },
-    {
-      "index": 202,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Và ở cùng cha."
-    },
-    {
-      "index": 203,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Anh chị em hãy chúc bình an cho nhau LB: Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn."
-    },
-    {
-      "index": 204,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn sơnđàc bol kòn."
-    },
-    {
-      "index": 205,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ belàt kòn Yàng dê, Đi tơnroh ală tìs dunia, dăn ai bol kòn in bơta ring lơngai."
-    },
-    {
-      "index": 206,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Do Belàt kòn Yàng dê, do Bơtau tơnroh ală tìs dunia. Bơtoah bol cau geh hòi jà sa Belàt kòn. LB: Ơ Kơnràñ, kòn ờ pal làng Đi mut tam hìu, mơya dăn Đi mìng đơs dùl bơr, gen sồp soàn kòn rơp geh tơmbời. Y. Să Kơnràñ Kristo - Amen."
-    },
-    {
-      "index": 209,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "GÙNG PƠNDUT"
-    },
-    {
-      "index": 210,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn Kơnràñ ơm bal mơ oh mi. LB: Bal mơ nùs nhơm đi sơl."
-    },
-    {
-      "index": 211,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Dăn Yàng tờm gơnrơh, Yàng Bàp mơ Yàng Kòn † mơ Yàng Nhơm, yalniăm oh mi in."
-    },
-    {
-      "index": 212,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Amen"
-    },
-    {
-      "index": 213,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CLY: Lơh Yàng lồc rau, oh mi rê ih ring lơngai."
-    },
-    {
-      "index": 214,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "LB: Ưn ngài Yàng."
-    },
-    {
-      "index": 215,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con. Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin thương xót chúng con."
-    },
-    {
-      "index": 216,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chiên Thiên Chúa, Ðấng xóa tội trần gian: xin ban bình an cho chúng con."
-    },
-    {
-      "index": 217,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Ðây Chiên Thiên Chúa, đây Ðấng xóa tội trần gian, phúc cho ai được mời đến dự tiệc Chiên Thiên Chúa."
-    },
-    {
-      "index": 218,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Lạy Chúa, con chẳng đáng Chúa ngự vào nhà con, nhưng xin Chúa phán một lời, thì linh hồn con sẽ lành mạnh."
-    },
-    {
-      "index": 219,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X. Mình Thánh Chúa Kitô - Amen"
-    },
-    {
-      "index": 221,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "NGHI THỨC KẾT LỄ"
-    },
-    {
-      "index": 222,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Chúa ở cùng anh chị em. CĐ: Và ở cùng cha."
-    },
-    {
-      "index": 223,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Xin Thiên Chúa toàn năng là Cha, và Con † và Thánh Thần ban phúc lành cho anh chị em."
-    },
-    {
-      "index": 224,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Amen."
-    },
-    {
-      "index": 225,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CT: Lễ xong, chúc anh chị em đi bình an."
-    },
-    {
-      "index": 226,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "CĐ: Tạ ơn Chúa."
-    },
-    {
-      "index": 252,
-      "style": "Heading 1",
-      "headingLevel": 1,
-      "text": "KINH NGUYỆN"
-    },
-    {
-      "index": 254,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "1. Tềl chikal"
-    },
-    {
-      "index": 255,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bơh sơnđăn Yàng Bàp mơ Yàng"
-    },
-    {
-      "index": 256,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kòn mơ Yàng Nhơm. Amen."
-    },
-    {
-      "index": 257,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "2. Huềng duh yal"
-    },
-    {
-      "index": 258,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Huềng duh Kơnràñ dê neh yal Maria in,"
-    },
-    {
-      "index": 259,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Mơ Khai neh bun bơh Yàng Nhơm + Chờ-gờm Ai Maria bềng jơnau hàng goh, Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm."
-    },
-    {
-      "index": 260,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "- Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen."
-    },
-    {
-      "index": 261,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Do ùr duh broă Kơnràñ dê"
-    },
-    {
-      "index": 262,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Dăn gơlik gơs añ in jăt be jơnau Đi dê."
-    },
-    {
-      "index": 263,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "+ Chờ gờm Ai Maria … - Maria niăm goh, …"
-    },
-    {
-      "index": 264,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Mơ Jơnau Đơs neh gơs poăc să,"
-    },
-    {
-      "index": 265,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Mơ Khai neh ơm tam gùl bol he"
-    },
-    {
-      "index": 266,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "+ Chờ gờm Ai Maria … - Maria niăm goh, …"
-    },
-    {
-      "index": 267,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Răc hàñ bol kòn in, ơ Mè niăm goh Yàng dê"
-    },
-    {
-      "index": 268,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Làng bol kòn in gơjềng di pal mơ ală jơnau hơ Kơràñ Kristo dê."
-    },
-    {
-      "index": 269,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "He răc ih,"
-    },
-    {
-      "index": 270,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, dăn tuh bơta hàng goh Đi dê tam nùs tồr bol kòn, làng bol kòn in, bơh Huềng duh yal, neh git Kơnràñ Kristo, Kòn Đi dê, gơs poăc să, gen bol kòn geh lăm/ bơh bơta kong jê yăn mơ chikal/ tus hơ bơta kis wơl gơklŏ Khai dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 273,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "1. Dấu Thánh giá"
-    },
-    {
-      "index": 274,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Nhân danh Cha và Con và Thánh Thần."
-    },
-    {
-      "index": 275,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Amen."
-    },
-    {
-      "index": 276,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "2. Kinh Truyền tin"
-    },
-    {
-      "index": 277,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria. Đ: Và Rất Thánh Đức Bà chịu thai bởi phép Đức Chúa Thánh Thần. + Kính mừng….."
-    },
-    {
-      "index": 278,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "- Thánh Maria……"
-    },
-    {
-      "index": 279,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Này tôi là tôi tá Đức Chúa Trời. Đ: Tôi xin vâng như lời Thánh Thiên Thần truyền."
-    },
-    {
-      "index": 280,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "+ Kính mừng….."
-    },
-    {
-      "index": 281,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Thánh Maria……"
-    },
-    {
-      "index": 282,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Chốc ấy Ngôi Thứ Hai xuống thế làm người."
-    },
-    {
-      "index": 283,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Và ở cùng chúng con. + Kính mừng….."
-    },
-    {
-      "index": 284,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Thánh Maria……"
-    },
-    {
-      "index": 285,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Lạy Rất Thánh Đức Mẹ Chúa Trời, xin cầu cho chúng con."
-    },
-    {
-      "index": 286,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Đáng chịu lấy những sự Chúa Kitô đã hứa."
-    },
-    {
-      "index": 287,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúng ta cùng cầu nguyện:"
-    },
-    {
-      "index": 288,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa, chúng con xin Chúa ban ơn xuống trong linh hồn chúng con là kẻ đã nhờ lời Thánh Thiên Thần truyền, mà biết thật Chúa Kitô là con Chúa đã xuống thế làm Người, thì xin vì công ơn Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng con ngày sau khi sống lại được đến nơi vinh hiển, cũng vì công nghiệp Chúa Kitô Chúa chúng con. Amen."
-    },
-    {
-      "index": 291,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "3. Ơ Ùr Bơtau trồ dê (Tam kàl kis wơl) Y. Ơ Ùr Bơtau trồ dê, chờchờr tĕ! Alleluia!"
-    },
-    {
-      "index": 292,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Bơh Bơtau Ai neh di pal gơ ơn bun. Alleluia."
-    },
-    {
-      "index": 293,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Neh kis wơl be Khai neh đơs. Alleluia."
-    },
-    {
-      "index": 294,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Dăn răc Yàng bol kòn in."
-    },
-    {
-      "index": 295,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Alleluia."
-    },
-    {
-      "index": 296,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "3. Lạy Nữ Vương Thiên Đàng"
-    },
-    {
-      "index": 297,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Lạy Nữ Vương Thiên đàng hãy vui mừng. Alleluia."
-    },
-    {
-      "index": 298,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Vì Đấng Mẹ đã đáng cưu mang trong lòng. Alleluia. X: Người đã sống lại thật như lời đã phán hứa. Alleluia."
-    },
-    {
-      "index": 299,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Xin cầu cùng Chúa cho chúng con."
-    },
-    {
-      "index": 300,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Alleluia."
-    },
-    {
-      "index": 301,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Chờhờp chờchờr tĕ, ơ Maria Ùr tơmo ! Alleluia !"
-    },
-    {
-      "index": 302,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Bơh Kơnràñ neh kis wơl ngăn. Alleluia !"
-    },
-    {
-      "index": 304,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "He răc ih,"
-    },
-    {
-      "index": 305,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, - Đi neh pơha nùs tơnchờ dunia bơh bơta kis wơl Kòn Đi dê, Jesu Kristo, Kơnràñ bol kòn, dăn Đi lơh làng bol kòn in, bơh Maria Ùr tơmo, Mè Khai dê, - dờp ală bơta chờhờp rài kis gơs sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn - Amen."
-    },
-    {
-      "index": 307,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "4. Ơ Yàng Nhơm"
-    },
-    {
-      "index": 309,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Ơ Yàng Nhơm, dăn Đi tus,"
-    },
-    {
-      "index": 310,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Lơh bềng nùs bol pinđờn Đi dê, - mơ chu ồs gơboh Đi dê tam bol khai"
-    },
-    {
-      "index": 311,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Y. Dăn pơyoa Nhơm Đi dê, mơ bol khai geh crơng gơs,"
-    },
-    {
-      "index": 312,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "H. Mơ Đi lơh pa wơl măt ù-tiah."
-    },
-    {
-      "index": 313,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "X: Lạy Đức Nữ Đồng Trinh Maria, hãy hỉ hoan khoái lạc. Alleluia."
-    },
-    {
-      "index": 314,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đ: Vì Chúa đã sống lại thật. Alleluia."
-    },
-    {
-      "index": 316,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúng ta cùng cầu nguyện:"
-    },
-    {
-      "index": 317,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa là Đấng đã làm cho thiên hạ được vui mừng quá bội, bởi Đức Chúa Giêsu Kitô là Con Chúa, cùng là Chúa chúng con, đã sống lại; xin vì Đức Nữ Đồng Trinh Maria là Thánh Mẫu Người, nguyện cầu cho chúng con được hưởng phúc vui vẻ hằng sống đời đời. Vì công nghiệp Chúa Kitô là Chúa chúng con. Amen."
-    },
-    {
-      "index": 319,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "4. Kinh Đức Chúa Thánh Thần"
-    },
-    {
-      "index": 320,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúng con lạy ơn Đức Chúa Thánh Thần thiêng liêng sáng láng vô cùng. Chúng con xin Đức Chúa Thánh Thần xuống, đầy lòng chúng con là kẻ tin cậy Đức Chúa Trời, và đốt lửa kính mến Đức Chúa Trời trong lòng chúng con; chúng con xin Đức Chúa Trời cho Đức Chúa Thánh Thần xuống."
-    },
-    {
-      "index": 321,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "He răc ih,"
-    },
-    {
-      "index": 322,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh ai bơta àng Yàng"
-    },
-    {
-      "index": 323,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Nhơm dê — bơto nùs bol pindờn, Dăn ai bol kòn in tiăm tam Nhơm hơ̆ ală jơnau"
-    },
-    {
-      "index": 324,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Song dơpă, mơ chờhờp sùm bơh Khai pơndờm-pơnđiăng, Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, Amen."
-    },
-    {
-      "index": 327,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "5. Dăn Kơnràñ pơnđàng"
-    },
-    {
-      "index": 328,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, ală broă bol kòn lơh, dăn Đi pơnđàng tơnggit mơ tamjăt dong kờl, làng jơh ală broă lơh - sùm sùm sơntờm bơh dơ Đi, mơ dơ̆ neh sơntờm — gen geh lơh gơs kơnờm bơh Đi. Amen."
-    },
-    {
-      "index": 330,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "6. Añ pindờn Yàng"
-    },
-    {
-      "index": 331,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ pindờn Yàng, Bàp tờm gơnrơh, tờm crơng gơs trồ tiah."
-    },
-    {
-      "index": 332,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ pindờn Jesu Kristo, Kòn Dùl Khai dê, Kơnràñ he:"
-    },
-    {
-      "index": 333,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "- Sửa lại mọi sự trong ngoài chúng con."
-    },
-    {
-      "index": 334,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chúng con cầu cùng Đức Chúa Trời xưa đã cho Đức Chúa Thánh Thần xuống soi lòng dậy dỗ các Thánh Tông Đồ, thì rầy chúng con cũng xin Đức Chúa Trời cho Đức Chúa Thánh Thần lại xuống, yên ủi dạy dỗ chúng con làm những việc lành, vì công nghiệp vô cùng Đức Chúa GiêsuKitô là Chúa chúng con. Amen."
-    },
-    {
-      "index": 336,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "5. Kinh sáng soi"
-    },
-    {
-      "index": 337,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Cúi xin Chúa sáng soi, cho chúng con được biết việc phải làm, cùng khi làm, xin Chúa giúp đơ̆ cho mỗi kinh mỗi việc chúng con, từ khởi sự cho đến hoàn thành, đều nhờ bởi ơn Chúa. Amen."
-    },
-    {
-      "index": 339,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "6. Kinh Tin Kính"
-    },
-    {
-      "index": 340,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất."
-    },
-    {
-      "index": 341,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tôi tin kính Đức Chúa Giêsu Kitô là Con Một"
-    },
-    {
-      "index": 342,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đức Chúa Cha cùng là Chúa chúng tôi"
-    },
-    {
-      "index": 343,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "neh geh ơn bun bơh Yàng Nhơm, deh bơh Maria Ùr tomo, kong jê yăn tam rài Ponsio Pilato, kong tơs dơ chikal, chơt mơ kong tơp, mù tam làng bồc, ngai pe kis wơl bơh bol cau chơt, guh trồ, nggui đah ma Yàng Bàp tờm gơnrơh, bơh nggen hìngnau tus cah rơña cau kis mơ cau chơt."
-    },
-    {
-      "index": 345,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Añ pindờn Yàng Nhơm, Pơrjum niăm goh jơh ală cau in, bơta bol niăm goh tamklăc bal, bơta hồ tìs, bơta poăc să kis wơl – mơ bơta kis sùm. Amen."
-    },
-    {
-      "index": 347,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "7. Kòn pindờn"
-    },
-    {
-      "index": 348,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kòn pindờn kơ̆ nùs mơ yal tơlik jơh tơl jơnau Kơnràñ Kristo neh bơto, bol Dờp pơyoa neh yal mblàng, mơ Pơrjum niăm neh ràng tơlik làng pindờn. Kơyoa ơ Kơnràñ, Đi tờm ngăn ngồn sùm/ mơ ờ rơgơi tìs/ neh sơnđio tơlik hơ̆ . Kòn kờñ ngăn kis mơ chơt tam bơta pindờn gen."
-    },
-    {
-      "index": 349,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Amen."
-    },
-    {
-      "index": 350,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "bởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria đồng trinh, chịu nạn đời quan Phong-xi-ô Philatô, chịu đóng đanh trên cây Thánh-giá, chết và táng xác; xuống ngục tổ tông, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống phán xét kẻ sống và kẻ chết. Tôi tin kính Đức Chúa Thánh Thần. Tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công. Tôi tin phép tha tội. Tôi tin xác loài người ngày sau sống lại. Tôi tin hằng sống vậy. Amen."
-    },
-    {
-      "index": 352,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "7. Kinh Tin"
-    },
-    {
-      "index": 353,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa con, con tin thật có một Đức Chúa"
-    },
-    {
-      "index": 354,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Trời là Đấng thưởng phạt vô cùng. Con lại tin thật Đức Chúa Trời có Ba Ngôi, mà Ngôi Thứ Hai đã xuống thế làm người chịu nạn chịu chết mà chuộc tội thiên hạ. Bấy nhiêu điều ấy cùng các điều Hội Thánh dậy thì con tin vững vàng vì Chúa là Đấng thông minh và chân thật vô cùng đã phán truyền cho Hội Thánh. Amen."
-    },
-    {
-      "index": 355,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "8. Kòn kơnờm"
-    },
-    {
-      "index": 356,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kòn kơnờm Đi mơ kơnờm dờp bơh dơ Đi, ơ Yàng, bơta hàng goh, bơta gơklŏ, mơ ală gùng tơngklàs. Jơh gơ gen, Đi rơgơi pà, kơyoa Đi tờm gơnrơh, mơ kòn pà, kơyoa Đi tờm nđàc sơngit git nđờ, mơ Đi rơp pà, kơyoa Đi neh hơ be lơi, kòn pin ngăn geh be hơ̆ , bơh Đi tờm song dơpă sùm. Amen."
-    },
-    {
-      "index": 358,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "9. Kòn gơboh"
-    },
-    {
-      "index": 359,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kòn gơboh mơ Đi, ơ Yàng, kơyoa Đi neh gơboh mơ kòn. Rơlau tai, kòn gơboh mơ Đi rơlau dơ jơh ală bơta, mơ tài bơh Đi/ tàng kòn gơboh mơ tơl nă cau. Kơyoa mìng Đi tờm niăm ngăn di pal gơboh git nđờ. Amen."
-    },
-    {
-      "index": 361,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "10. Ơ Bàp"
-    },
-    {
-      "index": 362,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Bàp bol kòn, Đi ơm tam trồ, dăn sơnđăn Đi geh pơniăm goh, gơnoar Đi tus, nùs kờñ Đi dê gơlik gơs dơ tiah be tam trồ."
-    },
-    {
-      "index": 364,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "8. Kinh Cậy"
-    },
-    {
-      "index": 365,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa con, con trông cậy vững vàng vì công nghiệp Đức Chúa Giêsu thì Chúa sẽ ban ơn cho con giữ đạo nên ở đời này, cho ngày sau được lên thiên đàng xem thấy mặt Đức Chúa Trời hưởng phúc đời đời, vì Chúa là đấng phép tắc và lòng lành vô cùng đã phán hứa sự ấy chẳng có lẽ nào sai được. Amen."
-    },
-    {
-      "index": 367,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "9. Kinh Mến"
-    },
-    {
-      "index": 368,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa con, con kính mến Chúa hết lòng hết sức trên hết mọi sự, vì Chúa là Đấng trọn tốt trọn lành vô cùng, lại vì Chúa thì con thương yêu người ta như mình con vậy. Amen."
-    },
-    {
-      "index": 371,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "10. Kinh Lạy Cha"
-    },
-    {
-      "index": 372,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Cha chúng con ở trên trời, chúng con nguyện danh Cha cả sáng, nước Cha trị đến, ý Cha thể hiện dưới đất cũng như trên trời."
-    },
-    {
-      "index": 374,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dăn ai bol kòn in ngai do phan sa pah ngai, săng dồs bol kòn in/ be bol kòn săng cau in dồs mơ bol kòn, bañ tơmut bol kòn tam bơta tơlòng, mơya tơngklàs bol kòn bơh bơta iơh. - Amen."
-    },
-    {
-      "index": 376,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "11. Chờ-gờm"
-    },
-    {
-      "index": 377,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chờ-gờm Ai Maria bềng jơnau hàng goh,"
-    },
-    {
-      "index": 378,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kơnràñ ơm bal mơ Ai, Ai geh yal niăm tam ală cau ùr, mơ Jesu, Kòn tờm Ai, krung geh yal niăm."
-    },
-    {
-      "index": 379,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Maria niăm goh, Mè Yàng dê, răc hàñ bol kòn in cau tìs/ tŭ do mơ tŭ chơt sơl. Amen."
-    },
-    {
-      "index": 382,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "12. Gơklŏ"
-    },
-    {
-      "index": 383,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Gơklŏ Yàng Bàp mơ Yàng Nhơm, bơh sơnrờp, tŭ do, sùm sùm, jơl rài rài. Amen."
-    },
-    {
-      "index": 387,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Xin Cha cho chúng con hôm nay lương thực hằng ngày và tha nợ chúng con như chúng con cũng tha kẻ có nợ chúng con. Xin chớ để chúng con sa chước cám dỗ, nhưng cứu chúng con cho khỏi sự dữ. Amen."
-    },
-    {
-      "index": 389,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "11. Kinh Kính Mừng"
-    },
-    {
-      "index": 390,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà, Bà có phúc lạ hơn mọi người nữ, và Giêsu con lòng Bà gồm phúc lạ."
-    },
-    {
-      "index": 391,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con là kẻ có tội khi nay và trong giờ lâm tử. Amen."
-    },
-    {
-      "index": 394,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "12. Kinh Sáng Danh"
-    },
-    {
-      "index": 395,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Sáng danh Đức Chúa Cha, và Đức Chúa Con và Đức Chúa Thánh Thần. Như đã có trước vô cùng và bây giờ và hằng có và đời đời chẳng cùng. Amen."
-    },
-    {
-      "index": 397,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "13. Dăn Kơnràñ ai pràn"
-    },
-    {
-      "index": 398,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, - Yàng tờm gơnrơh, Đi neh lơh bol kòn in tus bồ ngai do, dăn Đi ngai do ai pràn Đi tơngklàs bol kòn, làng tam ngai do, bol kòn bañ gơwèt hơ jơnau tìs lơi, mơya bol kòn đơs, kơlôi sơnơng, mơ lơh broă jăt gùng song ring Đi dê sùm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 400,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "(Tam ngai-yàng mơ tam ngai leh dờng gen đal bơnah do tai: 14-19)"
-    },
-    {
-      "index": 402,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "14. Jơt jơnau Yàng sồr"
-    },
-    {
-      "index": 403,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùi : Duh-khoai mìng dùl Yàng lơm, gơboh mơ Khai rơlau jơh."
-    },
-    {
-      "index": 404,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr : Bañ tơmoh gời să Yàng."
-    },
-    {
-      "index": 405,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe : Ơm duh khoai ngai yàng."
-    },
-    {
-      "index": 406,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan : Dong nđàc me bàp."
-    },
-    {
-      "index": 407,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm : Bañ gơsơt cau."
-    },
-    {
-      "index": 408,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau : Bañ lơh dri bơrnàn."
-    },
-    {
-      "index": 409,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poh: Bañ kơñau phan cau."
-    },
-    {
-      "index": 410,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "13. Kinh dâng mình buổi sáng"
-    },
-    {
-      "index": 411,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lạy Chúa là sự sáng linh hồn con …"
-    },
-    {
-      "index": 424,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "14. Kinh mười điều răn"
-    },
-    {
-      "index": 425,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: thờ phượng một Đức Chúa Trời và kính mến Người trên hết mọi sự. Thứ hai: chớ kêu tên Đức Chúa Trời vô cớ."
-    },
-    {
-      "index": 426,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba: giữ ngày chủ nhật."
-    },
-    {
-      "index": 427,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: thảo kính cha mẹ."
-    },
-    {
-      "index": 428,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: chớ giết người."
-    },
-    {
-      "index": 429,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: chớ làm sự dâm dục."
-    },
-    {
-      "index": 430,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bảy: chớ lấy của người."
-    },
-    {
-      "index": 431,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Phàm: Bañ đơs blăc."
-    },
-    {
-      "index": 432,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Sin: Bañ ngờñ bao cau"
-    },
-    {
-      "index": 433,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Jơt: Bañ hàm phan cau."
-    },
-    {
-      "index": 434,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Jơt jơnau gen trơgùm wơl tam bàr bơta do : kờñ gơboh mơ Yàng rơlau jơh, mơ kờñ gơboh mơ cau kàr să tờm he. Amen."
-    },
-    {
-      "index": 437,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "15. Prau jơnau Pơrjum niăm sồr"
-    },
-    {
-      "index": 439,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl : Lơh yàng tam ngai yàng mơ tam ală ngai Pdrjum-niăm sồr."
-    },
-    {
-      "index": 440,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr : Bañ lơh broă tam ngai yàng mơ tam ală ngai Pơrjum-niăm sồr."
-    },
-    {
-      "index": 441,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Yal tìs tam dùl năm êt lah dùl dơ̆ . Poan: Wă-rò Să Kơnràñ Jesu tam kàl Kis Wơl."
-    },
-    {
-      "index": 442,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm : Kơrhia sa tam ală ngai Pơrjum niăm sồr."
-    },
-    {
-      "index": 443,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau : Wèr sa poắc tam ngai prau, mơ tam ală ngai Pơrjum-niăm sồr."
-    },
-    {
-      "index": 445,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ tám: chớ làm chứng dối."
-    },
-    {
-      "index": 446,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ chín: chớ muốn vợ chồng người."
-    },
-    {
-      "index": 447,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ mười: chớ tham của người."
-    },
-    {
-      "index": 448,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Mười điều răn ấy tóm về hai điều này mà chớ: Trước kính mến một Đức Chúa Trời trên hết mọi sự, sau lại yêu người như mình ta vậy. Amen."
-    },
-    {
-      "index": 450,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "15. Kinh sáu điều răn Hội Thánh Thứ nhất: xem lễ ngày Chủ nhật, cùng các ngày lễ buộc."
-    },
-    {
-      "index": 451,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: chớ làm việc xác ngày Chủ nhật cùng các ngày lễ buộc."
-    },
-    {
-      "index": 452,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba: xưng tội trong một năm ít là một lần."
-    },
-    {
-      "index": 453,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: chịu Mình Thánh Đức Chúa Giêsu trong mùa Phục-sinh."
-    },
-    {
-      "index": 454,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: giữ chay những ngày Hội-thánh buộc."
-    },
-    {
-      "index": 455,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: kiêng thịt ngày thứ sáu, cùng những ngày khác Hội-thánh dạy."
-    },
-    {
-      "index": 457,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "16. Poh tềl-gơnrơh"
-    },
-    {
-      "index": 459,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl : Tềl gơnrơh pơnđum. Bàr : Tềl gơnrơh tơmpràn."
-    },
-    {
-      "index": 460,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe : Tềl-gơnrơh Să Mhàm niăm-goh. Poan : Tềl-gơnrơh hồ tìs."
-    },
-    {
-      "index": 461,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm : Tềl-gơnrơh bong jiờu cau kòp."
-    },
-    {
-      "index": 462,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau: Tềl-gơnrơh pồ gơnoar niăm goh. Poh: Tềl-gơnrơh tambao."
-    },
-    {
-      "index": 464,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "17. Gơboh mơ cau geh jơt poan bơta"
-    },
-    {
-      "index": 465,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poh bơta đah să-jăn :"
-    },
-    {
-      "index": 466,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Ai cau jơgloh in sa."
-    },
-    {
-      "index": 467,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr: Ai cau tơhìr in hùc. Pe: Ai cau sèt ào in soh Poan: Còp cau kòp mơ cau jàm."
-    },
-    {
-      "index": 468,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm: Ai hìu cau năc in mut."
-    },
-    {
-      "index": 469,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau: Tơwài cau đi gơna."
-    },
-    {
-      "index": 470,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poh: Dong kờl tơp să cau chơt."
-    },
-    {
-      "index": 472,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "16. Bảy phép bí tích"
-    },
-    {
-      "index": 473,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: là phép Rửa tội."
-    },
-    {
-      "index": 474,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: là phép Thêm sức."
-    },
-    {
-      "index": 475,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba: là phép Mình Thánh Chúa."
-    },
-    {
-      "index": 476,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: là phép Giải tội."
-    },
-    {
-      "index": 477,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: là phép Xức dầu thánh."
-    },
-    {
-      "index": 478,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: là phép Truyền chức thánh."
-    },
-    {
-      "index": 479,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bảy: là phép Hôn-phối."
-    },
-    {
-      "index": 480,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "17. Thương người có 14 mối"
-    },
-    {
-      "index": 481,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thương xác bảy mối"
-    },
-    {
-      "index": 482,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: cho kẻ đói ăn."
-    },
-    {
-      "index": 483,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: cho kẻ khát uống."
-    },
-    {
-      "index": 484,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba: cho kẻ rách rưới ăn mặc."
-    },
-    {
-      "index": 485,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: viếng kẻ liệt cùng kẻ tù rạc."
-    },
-    {
-      "index": 486,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: cho khách đỗ nhà."
-    },
-    {
-      "index": 487,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: chuộc kẻ làm tôi."
-    },
-    {
-      "index": 488,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bảy: chôn xác kẻ chết."
-    },
-    {
-      "index": 490,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poh bơta đah sồp-soàn :"
-    },
-    {
-      "index": 492,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Bơto jơnau niăm cau in,"
-    },
-    {
-      "index": 493,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr: Pơnđàng nùs tồr cau brơngơi."
-    },
-    {
-      "index": 494,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Pơndờm pơnđiăng cau mhoăt-yăn."
-    },
-    {
-      "index": 495,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan: Ràc-kơriăn cau jăt gùng tìs. Prăm: Lời cau ềng sền he ờ-sơp. Prau: Ơt-ơl cau tơnhào nùs he. Poh: Răc cau kỉs mơ cau chơt in."
-    },
-    {
-      "index": 497,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "18. Poh bơta niăm mơ poh bơta tìs tờm"
-    },
-    {
-      "index": 499,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Pơndêt-să, bañ pơnhừ"
-    },
-    {
-      "index": 500,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr: Bơnas, bañ sềt-pềr."
-    },
-    {
-      "index": 501,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Sàng-kloh, bañ dri-tơlàr. Poan: Ơt-ơl, bañ gơjrañ."
-    },
-    {
-      "index": 503,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm: Kơrhia, bañ jròk."
-    },
-    {
-      "index": 504,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau: Gơboh mơ cau, bañ ềng-boah. Poh: Trơyăng, bañ alah."
-    },
-    {
-      "index": 507,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thương linh hồn bảy mối:"
-    },
-    {
-      "index": 509,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: lấy lời lành mà khuyên người."
-    },
-    {
-      "index": 510,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: mở dậy kẻ mê muội. Thứ ba: yên ủi kẻ âu lo."
-    },
-    {
-      "index": 511,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: răn bảo kẻ có tội."
-    },
-    {
-      "index": 512,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: tha kẻ dể ta."
-    },
-    {
-      "index": 513,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: nhịn kẻ mất lòng ta."
-    },
-    {
-      "index": 514,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bảy: cầu cho kẻ sống và kẻ chết."
-    },
-    {
-      "index": 516,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "18. Cải tội bảy mối có bảy đức"
-    },
-    {
-      "index": 518,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: khiêm nhường, chớ kiêu ngạo."
-    },
-    {
-      "index": 519,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: rộng rãi, chớ hà tiện. Thứ ba: giữ mình sạch sẽ, chớ mê dâm dục."
-    },
-    {
-      "index": 520,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: hay nhịn, chớ hờn giận."
-    },
-    {
-      "index": 521,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm: kiêng bớt chớ mê ăn uống."
-    },
-    {
-      "index": 522,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ sáu: yêu người chớ ghen ghét. Thứ bảy: siêng năng việc Đức Chúa Trời, chớ làm biếng."
-    },
-    {
-      "index": 524,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "19. Phàm bơta bơtoah"
-    },
-    {
-      "index": 525,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Bơtoah bol cau nùs rơbah rơbừp, bơh lơgar trồ gơrê mơ bol khai."
-    },
-    {
-      "index": 526,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bar: Bơtoah bol cau niăm lơnhơn, bơh bol khai rơp geh ù-tiah."
-    },
-    {
-      "index": 527,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Bơtoah bol cau ñìm-mhoăt, bơh bol khai rơp geh pơndờm pơnđiăng. Poan: Bơtoah bol cau jơgloh tơhìr bơta song-ring, bơh bol khai rơp geh hờm. Prăm: Bơtoah bol cau nđàc-sơngit, bơh bol khai rơp geh sơnđàc."
-    },
-    {
-      "index": 528,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prau: Bơtoah bol cau nùs sàng goh, bơh bol khai rơp gŏ Yàng."
-    },
-    {
-      "index": 529,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poh: Bơtoah bol cau pơnring lơngai, bơh bol khai rơp geh hòi lah kòn Yàng."
-    },
-    {
-      "index": 530,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Phàm: Bơtoah bol cau kong kup kơriăn bơh bơta song ring, bơh lơgar trồ gơrê mơ bol khai."
-    },
-    {
-      "index": 531,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Chờ hờp mơ rơhờn tĕ bơh phan jờng dờng ngăn tam trồ."
-    },
-    {
-      "index": 534,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "19. Phúc thật tám mối"
-    },
-    {
-      "index": 535,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất: ai có lòng khó khăn, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ."
-    },
-    {
-      "index": 536,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai: ai hiền lành, đó là phúc thật, vì chưng sẽ được đất Đức Chúa Trời làm của họ."
-    },
-    {
-      "index": 537,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba: ai khóc lóc, đó là phúc thật, vì chưng họ sẽ được an ủi."
-    },
-    {
-      "index": 538,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn: ai khao khát nhân đức trọn lành, đó là phúc thật, vì chưng họ sẽ được no đủ. Thứ năm: ai thương xót người đó là phúc thật, vì chưng họ sẽ được thương xót. Thứ sáu: ai giữ lòng trong sạch đó là phúc thật, vì chưng họ sẽ được thấy mặt Đức Chúa Trời."
-    },
-    {
-      "index": 539,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bảy: ai làm cho người hòa thuận, đó là phúc thật, vì chưng họ sẽ được gọi là con Đức Chúa Trời."
-    },
-    {
-      "index": 540,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ tám: ai chịu khốn khổ vì đạo Chúa, đó là phúc thật, vì chưng nước Đức Chúa Trời là của họ."
-    },
-    {
-      "index": 541,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "20. Răc ñòng"
-    },
-    {
-      "index": 543,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm bơta chờhờp"
-    },
-    {
-      "index": 544,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "(Tam ngai dơ̆ bàr, mơ tam ală ngai yàng kàl mù tus mơ kàl lik-lìng)"
-    },
-    {
-      "index": 546,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Kơlôi Mè Maria geh Huềng duh yal gơ ơn bun bơh Yàng Nhơm. – He dăn lă geh ơm pơndêt-să."
-    },
-    {
-      "index": 548,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr: Kơlôi Mè Maria lòt còp kơnùr"
-    },
-    {
-      "index": 549,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Elisabet. He dăn lă geh nùs gơboh mơ cau."
-    },
-    {
-      "index": 551,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe : Kơlôi Mè Maria deh Kơnràñ Jesu. He dăn lă geh nùs rơbah-rơbừp."
-    },
-    {
-      "index": 553,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan : Kơlôi Mè Maria pơdơng Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh dờnduh."
-    },
-    {
-      "index": 555,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm : Kơlôi Mè Maria bàn wơl Kơnràñ Jesu tam hìu-yàng. - He dăn lă geh prăp nùs đào-mềr sùm mơ Yàng."
-    },
-    {
-      "index": 556,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "20. Phép lần hạt"
-    },
-    {
-      "index": 558,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Năm sự vui"
-    },
-    {
-      "index": 559,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "(Suy niệm vào thứ Hai và thứ Bẩy)"
-    },
-    {
-      "index": 561,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất thì ngắm: Thiên thần truyền tin cho Đức Bà chịu thai. Ta hãy xin cho được ở khiêm nhường."
-    },
-    {
-      "index": 563,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai thì ngắm: Đức Bà đi viếng bà"
-    },
-    {
-      "index": 564,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thánh Isave. Ta hãy xin cho được lòng yêu người."
-    },
-    {
-      "index": 566,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba thì ngắm: Đức Bà sinh Đức Chúa"
-    },
-    {
-      "index": 567,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Giêsu nơi hang đá. Ta hãy xin cho được lòng khó khăn."
-    },
-    {
-      "index": 569,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn thì ngắm: Đức Bà dâng Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được vâng lời chịu lụy."
-    },
-    {
-      "index": 571,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm thì ngắm: Đức Bà tìm được Đức Chúa Giêsu trong đền Thánh. Ta hãy xin cho được giữ nghĩa cùng Chúa luôn."
-    },
-    {
-      "index": 572,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm bơta àng"
-    },
-    {
-      "index": 573,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "(Tam ngai dơ̆ prăm)"
-    },
-    {
-      "index": 575,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl : Kơlôi Kơnràn Jesu dờp bơta Pơnđum tam dà Jordano. He dăn lă geh kis di-pal lah kòn Yàng."
-    },
-    {
-      "index": 577,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bàr : Kơlôi Kơnràñ Jesu lòt ñô bao tam Kana. He dăn lă geh pindờn kơ̆ dơ gơnoar Khai đê."
-    },
-    {
-      "index": 579,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe : Kơlôi Kơnràñ Jesu yal bơto Lơgar Trồ mơ hòi jà ềng-mài. He dăn lă geh nùs màl mơ wă dờp Jơnau Yal Niăm."
-    },
-    {
-      "index": 581,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan: Kơlôi Kơnràñ Jesu srơh să hơđăng bơnơm. He dăn lă geh iăt mơ lơh jăt Jơnau Yàng."
-    },
-    {
-      "index": 583,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm: Kơlôi Kơnràñ Jesu lơh gơs Tềl gơnrơh Să Mhàm niăm goh. He dăn lă geh trơyăng tam klăc bal mơ Kơnràñ Jesu tam Tềl gơnrơh do."
-    },
-    {
-      "index": 584,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Năm Sự Sáng"
-    },
-    {
-      "index": 585,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "Suy niệm vào thứ năm"
-    },
-    {
-      "index": 587,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất thì ngắm: Đức Chúa Giêsu chịu phép Rửa tại sông Giođan. Ta hãy xin cho được sống xứng đáng là con Thiên Chúa."
-    },
-    {
-      "index": 589,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai thì ngắm: Đức Chúa Giêsu làm phép lạ tại tiệc cưới Cana. Ta hãy xin cho được noi gương Đức Mẹ mà vững tin vào Chúa."
-    },
-    {
-      "index": 591,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba thì ngắm: Đức Chúa Giêsu rao giảng Nước Trời và kêu gọi sám hối. Ta hãy xin cho được tin vào lòng Chúa thương xót và siêng năng lãnh nhận Bí tích Giao hòa."
-    },
-    {
-      "index": 593,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn thì ngắm: Đức Chúa Giêsu biến hình trên núi. Ta hãy xin cho được biến đổi nhờ Chúa Thánh Thần."
-    },
-    {
-      "index": 595,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm thì ngắm: Đức Chúa Giêsu lập Bí tích Thánh Thể. Ta hãy xin cho được siêng năng tham dự Thánh lễ và rước Mình Máu Thánh Người."
-    },
-    {
-      "index": 596,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Prăm bơta jê yăn"
-    },
-    {
-      "index": 597,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "(Tam ngai dơ̆ pe, ngai dơ̆ prau, mơ tam ală ngai-yàng kàl poan jơt)"
-    },
-    {
-      "index": 599,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl : Kơlôi Kơnràñ Jesu kong mhoăt jrùng tam suơn Jetsemani. He dăn lă geh ềng-màl ngăn tìs."
-    },
-    {
-      "index": 601,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bar: Kơlôi Kơnràñ Jesu kong pù-lơh. He dăn lă geh ring nùs kơrhia să mơ kong bòl-glar."
-    },
-    {
-      "index": 603,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Kơlôi Kơnràñ Jesu kong groă mơ kơnoar lò. He dăn lă geh ring nùs kong jơh ală bơta bàssìl bil bơl."
-    },
-    {
-      "index": 605,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan: Kơlôi Kơnràñ Jesu kong tui chikal - He dăn lă geh tui chikal jăt Jơng Khai."
-    },
-    {
-      "index": 607,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm: Kơlôi Kơnràñ Jesu kong chơt dơ chikal. - He dăn lă geh tơs bơta hàm-kờñ poăc-să dơ chikal Khai dê."
-    },
-    {
-      "index": 609,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Năm Sự Thương"
-    },
-    {
-      "index": 610,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "Suy niệm vào thứ Ba và thứ Sáu"
-    },
-    {
-      "index": 612,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất thì ngắm: Đức Chúa Giêsu lo buồn đổ mồ hôi máu. Ta hãy xin cho được ăn năn tội nên."
-    },
-    {
-      "index": 614,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai thì ngắm: Đức Chúa Giêsu chịu đánh đòn. Ta hãy xin cho được hãm mình chịu khó bằng lòng."
-    },
-    {
-      "index": 616,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba thì ngắm: Đức Chúa Giêsu chịu đội mão gai. Ta hãy xin cho được chịu mọi sự sỉ nhục bằng lòng."
-    },
-    {
-      "index": 618,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn thì ngắm: Đức Chúa Giêsu vác Thánh giá. Ta hãy xin cho được vác Thánh giá theo chân Chúa."
-    },
-    {
-      "index": 620,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm thì ngắm: Đức Chúa Giêsu chịu chết trên cây Thánh giá. Ta hãy xin đóng đanh tính xác thịt vào Thánh giá Chúa."
-    },
-    {
-      "index": 623,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Prăm bơta gơklŏ"
-    },
-    {
-      "index": 624,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "(Tam ngai dơ̆ poan, ngai dơ̆ poh, mơ tam ală ngai-yàng kàl kis wơl mơ kàl dar năm)"
-    },
-    {
-      "index": 626,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dùl: Kơlôi Kơnràñ Jesu kis wơl. He dăn lă geh kis wơi ngăn đah sồp soàn."
-    },
-    {
-      "index": 628,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bar: Kơlôi Kơnràñ Jesu guh trồ. He dăn lă geh nùs gơboh gơbài mơ ală bơta tam trồ."
-    },
-    {
-      "index": 630,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pe: Kơlôi Yàng Nhơm mù. He dăn lă geh nùs bềng lìu ală bơta hàng goh Khai dê."
-    },
-    {
-      "index": 632,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Poan: Kơlôi Mè Maria geh Yàng tơngguh hơ trồ. He dăn lă geh chơt niăm tam tê Mè dê."
-    },
-    {
-      "index": 634,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Prăm : Kơlôi Mè Maria geh Yàng tơngklŏ. He dăn lă mơ Mè dong he geh bơtoah bal mơ Mè tam lơgar trồ."
-    },
-    {
-      "index": 637,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Năm Sự Mừng"
-    },
-    {
-      "index": 638,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "Suy niệm vào ngày thứ Tư và Chúa nhật"
-    },
-    {
-      "index": 640,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ nhất thì ngắm: Đức Chúa Giêsu sống lại. Ta hãy xin cho được sống lại thật về phần linh hồn."
-    },
-    {
-      "index": 642,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ hai thì ngắm: Đức Chúa Giêsu lên trời. Ta hãy xin cho được ái mộ những sự trên trời."
-    },
-    {
-      "index": 644,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ ba thì ngắm: Đức Chúa Thánh Thần hiện xuống. Ta hãy xin cho được lòng đầy rẫy mọi ơn Đức Chúa Thánh Thần."
-    },
-    {
-      "index": 646,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ bốn thì ngắm: Đức Chúa Trời cho Đức Bà lên trời. Ta hãy xin ơn chết lành trong tay Đức Mẹ."
-    },
-    {
-      "index": 648,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Thứ năm thì ngắm: Đức Chúa Trời thưởng Đức Mẹ trên trời. Ta hãy xin Đức Mẹ phù hộ cho ta được thưởng cùng Đức Mẹ trên nước thiên đàng."
-    },
-    {
-      "index": 650,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tŭ răc ñòng, lồc răc jơnau “gơklŏ”, gen răc jơnau “Ơ Kơnràñ Jesu” Ơ Kơnràñ Jesu, dăn hồ tìs bol kòn in, dăn tơngklàs bol kòn mbài dùh tam anih ồs yăn sùm, mơ dăn cèng ală sồp-soàn guh trồ, ngăn lah ală sồp-soàn kờñ | kơnờm dơ nùs nđàc-sơngit Đi dê rơlau."
-    },
-    {
-      "index": 652,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dilah răc ñòng cau chơt in, lồc răc jơnau"
-    },
-    {
-      "index": 654,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "“gơklŏ”, gen răc jơnau “Ơ Kơnràñ” :"
-    },
-    {
-      "index": 656,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, dăn ai sồp-soàn …. in (ală sồp soàn in) geh rơlô lơngai rài rài, mơ dăn tơmbềng khai (bol khai) mơ bơta àng gơcrà."
-    },
-    {
-      "index": 658,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "21. Kòn mhoăt kơlôi (Kinh Ăn năn tội)"
-    },
-    {
-      "index": 659,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, kòn mhoăt kơlôi màl ngăn/ bơh neh lơh tìs mơ Đi, kơyoa Đi gơs niăm ngăn, mơ bơh tìs lơh roh nùs Đi. Kơnờm dơ Yàng dong, kòn kờñ ngăn săng tìs, mơ lơh broă rơmal wơl. Amen."
-    },
-    {
-      "index": 661,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "22. Dăn Yàng drơng (Kinh Phó Dâng)"
-    },
-    {
-      "index": 662,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, dăn drơng bol kòn tam măng do, làng prăp gàr bol kòn ring lơngai, sền gàr bol kòn bơh tìs, bơh chơt ris, mơ bơh jơh jơnau rềs-àr. Ơ Mè niăm goh ngăn Yàng dê, ơ bol Huềng duh mơ jơh bol niăm goh, dăn kờl răc bol kòn in, làng bol kòn in geh dùl măng lơngai. Amen."
-    },
-    {
-      "index": 663,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "23. Dăn Ai kah wơl (Kinh Hãy nhớ)"
-    },
-    {
-      "index": 664,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Maria, Ùr tơmo niăm lơnhơn ngăn, dăn Ai kah wơl bơh lài òrnau ờ klo cau lơi/ ràn Ai gràng gàr, khoai Ai dong kờl, jòi Ai kờl răc mơ Ai săng lời. Bơh nùs dờn be gen, ơ Mè Ùr tơmo rơlau jơh ală ùr tơmo, kòn ntoat ràn, kòn tus mơ Ai, kòn cau tìs ơm rơnđềng dơđăp Ai. Ơ Mè Jơnau Ðơs dê, bañ sền ờ-sơp jơnau kòn đơs, mơya đăn Ai sơrmah sơrmàl iăt dờp bơr kòn. Amen."
-    },
-    {
-      "index": 666,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "24. Bol kòn ràn prŭ (Kinh Trông Cậy)"
-    },
-    {
-      "index": 668,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Mè niăm-goh Yàng dê, bol kòn ràn prŭ dăn Ai gràng gàr, bañ sền ờ-sơp jơnau bol kòn hòi dăn/ tam tŭ kòl-yăn kal-ke, mơya dăn tơngklàs bol kòn sùm/ bơh jơh ală bơta di ngòt, ơ Ùr tơmo gơklŏ mơ geh yal niăm. Amen."
-    },
-    {
-      "index": 670,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "25. Ơ Huềng duh gàr. (Kinh Thiên thần bản mệnh)"
-    },
-    {
-      "index": 671,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Huềng-duh Yàng dê, Đi gràng-gàr Kòn, Nùs niăm lơnhơn bơh hơđăng neh jào kòn dơ Đi, dăn Đi pơnđàng, prăp gàr, ăt bồ mơ tề lăm kòn. Amen."
-    },
-    {
-      "index": 673,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "26. Ưn-ngài Yàng (Kinh Cám ơn)"
-    },
-    {
-      "index": 674,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, kòn pindờn kơnhăp Đi ơm trồ làm tiah, ngăn lah tam bă do. Kòn duh khoai Đi, tờm crơng gơs mơ Gơnoar ăt kòn. Jơh să soàn kòn, kòn jào dơ Đi. Ơ Yàng, kòn ưn ngài Đi neh crơng gơs kòn, neh tơwài kòn, mơ lơh kòn in gơs cau pindờn. Kòn krung ưn ngài Đi bơh jơh ală jơnau niăm ndai, kòn neh dờp bơh dơ Đi, ngăn lah bơh Đi neh sền gàr kòn măng ti."
-    },
-    {
-      "index": 676,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Tam klăc bal mơ Jesu Kristo, Kơnràñ bol kòn, kòn pơdơng Đi in/ jơh ală jơnau kơlôi, jơnau đơs, broă lơh mơ jơnau bòl glar kòn dê, làng tơngklŏ ngăn Đi. Kòn kờñ ngăn kis niăm rơlau dơ lài òr, mơ tamdră, mbài tơnroh nùs Đi."
-    },
-    {
-      "index": 677,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, dăn dong kòn prăp nền jơnau kòn hơ."
-    },
-    {
-      "index": 678,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Maria niăm goh, Mè Yàng dê, răc hàñ kòn in."
-    },
-    {
-      "index": 679,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Huềng duh gàr kòn, răc hàñ kòn in."
-    },
-    {
-      "index": 680,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Joseph niăm goh, răc hàñ kòn in."
-    },
-    {
-      "index": 681,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Cau niăm goh gàr kòn, răc hàñ kòn in. Bol cơng nhàm niăm goh Việt Nam, răc hàñ kòn in. Jơh bol niăm goh tam trồ, răc hàñ kòn in. Amen."
-    },
-    {
-      "index": 685,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "II. ALĂ JƠNAU RĂC DĂN IS ỒN"
-    },
-    {
-      "index": 687,
-      "style": "Heading 4",
-      "headingLevel": 4,
-      "text": "1. Răc dăn mơ Să Mhàm niăm goh Kơnràñ Jesu (Kinh Cầu trước Thánh Thể Chúa Giêsu)"
-    },
-    {
-      "index": 688,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh lời wơl bol kòn in tam tềl gơnrơh krơi sơrbơi/ bơta kah. kơlôi jơnau jê yăn Đi dê, bol kòn dăn Đi ai bol kòn duh adăt/ bơta ndơp ndơr goh rơyŭ Să Mhàm Đi dê be lơi, làng bol kòn ờ dơh tiăm git tam bol kòn cồng nha bơta tơwài Đi dê. Đi ơm kis mơ ăt bồ jơl rài rài. Amen."
-    },
-    {
-      "index": 690,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "2. Răc dăn mơ Plai Nùs niăm goh Kơnràñ"
-    },
-    {
-      "index": 691,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Jesu (Kinh Cầu Trái tim cực thánh Đức Chúa Giêsu)"
-    },
-    {
-      "index": 693,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh nđàc pơha nùs pà bềng"
-    },
-    {
-      "index": 694,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "lìu bol kòn in/ ală đăm phan màng ờ"
-    },
-    {
-      "index": 695,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Nhàr bơta gơboh dê/ tam Plai Nùs Kòn Đi dê neh kong jê sồt bơh ală tìs bol kòn,"
-    },
-    {
-      "index": 697,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn Đi ai bol kòn in, dơ̆ trơyăng dờn duh, gen krung git ràng tơlik broă rơmal di pal. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 699,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "3. Răc dăn mơ Joseph niăm goh, Bơklau Maria bơtoah Ùr tơmo (Kinh Cầu Thánh cả Giuse, bạn thanh sạch Đức Trinh Nữ Maria)"
-    },
-    {
-      "index": 701,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng tờm gơnrơh, bol kòn khoai dăn"
-    },
-    {
-      "index": 702,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi ai Pơrjum niăm Đi dê, bơh jơnau Joseph bơtoah răc hàñ, git sùm prăp gàr, bơsir ală bơta ndơp ndơr tơngklàs kòn bơnus, mơ ală bơta sơnrờp gơ dê, Đi neh jào Khai in kơ̆ mềr sền gàr."
-    },
-    {
-      "index": 703,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 705,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "4. Răc dăn mơ Joseph niăm goh, cau lơh broă (Kinh Thánh Giuse thợ)"
-    },
-    {
-      "index": 707,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Bơtau crơng gơs ală bơta, Đi neh tơn ơn jơi kòn bơnus in jơnau sồr lơh broă, dăn Đi niăm lơnhơn ai bol kòn in, kơnờm bơh krơh àng mơ bơta dong gàr Joseph niăm goh dê, bol kòn bơsir ală broă Đi sồr, mơ geh dờp aiă phan jờng Đi hơ. Bol kòn dăn gơ gen"
-    },
-    {
-      "index": 708,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "bơh Kristo, Kơnràñ bol kòn. Amen"
-    },
-    {
-      "index": 710,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "5. Ơ Joseph niăm goh (Kinh Thánh Giuse, Bổn mạng Hội Thánh)"
-    },
-    {
-      "index": 712,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Joseph niăm goh, Cau Gràng Gàr Pơrjum niăm, Đi di pal ngăn geh tơl tiah jờngrơ jăt sơnđăn dờng màng tam Jơnau Yal Niăm lah cau duh broă niăm mơ kơ̆ ềr neh geh Yàng pin kơnờm mơ lào jơh jơtài Lơgar Trồ."
-    },
-    {
-      "index": 714,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ngăn be hơ̆ , _ tam jơnau rơndăp ndơp ndơr Yàng dê, Đi geh rơwăh gơs Cau Bơyô Maria, Ùr Tơmo dê ; mơ tam jơi nòi Đi dê, Kòn Yàng gơs cau tam jơi bơtiàn bơtau David/ neh gơboh gơbài hoi Đi lah bàp; tŭ do tam Lơgar Trồ gơklŏ, Đi lơh broă dùl nă Cau"
-    },
-    {
-      "index": 715,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dong Gàr dê, kờl răc bol pindờn in"
-    },
-    {
-      "index": 716,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "tam làng bol Yàng dê."
-    },
-    {
-      "index": 718,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Joseph niăm goh, Cau Gràng Gàr"
-    },
-    {
-      "index": 719,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Pơrjum niăm bol kòn jờngrơ Đi lah “cau song dơpă ” neh gơs krơh àng dùl rài niăm goh/ be Jơnau Yal Niăm bơto sồr: bơh bơta dờn bơr Đi dê, Jơnau Đơs neh lơh sir tơl niăm bơnĕ bơta ndơp ndơr Gơs Poăc Să ; tam gùng kis rơbah rơbừp, Đi neh bal mơ Kơnràñ Jesu mơ Mè Maria/ lơh rơ̆ ru rài kis ală hìu bơnhă in;"
-    },
-    {
-      "index": 720,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi ơm kis sàng goh tai/ làng prăp gàr Mè Yàng dê. Dăn kờl răc Pơrjum niăm in/ mơ rà jơnau kơp kờñ/ mơ jơnau kơp dăn ơm kơ̆ mềr tam broă lơh, làng jơh ală ntum Làng bol Yàng dê bal mơ Đi/ ờ dơh tơngklŏ Yàng/ mơ duh broă jơnau kuơ màng oh mi he in. Amen."
-    },
-    {
-      "index": 722,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "6. Răc dăn mơ bol cơng mhàm niăm goh"
-    },
-    {
-      "index": 723,
-      "style": "Heading 2",
-      "headingLevel": 2,
-      "text": "Việt Nam (Kinh Các thánh tử đạo Việt Nam)"
-    },
-    {
-      "index": 725,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ bol cơng mhàm niăm goh Việt Nam, lài òr neh git ngui bơta hàng goh Yàng jai pha ală bơta kong kòl bòl glar, làng sih tăm gar sơntìl Jơnau Yal Niăm/ mơ bơt bơtào Pơrjum niăm Kơnràñ tam ù dà do."
-    },
-    {
-      "index": 727,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol đi neh tơt khin yal tơlik bơta pindờn, tiăn tus phi să kis bơh nùs gơboh Yàng/ mơ bơta tơwài ală sồp soàn, gen di pal geh dờp bơta bơtoah tam trồ."
-    },
-    {
-      "index": 729,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn dùl nùs bal mơ bol đi, làng ưn ngài Yàng mơ Maria, Ùr Bơtau bol cơng mhàm niăm goh, neh pà bol đi in geh bơtoah be hơ̆ ,"
-    },
-    {
-      "index": 731,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn chờhờp jờngrơ bol đi, lah ală plai bồ sơnăm dờng màng Pơrjum niăm Việt Nam dê."
-    },
-    {
-      "index": 732,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dăn bol đi kờl răc bol kòn in lah kòn sao, git đòm krơh kís jăt gùng Jơnau Yal Niăm, lơh bơta nđàc gơboh, mềr mơ Pơrjum niăm mơ gơboh bòn lơgar."
-    },
-    {
-      "index": 733,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Mơ tŭ bol kòn gơtìp kòl yăn kal ke, dăn bol đi dong kờl mơ pơndờm pơnđiăng, làng bol kòn tơl pràn dờn jăt Yàng, tơmut tê tam bơta ndơp ndơr chikal tơwài Kơnràñ Jesu dê, pơnjăt gùng bol đi neh lòt, làng sơmbăt tus bơta bơtoah rài rài. Amen."
-    },
-    {
-      "index": 735,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "7. Răc dăn Pơrjum niăm khop dunia in (Kinh Cầu cho Hội Thánh hoàn cầu)"
-    },
-    {
-      "index": 737,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, bơh bơta rơcăng sền krơi sơrbơi, Đi neh ơnrơndăp, làng gơnoar Bơtau Kơnràñ Kristo dê geh gơprà làm ù làm tiah, mơ làng jơh ală cau/ geh bơnah tam bơta tơwài tơngklàs. Bol kòn dăn Đi ai Pơrjum niăm Đi dê làm khop dunia, gơjềng tềl gơnrơh bơta tơngklàs, mơ ai Pơrjum niăm in ràng tơlik mơ lơh gơs bơta ndơp ndơr kờñ gơboh Đi dê dơ kòn bơnus. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 739,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "8. Răc dăn Pơrjum niăm bă tiah in"
-    },
-    {
-      "index": 740,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "(Kinh cầu cho Hội Thánh)"
-    },
-    {
-      "index": 742,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh ràng tơlik Pơrjum. niăm dùi lơm, niăm goh, jơh ală cau in mơ bơh bol dờp pơyoa tam kờp Pơrjum niăm găm lòt gùng làm ù làm tiah. Dăn Đi niăm lơnhơn ai làng bol"
-    },
-    {
-      "index": 743,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi dê/ geh tam klăc gơs dùl mơ cau sền ê, mơ kơnờm bơh Jơnau Yal Niăm mơ tềl gơnrơh Să Mhàm niăm goh, geh tơrgùm bal tam Yàng Nhơm be lơi, làng di pal chài rơgơi sơnđio tơlik bơta gùh nteh leh ntàm làng bol Đi dê, mơ gơs tềl mơ gùng Kơnràñ Kristo tòm măt tam dunia."
-    },
-    {
-      "index": 744,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn gơ gen bơh Christo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 747,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "9. Răc dăn cau tờm ê in (Kinh Cầu cho Đức Giáo Hoàng)"
-    },
-    {
-      "index": 748,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, bơh bơta rơcăng sền Đi dê kơlôi rơndăp,"
-    },
-    {
-      "index": 749,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Đi neh kờñ Pơrjum niăm Đi dê geh bơt bơtào hơđăng Petro bơtoah, cau lăm bồ bol dờp pơyoa. Dăn Đi niăm lơnhơn wèt sền dơ cau tờm"
-    },
-    {
-      "index": 751,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ê bol kòn dê … mơ dăn Đi ai cau Đi"
-    },
-    {
-      "index": 753,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "neh ơn gơs cau pơnjăt gơnoar broă Petro dê, gơjềng tơnggu me mơ bơnàng rơgơi gŏ bơta pindờn dùl lơm mơ bơta tamk lăc bal. Bol kòn dăn gơ gen bơn Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 755,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "10. Răc dăn cau sền ê in (Kinh Cầu cho Đức Giám mục)"
-    },
-    {
-      "index": 757,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Bơtau ê rài rài bol pindờn dê, Đi lơh tờm Pơrjum niăm Đi dê/ bơh bơta"
-    },
-    {
-      "index": 758,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "tampà rơ̆ rà"
-    },
-    {
-      "index": 759,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ală bơta niăm, mơ lăm bồ bơh bơta kờñ gơboh."
-    },
-    {
-      "index": 760,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn Đi ai cau duh broă Đi dê …, mơ Đi neh ơn gơs pô làng bol Đi dê, làng ala măt Kơnràñ Kristo,"
-    },
-    {
-      "index": 761,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "khai lăm bồ mpồl belàt mơ khai lah cau ê, mơ kơ̆"
-    },
-    {
-      "index": 762,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "mềr gơs cau bơto jơnau yàng, cau lơh yàng tam bơta duh khoai goh rơyŭ, mơ cau dong duh tam bơta boh lăm. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 764,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "11. Răc dăn cau lơh yàng in (Kinh Cầu cho Linh mục)"
-    },
-    {
-      "index": 766,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh ơn Kòn Dùl Đi dê gơs cau lơh yàng dờng mơ jơl rài rài, dăn Đi ai ală cau Đi neh săc rơwah gơs cau dong duh mơ cau tampà ală bơta ndơp ndơr Đi dê, geh kơ̆ mềr bơsir broă dong duh neh dờp. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 768,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "12. Răc dăn ală cau dong duh in (Kinh Cầu cho các tu sĩ)"
-    },
-    {
-      "index": 770,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh bơto ală cau dong duh Pơrjum niăm Đi dê/ bañ kờñ geh duh broă, mơya pal broă oh mi,"
-    },
-    {
-      "index": 771,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn Đi ai bol khai geh trơyăng tam broă lơh, geh kơnhăp tam jơnau răc dăn, mơ niăm lơnhơn tam bơta dong duh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 773,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "13. Răc dăn ală cau làng pindờn in"
-    },
-    {
-      "index": 774,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "(Kinh cầu cho các tín hữu)"
-    },
-    {
-      "index": 775,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh pơyoa tus tam dunia pràn gơnoar Jơnau Yal niăm dê be kañ, dăn Đi ai bol pindờn Đi dê/ mơ Đi neh hòi ơm kis tam gùl dunia mơ ală broă rài do dê, làng dơ̆ geh nhơm Kristo tơnduh, gen gơ găn ală broă pal lơh tam rài, bol khai ờ dơh bơt bơtào lơgar Đi dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 777,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "14. Răc dăn ală cau kristo in geh tam klăc gơs dùl (Kinh Cầu cho các Kitô hữu hiệp nhất)"
-    },
-    {
-      "index": 779,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng gơs sùm mơ tờm gơnrơh, Đi tơrgùm ală bơta tamcah/ mơ prăp gàr ală bơta geh tơrgùm,"
-    },
-    {
-      "index": 780,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "dăn Đi ring nùs wèt sền mpồl belàt Kòn Đi"
-    },
-    {
-      "index": 781,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "dê,"
-    },
-    {
-      "index": 782,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "làng ală cau dùl tềl gơnrơh pơnđum neh pơniăm"
-    },
-    {
-      "index": 784,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "goh rơyŭ, gen geh bơta pindờn wil tơl tam bơrkuăt mơ geh che kờñ gơboh tơrbŏ gơs dùl jơi ntum. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 786,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "15. Răc dăn broă yal pơnrơ Jơnau Yal Niăm ală làng bol in (Kinh Cầu cho việc truyền giáo)"
-    },
-    {
-      "index": 788,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi kờñ jdh ală cau geh tơngklàs mơ tus đal git bơia ngăn, dăn Đi wèt sền blàng sre bềng kòi dum Đi dê, mơ pơha nùs pơyoa ală cau duh broă tus nggen làng Jơnau Yal Niăm geh yal pơnrơ jơh ală bơta crơng gơs in mơ làng bol Đi dê, dơ̆ geh Jơnau đơs bơta kis dê tơrgùm mơ geh pràn gơnoar ală tềl gơnrơh đơng gàr, gen lòt tus tam gùng tơngklàs mơ kờñ gơboh. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn, ~ Amen."
-    },
-    {
-      "index": 790,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "16. Răc dăn bòn lơgar in (Kinh Cầu cho Tổ quốc)"
-    },
-    {
-      "index": 792,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, bơh bơta kơlôi krơi sơrbơi, Đi rơndăp jơh tơi bơta, dăn Đi niăm lơnhơn đờp ală jơnau bol kòn răc dăn bòn lơgar bol kòn dê in, làn ng bơh bơta jăk chài bol lăm bồ ¬ mơ bơta song niăm bol cau làng dê, gen bơta ring nùs bal mơ bơta song dơpă gch tơngkơ̆ mơ geh bơta pas gds sùm sùm bal mơ bơia ring lơngai. Bol kòn đăn BƠ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 793,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "17. Răc dăn hìu bơnhă in (Kinh Cầu cho gia đình)"
-    },
-    {
-      "index": 795,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, tam bơta săp rơndăp Đi dê, hìu bơnhă geh bơnàng kơljăp gơ dê, dăn Đi nđàc wèt tồr iăt jơnau/ ală hìu bơnhă Đi dê răc dăn, mơ dăn ai bol kòn in, dơ̆ đòm jăt ală krơh àng hìu bơnhă niăm goh Kòn Dul Đi dê, dờn dờp ală jơnau adăt adia hìu bơnhă dê mơ dờn jăt bơta kờñ gơboh, gen bol kòn rơp geh chờhờp kờp ală phan jờng rài rài."
-    },
-    {
-      "index": 796,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 798,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "18. Răc dăn hìu bơnhă in (Kinh cầu cho gia đình mới)"
-    },
-    {
-      "index": 800,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ Jesu, bol kòn pin kơ̆ : gùng tambao mơ hìu bơnhă lah broă crơng gơs Yàng dê, broă bơta gơboh, jăk chài mơ niăm goh dê ; bol kòn pindờn: Đi kờñ mơ Đi sùm pà bơta hàng goh làng gùng tambao geh bơtoah tam bơta dùl lơm mơ kơ̆ mềr, tam broă deh dùh mơ tơngguh bơta kis,"
-    },
-    {
-      "index": 802,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Kơnràñ, Đi neh gơboh mơ bơtào gùng tambao gơs tềl gơnrơh: dăn Đi dong ală yô bao in kis kơ̆ mềr bal, ai me bàp in git kah broă bơtê bơto oh kòn, ai oh kòn in git dờn duh mơ gơboh mơ me bàp; dăn Đi ai ală rơnàng kơnòm in jòi bàn tam hìu bơnhă bơta dong kờl kơ̆ nhăp khà màng gơs kòn bơnus bol khai dê in mơ geh dờng gơs tam jơnau ngăn mơ nùs gơboh."
-    },
-    {
-      "index": 803,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ hìu bơnhă niăm goh Nazareth, gơs krơh àng rài kis niăm goh, song ring mơ gơboh dê, dăn ai hìu bơnhă bol kòn in gơjềng anih bơtùng bơta mờng niăm tam lơnhơn, duh broă mơ rắc dăn ; dăn ai bol kòn in git bơt bơtào hìu bơnhă gơjềng bơta pơndờm pơnđiăng rài kis bềng bơta tơlòng in ; dăn ai bol kòn in git lơh jơh ală cau tam hìu bơnhă geh tơngguh làng geh bơnah tam broă crơng tơngguh ntum jơi mơ, lơh broă bal tam bơta bơt bơtào Pơrjum niăm."
-    },
-    {
-      "index": 805,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dăn pe Nă sùm tòm măt tam hìu bơnhă bol kòn, tŭ chờhờp krung be tŭ mhoăt jrùng, tŭ lơh broă krung be tŭ rơlô bòl, tŭ kơlôi kơnòl krung be tŭ kơp kơnờm, tŭ deh kòn krung be tŭ geh cau găn rài, làng tŭ lòt găn ală bơta gơmù gơhào gùng rài dê, bol kòn sùm sùm yal niăm Yàng/ jơl tus ngai geh pơrjum bal mơ pe Nă tam"
-    },
-    {
-      "index": 806,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Lơgar Trồ. Amen."
-    },
-    {
-      "index": 808,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "19. Răc dăn broă lơh kòn bơnus in geh pơniăm goh (Kinh Thánh hóa sức lao động)"
-    },
-    {
-      "index": 810,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Bơtau crơng gơs jơh ală bơta, Đi neh sồr kòn bơnus pal dờp ală broă. lơh, dăn Đi ai broă lơh bol kòn sơntờm gơ dong tơngguh rài kis do, mơ bơh nùs niăm lơnhơn Đi dê, gơ gơs kuơ làng lơh gơprà lơgar Kơnràñ Kristo dê. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 812,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "20. Răc dăn broă tùc tăm in (Kinh Cầu cho việc cày cấy)"
-    },
-    {
-      "index": 814,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, bơh Đi dong kờl, bol kòn sih gar tam ù, làng bơh pràn gơnoar Đi dê, gơ gơs rơ̆ rà, dăn Đi ai ală bơta bol kòn git lah"
-    },
-    {
-      "index": 815,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "găm ờ tơl/ tam ală broă lơh bol kòn gịt lah găm ờ tơi tam 4Š “be lơh bol kòn dê, geh bơtơl bềng lìu bơh Đi lơm, lah Bơtau ai ală bơta gơ guh gơs. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 818,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "21. Răc dăn tŭ brê rơhe (Kinh Cảm tạ sau mùa thu hoạch)"
-    },
-    {
-      "index": 820,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Bàp niăm lơnhơn, bơh bơta rơcăng sền, Đi neh jào ù tiah kòn bơnus in, dăn Đi ai bol kòn rơgơi geh ròng kis mơ ală cồng nha tơrgùm bơh ù tiah, mơ sùm sùm ngui sa ală cồng nha hơ̆ be lơi, làng kơnờm bơh Đi dong kờl, gơ lơh bol kòn in jờngrơ Đi mơ gơ gơs kuơ jơh ală cau in. Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 822,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "22. Răc dăn cau kòp jê in (Kinh Cầu cho bệnh nhân)"
-    },
-    {
-      "index": 823,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh kờñ Kòn Dùl Đi dê àñ ală bơta kòp jê bol kòn dê, làng Đi sơnđio pran gơnoar bơta kòp jê mơ bơta jai ơt kòn bơnus dê, dăn Đi niăm lơnhơn iăt ală jơnau bol kòn răc dăn ală oh mi găm kong kòp jê in, làng ală cau găm kong jê yăn, bòl glar mơ ală bơta kòp tê jê să ndai, gen gŏ he lah cau geh rơwah tam gùl bol cau geh yal pơnrơ lah bơtoah, mơ git he lah cau seh tam klăc gơs dùl/ mơ Kơnràñ Kristo kong jê yăn bơh bơta tơngklàs dunia dê Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 825,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "23. Răc dăn cau mờr chơt in (Kinh Cầu cho người hấp hối)"
-    },
-    {
-      "index": 827,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng tờm gơnrơh mơ nđàc sơngit, găn tờm bơta chơt neh rơndăp, Đi pờ wơl jơi kòn bơnus in gùng tus bơta kis rài rài, dăn Đi niăm lơnhơn wèt sền cau duh broă Đi dê/ găm kong bòl glar gơ hoài nhơm chơt, làng dơ̆ geh pơnđồp bal mơ bơta kong jê yăn Kòn Đi dê,"
-    },
-    {
-      "index": 828,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "mơ geh lip tềl Mhàm Khai dê, gen cau do chài rơgơi tơlik măt ờ gŏ tềl bơ̆ dơđăp Đi."
-    },
-    {
-      "index": 829,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 831,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "24. Răc dăn dùl nă cau chơt in (Kinh Cầu cho người đã qua đời)"
-    },
-    {
-      "index": 832,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Bàp tờm gơnrơh, Đi neh tơngkơ̆ bol kòn/"
-    },
-    {
-      "index": 833,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "kơnờm bơh bơta ndơp ndơr chikal, mơ neh tăp tềl dơ bol kòn kơnờm bơh tềl gơnrơh"
-    },
-    {
-      "index": 834,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "bơta kis wơl Kòn Đi dê,"
-    },
-    {
-      "index": 835,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Dăn Đi niăm lơnhơn ai cau duh broă Đi dê…,"
-    },
-    {
-      "index": 836,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "làng neh geh hồ klàs bơh che bơta chơt, gen geh tơmut ơm bal tam bol cau Đi rơwah."
-    },
-    {
-      "index": 837,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Bol kòn dăn gơ gen bơh Kristo, Kơnràñ bol kòn. Amen."
-    },
-    {
-      "index": 839,
-      "style": "Heading 3",
-      "headingLevel": 3,
-      "text": "25. Răc dăn ală cau chơt in (Kinh Cầu cho những người đã qua đời)"
-    },
-    {
-      "index": 840,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Ơ Yàng, Đi neh lơh Kòn Dùl Đi dê, Neh jai-pha bơta chơt, geh mut tam lơgar trồ,"
-    },
-    {
-      "index": 841,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "dăn ai bol cau duh broă Đi dê, … Neh pha jai bơta ờs chơt rài kis do dê, gen rài rài rơgơi sền rơmê Đi lah Bơtau crơng gơs mơ tơwài. Bol kòn dăn gơ gen bơh Kristo,"
-    },
-    {
-      "index": 842,
-      "style": "Normal",
-      "headingLevel": null,
-      "text": "Kơnràñ bol kòn. Amen."
-    }
   ]
 };
+window.kinhNguyenKhoDiLinhData = window.KINH_NGUYEN_KHO_DI_LINH_DATA;
